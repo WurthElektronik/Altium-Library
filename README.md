@@ -17,7 +17,31 @@
 ## How to use the DB Lib in Altium
 Go to component panel and install the DB library as the way of integrated library installation.
 ![](https://github.com/bjch-eisos/Pics/blob/main/ComponentPanel.png)<br>
-![](https://github.com/bjch-eisos/Pics/blob/main/Install.PNG)<br>
+
+
+## Mechanical Layer Definition
+![](https://github.com/bjch-eisos/Pics/blob/main/MechanicalLayer.png)<br>
+* Assembly Outline (M11 paired with M12)<br>
+ 0.1mm line thickness<br>
+ exact component contour<br>
+ including a .Designator text string in the footprint center<br>
+* 3D Body (M13 paired with M14)<br>
+0.1mm line thickness<br>
+exact component contour and embedded 3D model<br>
+* Component Courtyard (M15 paired with M16)<br>
+0.05mm line thickness<br>
+min. 0.2mm distance from silk lines<br>
+min. 0.2mm distance from line center to pad edges<br>
+including a cross mark in the origin<br>
+* Milling (M8)
+* V-Cut (M9)
+* Notes (M2)
+* Silkscreen
+0.2mm line thickness<br>
+component contour based on the maximum dimensions<br>
+min. 0.2mm clearance from pads<br>
+min 0.1mm distance from assembly outlines<br>
+polarity mark<br>
 
 
 ## Troubleshooting
