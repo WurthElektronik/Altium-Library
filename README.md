@@ -2,16 +2,32 @@
 =========
 ## Component Classification
 * WE - Electromechanical Components<br>
-  * Assembly, Connectors, REDCUBE Terminals, Switches
+  * Assembly
+  * Connectors
+  * REDCUBE Terminals
+  * Switches
 
 * WE - Optoelectronic Components
-  * 7 Segments Display, Infrared, Laser, LEDs, Optocoupler, Ultraviolet
+  * 7 Segments Display
+  * Infrared
+  * Laser
+  * LEDs
+  * Optocoupler
+  * Ultraviolet
 
 * WE - Passive Components
-  * Capacitors, EMC Components, Power Magnetics, Signal & Communications, Resistors, Quartz Crystals & Oscillators
+  * Capacitors
+  * EMC Components
+  * Power Magnetics
+  * Signal & Communications
+  * Resistors
+  * Quartz Crystals & Oscillators
 
 
 * WE - Power Modules
+  * LED Driver
+  * Step Down Converter
+  * Isolated Converter
 
 
 ## How to use the DB Lib in Altium
