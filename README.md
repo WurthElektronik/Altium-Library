@@ -38,19 +38,19 @@ Go to component panel and install the DB library as the way of integrated librar
 
 ## Mechanical Layer Definition
 ![](https://github.com/bjch-eisos/Pics/blob/main/MechanicalLayer.png)<br>
-* Assembly Outline (M11 paired with M12)<br>
+* Component Outline (M11 paired with M12)<br>
  0.1mm line thickness<br>
  exact component contour<br>
+ * Designator (M3 paired with M5)<br>
  including a .Designator text string in the footprint center<br>
 * 3D Body (M13 paired with M14)<br>
-0.1mm line thickness<br>
-exact component contour and embedded 3D model<br>
+embedded step model<br>
+maybe include component contour, 0.1mm line thickness<br>
 * Component Courtyard (M15 paired with M16)<br>
 0.05mm line thickness<br>
 min. 0.2mm distance from silk lines<br>
 min. 0.2mm distance from line center to pad edges<br>
 including a cross mark in the origin<br>
-* Milling (M8)
 * V-Cut (M9)
 * Notes (M2)
 * Silkscreen
