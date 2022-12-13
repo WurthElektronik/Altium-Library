@@ -53,7 +53,7 @@ min. 0.2mm distance from line center to pad edges<br>
 including a cross mark in the origin<br><br>
 * V-Cut (M9)<br><br>
 * Notes (M2)<br><br>
-* Silkscreen
+* Silkscreen<br>
 0.2mm line thickness<br>
 component contour based on the maximum dimensions<br>
 min. 0.2mm clearance from pads<br>
