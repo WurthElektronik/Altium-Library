@@ -44,8 +44,7 @@ Go to component panel and install the DB library as the way of integrated librar
  * Designator (M3 paired with M5)<br>
  including a .Designator text string in the footprint center<br><br>
 * 3D Body (M13 paired with M14)<br>
-embedded step model<br>
-maybe include component contour, 0.1mm line thickness<br><br>
+embedded step model<br><br>
 * Component Courtyard (M15 paired with M16)<br>
 0.05mm line thickness<br>
 min. 0.2mm distance from silk lines<br>
