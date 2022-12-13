@@ -51,8 +51,8 @@ maybe include component contour, 0.1mm line thickness<br><br>
 min. 0.2mm distance from silk lines<br>
 min. 0.2mm distance from line center to pad edges<br>
 including a cross mark in the origin<br><br>
-* V-Cut (M9)<br>
-* Notes (M2)<br>
+* V-Cut (M9)<br><br>
+* Notes (M2)<br><br>
 * Silkscreen
 0.2mm line thickness<br>
 component contour based on the maximum dimensions<br>
