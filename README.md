@@ -17,11 +17,12 @@
 
 * WE - Passive Components
   * Capacitors
-  * EMC Components
-  * Power Magnetics
-  * Signal & Communications
+  * Crystals & Oscillators
+  * EMC & RFI Components
+  * Inductors
   * Resistors
-  * Quartz Crystals & Oscillators
+  * Signal & Communications
+  * Transformers
 
 
 * WE - Power Modules
