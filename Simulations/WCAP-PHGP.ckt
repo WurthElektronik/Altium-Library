@@ -1,0 +1,118 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Aluminum Polymer Capacitors
+* Matchcode:             WCAP-PHGP
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/1/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 875015019003_180uF 1 2
+Rser 1 3 0.00534993628881
+Lser 2 4 0.0000000012
+C1 3 4 0.00018
+Rpar 3 4 55555.5555555556
+.ends 875015019003_180uF
+*******
+.subckt 875015019004_220uF 1 2
+Rser 1 3 0.0044905266666
+Lser 2 4 0.000000000545
+C1 3 4 0.00022
+Rpar 3 4 45454.5454545455
+.ends 875015019004_220uF
+*******
+.subckt 875015019005_330uF 1 2
+Rser 1 3 0.00808821140644
+Lser 2 4 0.00000000048
+C1 3 4 0.00033
+Rpar 3 4 30303.0303030303
+.ends 875015019005_330uF
+*******
+.subckt 875015119003_100uF 1 2
+Rser 1 3 0.00544389295976
+Lser 2 4 0.000000000575
+C1 3 4 0.0001
+Rpar 3 4 100000
+.ends 875015119003_100uF
+*******
+.subckt 875015119004_150uF 1 2
+Rser 1 3 0.00451803569867
+Lser 2 4 0.0000000005
+C1 3 4 0.00015
+Rpar 3 4 66666.6666666667
+.ends 875015119004_150uF
+*******
+.subckt 875015119005_180uF 1 2
+Rser 1 3 0.00476965504304
+Lser 2 4 0.000000000425
+C1 3 4 0.00018
+Rpar 3 4 55555.5555555556
+.ends 875015119005_180uF
+*******
+.subckt 875015119006_220uF 1 2
+Rser 1 3 0.00519652304711
+Lser 2 4 0.0000000006
+C1 3 4 0.00022
+Rpar 3 4 45454.5454545455
+.ends 875015119006_220uF
+*******
+.subckt 875016219004_330uF 1 2
+Rser 1 3 0.00689300236334
+Lser 2 4 0.00000000044
+C1 3 4 0.00033
+Rpar 3 4 30303.0303030303
+.ends 875016219004_330uF
+*******
+.subckt 875016219005_390uF 1 2
+Rser 1 3 0.00517373267178
+Lser 2 4 5.08803192E-10
+C1 3 4 0.00039
+Rpar 3 4 25641.0256410256
+.ends 875016219005_390uF
+*******
+.subckt 875016219006_470uF 1 2
+Rser 1 3 0.00497652069957
+Lser 2 4 0.00000000058
+C1 3 4 0.00047
+Rpar 3 4 21276.5957446809
+.ends 875016219006_470uF
+*******
+.subckt 875016219007_560uF 1 2
+Rser 1 3 0.00669974266241
+Lser 2 4 0.00000000073
+C1 3 4 0.00056
+Rpar 3 4 17857.1428571429
+.ends 875016219007_560uF
+*******
+.subckt 875016319002_330uF 1 2
+Rser 1 3 0.005260879213
+Lser 2 4 0.000000000575
+C1 3 4 0.00033
+Rpar 3 4 30303.0303030303
+.ends 875016319002_330uF
+*******
+.subckt 875016319003_390uF 1 2
+Rser 1 3 0.00315811123771
+Lser 2 4 0.00000000049
+C1 3 4 0.00039
+Rpar 3 4 25641.0256410256
+.ends 875016319003_390uF
+*******
+.subckt 875016319004_470uF 1 2
+Rser 1 3 0.00723578300993
+Lser 2 4 6.25918207E-10
+C1 3 4 0.00047
+Rpar 3 4 21276.5957446809
+.ends 875016319004_470uF
+*******

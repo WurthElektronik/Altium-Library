@@ -1,0 +1,188 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Aluminum Polymer Capacitors
+* Matchcode:             WCAP-PTHT
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/1/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 870135174001_390uF 1 2
+Rser 1 3 0.0071523244531
+Lser 2 4 4.425342564E-09
+C1 3 4 0.00039
+Rpar 3 4 12820.5128205128
+.ends 870135174001_390uF
+*******
+.subckt 870135174002_470uF 1 2
+Rser 1 3 0.00871164014401
+Lser 2 4 3.595323113E-09
+C1 3 4 0.00047
+Rpar 3 4 10641.8918918919
+.ends 870135174002_470uF
+*******
+.subckt 870135174003_560uF 1 2
+Rser 1 3 0.00737474706152
+Lser 2 4 5.160252998E-09
+C1 3 4 0.00056
+Rpar 3 4 8928.57142857143
+.ends 870135174003_560uF
+*******
+.subckt 870135174004_680uF 1 2
+Rser 1 3 0.00776416476606
+Lser 2 4 5.167449396E-09
+C1 3 4 0.00068
+Rpar 3 4 14719.6261682243
+.ends 870135174004_680uF
+*******
+.subckt 870135174005_820uF 1 2
+Rser 1 3 0.00787442749167
+Lser 2 4 5.783514428E-09
+C1 3 4 0.00082
+Rpar 3 4 12195.1219512195
+.ends 870135174005_820uF
+*******
+.subckt 870135174006_1mF 1 2
+Rser 1 3 0.00719663555261
+Lser 2 4 5.338928999E-09
+C1 3 4 0.001
+Rpar 3 4 10000
+.ends 870135174006_1mF
+*******
+.subckt 870135175007_1.2mF 1 2
+Rser 1 3 0.00644369392034
+Lser 2 4 6.747874009E-09
+C1 3 4 0.0012
+Rpar 3 4 8333.33333333333
+.ends 870135175007_1.2mF
+*******
+.subckt 870135175008_1.5mF 1 2
+Rser 1 3 0.00674215163726
+Lser 2 4 5.32429593E-09
+C1 3 4 0.0015
+Rpar 3 4 6666.66666666667
+.ends 870135175008_1.5mF
+*******
+.subckt 870135175009_2mF 1 2
+Rser 1 3 0.00932531827826
+Lser 2 4 7.252372022E-09
+C1 3 4 0.002
+Rpar 3 4 5000
+.ends 870135175009_2mF
+*******
+.subckt 870135373001_100uF 1 2
+Rser 1 3 0.00641483040024
+Lser 2 4 3.543351907E-09
+C1 3 4 0.0001
+Rpar 3 4 100000
+.ends 870135373001_100uF
+*******
+.subckt 870135374002_180uF 1 2
+Rser 1 3 0.00652197615459
+Lser 2 4 4.677043732E-09
+C1 3 4 0.00018
+Rpar 3 4 55555.5555555556
+.ends 870135374002_180uF
+*******
+.subckt 870135374003_220uF 1 2
+Rser 1 3 0.00877652481595
+Lser 2 4 5.644439486E-09
+C1 3 4 0.00022
+Rpar 3 4 45454.5454545455
+.ends 870135374003_220uF
+*******
+.subckt 870135374004_270uF 1 2
+Rser 1 3 0.00883922623866
+Lser 2 4 3.700762711E-09
+C1 3 4 0.00027
+Rpar 3 4 37037.037037037
+.ends 870135374004_270uF
+*******
+.subckt 870135374005_330uF 1 2
+Rser 1 3 0.00852752463652
+Lser 2 4 5.275483751E-09
+C1 3 4 0.00033
+Rpar 3 4 30303.0303030303
+.ends 870135374005_330uF
+*******
+.subckt 870135375006_390uF 1 2
+Rser 1 3 0.00965939442461
+Lser 2 4 9.874317542E-09
+C1 3 4 0.00039
+Rpar 3 4 25641.0256410256
+.ends 870135375006_390uF
+*******
+.subckt 870135375007_470uF 1 2
+Rser 1 3 0.00866812132119
+Lser 2 4 7.838258284E-09
+C1 3 4 0.00047
+Rpar 3 4 21276.5957446809
+.ends 870135375007_470uF
+*******
+.subckt 870135375008_560uF 1 2
+Rser 1 3 0.00854427834478
+Lser 2 4 6.245511229E-09
+C1 3 4 0.00056
+Rpar 3 4 17857.1428571429
+.ends 870135375008_560uF
+*******
+.subckt 870135674001_39uF 1 2
+Rser 1 3 0.0136377429878
+Lser 2 4 4.894543365E-09
+C1 3 4 0.000039
+Rpar 3 4 128205.128205128
+.ends 870135674001_39uF
+*******
+.subckt 870135674002_56uF 1 2
+Rser 1 3 0.0112194277432
+Lser 2 4 3.167191287E-09
+C1 3 4 0.000056
+Rpar 3 4 89285.7142857143
+.ends 870135674002_56uF
+*******
+.subckt 870135675003_100uF 1 2
+Rser 1 3 0.00975355090498
+Lser 2 4 6.987042841E-09
+C1 3 4 0.0001
+Rpar 3 4 50000
+.ends 870135675003_100uF
+*******
+.subckt 870135774001_22uF 1 2
+Rser 1 3 0.019237673918
+Lser 2 4 4.557424188E-09
+C1 3 4 0.000022
+Rpar 3 4 227272.727272727
+.ends 870135774001_22uF
+*******
+.subckt 870135774002_27uF 1 2
+Rser 1 3 0.0174593602831
+Lser 2 4 4.79601385E-09
+C1 3 4 0.000027
+Rpar 3 4 185185.185185185
+.ends 870135774002_27uF
+*******
+.subckt 870135775003_33uF 1 2
+Rser 1 3 0.00960737209185
+Lser 2 4 6.467774623E-09
+C1 3 4 0.000033
+Rpar 3 4 151515.151515152
+.ends 870135775003_33uF
+*******
+.subckt 870135775004_47uF 1 2
+Rser 1 3 0.0107605384352
+Lser 2 4 5.281922527E-09
+C1 3 4 0.000047
+Rpar 3 4 106382.978723404
+.ends 870135775004_47uF
+*******

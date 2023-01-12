@@ -1,0 +1,174 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Film Capacitor
+* Matchcode:             WCAP-FTXH
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         7/11/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 890414025001CS_0.1uF 1 2
+Rser 1 3 0.06225
+Lser 2 4 0.00000000991
+C1 3 4 0.0000001
+Rpar 3 4 25000000000
+.ends 890414025001CS_0.1uF
+*******
+.subckt 890414025006CS_0.47uF 1 2
+Rser 1 3 0.02263
+Lser 2 4 0.00000000668
+C1 3 4 0.00000047
+Rpar 3 4 75000000000
+.ends 890414025006CS_0.47uF
+*******
+.subckt 890414025007CS_0.033uF 1 2
+Rser 1 3 0.02
+Lser 2 4 0.00000000829
+C1 3 4 0.000000033
+Rpar 3 4 25000000000
+.ends 890414025007CS_0.033uF
+*******
+.subckt 890414025010CS_0.56uF 1 2
+Rser 1 3 0.02474
+Lser 2 4 0.00000000845
+C1 3 4 0.00000056
+Rpar 3 4 227272727273
+.ends 890414025010CS_0.56uF
+*******
+.subckt 890414026001CS_0.33uF 1 2
+Rser 1 3 0.046
+Lser 2 4 0.00000000936
+C1 3 4 0.00000033
+Rpar 3 4 25000000000
+.ends 890414026001CS_0.33uF
+*******
+.subckt 890414026003CS_0.47uF 1 2
+Rser 1 3 0.03948
+Lser 2 4 0.00000000905
+C1 3 4 0.00000047
+Rpar 3 4 22727272727
+.ends 890414026003CS_0.47uF
+*******
+.subckt 890414026004CS_0.56uF 1 2
+Rser 1 3 0.03643
+Lser 2 4 0.00000001163
+C1 3 4 0.00000056
+Rpar 3 4 15957446809
+.ends 890414026004CS_0.56uF
+*******
+.subckt 890414026005CS_0.68uF 1 2
+Rser 1 3 0.04085
+Lser 2 4 0.00000001185
+C1 3 4 0.00000068
+Rpar 3 4 13392857143
+.ends 890414026005CS_0.68uF
+*******
+.subckt 890414026007CS_1uF 1 2
+Rser 1 3 0.03146
+Lser 2 4 0.00000000919
+C1 3 4 0.000001
+Rpar 3 4 11029411765
+.ends 890414026007CS_1uF
+*******
+.subckt 890414026009CS_1.5uF 1 2
+Rser 1 3 0.0259
+Lser 2 4 0.00000001407
+C1 3 4 0.0000015
+Rpar 3 4 7500000000
+.ends 890414026009CS_1.5uF
+*******
+.subckt 890414026011CS_2.2uF 1 2
+Rser 1 3 0.0237
+Lser 2 4 0.00000001241
+C1 3 4 0.0000022
+Rpar 3 4 5000000000
+.ends 890414026011CS_2.2uF
+*******
+.subckt 890414027002CS_3.3uF 1 2
+Rser 1 3 0.0223
+Lser 2 4 0.00000001365
+C1 3 4 0.0000033
+Rpar 3 4 3409090909
+.ends 890414027002CS_3.3uF
+*******
+.subckt 890414027003CS_4.7uF 1 2
+Rser 1 3 0.02028
+Lser 2 4 0.00000001281
+C1 3 4 0.0000047
+Rpar 3 4 2272727273
+.ends 890414027003CS_4.7uF
+*******
+.subckt 890414027004CS_0.56uF 1 2
+Rser 1 3 0.05312
+Lser 2 4 0.00000001251
+C1 3 4 0.00000056
+Rpar 3 4 1595744681
+.ends 890414027004CS_0.56uF
+*******
+.subckt 890414027005CS_0.68uF 1 2
+Rser 1 3 0.034
+Lser 2 4 0.00000001453
+C1 3 4 0.00000068
+Rpar 3 4 13392857143
+.ends 890414027005CS_0.68uF
+*******
+.subckt 890414027006CS_0.82uF 1 2
+Rser 1 3 0.04166
+Lser 2 4 0.00000001346
+C1 3 4 0.00000082
+Rpar 3 4 11029411765
+.ends 890414027006CS_0.82uF
+*******
+.subckt 890414027007CS_1uF 1 2
+Rser 1 3 0.0396
+Lser 2 4 0.00000001665
+C1 3 4 0.000001
+Rpar 3 4 9146341463
+.ends 890414027007CS_1uF
+*******
+.subckt 890414027009CS_1.5uF 1 2
+Rser 1 3 0.0308
+Lser 2 4 0.00000001362
+C1 3 4 0.0000015
+Rpar 3 4 7500000000
+.ends 890414027009CS_1.5uF
+*******
+.subckt 890414027010CS_1.8uF 1 2
+Rser 1 3 0.02795
+Lser 2 4 0.00000001139
+C1 3 4 0.0000018
+Rpar 3 4 5000000000
+.ends 890414027010CS_1.8uF
+*******
+.subckt 890414028001CS_4.7uF 1 2
+Rser 1 3 0.01815
+Lser 2 4 0.00000001841
+C1 3 4 0.0000047
+Rpar 3 4 4166666667
+.ends 890414028001CS_4.7uF
+*******
+.subckt 890414028002CS_10uF 1 2
+Rser 1 3 0.01129
+Lser 2 4 0.00000002326
+C1 3 4 0.00001
+Rpar 3 4 1595744681
+.ends 890414028002CS_10uF
+*******
+.subckt 890414028003CS_6.8uF 1 2
+Rser 1 3 0.01526
+Lser 2 4 0.00000001612
+C1 3 4 0.0000068
+Rpar 3 4 750000000
+.ends 890414028003CS_6.8uF
+*******

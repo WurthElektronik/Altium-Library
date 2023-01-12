@@ -1,0 +1,105 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Flyback Transformer for LT3751
+* Matchcode:              WE-FB 3751
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Toby      
+* Date and Time:          2022-05-17
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+
+.subckt	750032051		7  4  6  5  1  10		
+.param RxLkg=559.02ohm					
+.param Leakage=0.05uh					
+Rlkg	7	7a	{RxLkg/2}		
+L_Lkg	7	7a	{Leakage/2}	Rser=0.01mohm	
+Rlkg2	6	6a	{RxLkg/2}		
+L_Lkg2	6	6a	{Leakage/2}	Rser=0.01mohm	
+Lpri1	7a	4	2.475uH	Rser=30mohm	
+Lpri2	6a	5	2.475uH	Rser=30mohm	
+Lsec1	1	10	250uH	Rser=700mohm	
+K Lpri1 Lpri2   Lsec1        1					
+.param Cprm1=4pf					
+.param Cprm2=4pf					
+.param Rdmp1=27950.84ohm					
+.param Rdmp2=27950.84ohm					
+Cpri1	7	4	{Cprm1}	Rser=10mohm	
+Cpri2	6	5	{Cprm2}	Rser=10mohm	
+Rdmp1	7	4	{Rdmp1}		
+Rdmp2	6	5	{Rdmp2}		
+Rg3	7	0	20meg		
+Rg4	6	0	20meg		
+Rg7	4	0	20meg		
+Rg8	5	0	20meg		
+Rg11	1	0	20meg		
+Rg19	10	0	20meg		
+.ends	
+
+.subckt	750032052		6  4  1  10		
+.param RxLkg=1377.84ohm					
+.param Leakage=0.27uh					
+Rlkg	6	6a	{RxLkg}		
+L_Lkg	6	6a	{Leakage}	Rser=0.01mohm	
+Lpri1	6a	4	9.73uH	Rser=20mohm	
+Lsec1	1	10	1000uH	Rser=1060mohm	
+K Lpri1    Lsec1        1					
+.param Cprm1=9.6pf					
+.param Rdmp1=51031.03ohm					
+Cpri1	6	4	{Cprm1}	Rser=10mohm	
+Rdmp1	6	4	{Rdmp1}		
+Rg3	6	0	20meg		
+Rg7	4	0	20meg		
+Rg11	1	0	20meg		
+Rg19	10	0	20meg		
+.ends									
+
+.subckt	750310349		5  8  1  13  3		
+.param RxLkg=48.82ohm					
+.param Leakage=0.09uh					
+Rlkg	5	5a	{RxLkg}		
+L_Lkg	5	5a	{Leakage}	Rser=0.01mohm	
+Lpri1	5a	8	4.91uH	Rser=9mohm	
+Lsec1	1	13	125uH	Rser=250mohm	
+Lsec2	13	3	125uH	Rser=250mohm	
+K Lpri1    Lsec1 Lsec2       1					
+.param Cprm1=1699.3pf					
+.param Rdmp1=2712.2ohm					
+Cpri1	5	8	{Cprm1}	Rser=10mohm	
+Rdmp1	5	8	{Rdmp1}		
+Rg3	5	0	20meg		
+Rg7	8	0	20meg		
+Rg11	1	0	20meg		
+Rg19	13	0	20meg		
+Rg20	3	0	20meg		
+.ends					
+
+.subckt	750310355		4  8  1  13  3		
+.param RxLkg=84.22ohm					
+.param Leakage=0.1uh					
+Rlkg	4	4a	{RxLkg}		
+L_Lkg	4	4a	{Leakage}	Rser=0.01mohm	
+Lpri1	4a	8	2.4uH	Rser=4.5mohm	
+Lsec1	1	13	62.5uH	Rser=125mohm	
+Lsec2	13	3	62.5uH	Rser=125mohm	
+K Lpri1    Lsec1 Lsec2       1					
+.param Cprm1=1410pf					
+.param Rdmp1=2105.39ohm					
+Cpri1	4	8	{Cprm1}	Rser=10mohm	
+Rdmp1	4	8	{Rdmp1}		
+Rg3	4	0	20meg		
+Rg7	8	0	20meg		
+Rg11	1	0	20meg		
+Rg19	13	0	20meg		
+Rg20	3	0	20meg		
+.ends					

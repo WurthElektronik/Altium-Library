@@ -1,0 +1,156 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Full-color TOP LED Waterclear 
+* Matchcode:              WL-SFTW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-17
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3528_150141M173100 1 2 3 4 
+D1 1 2 Blue
+.MODEL Blue D
++ IS=2.1815E-12
++ N=4.6241
++ RS=.92532
++ IKF=927.47E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 1 3 Red
+.MODEL Red D
++ IS=843.65E-18
++ N=2.3334
++ RS=.35062
++ IKF=755.09E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=100.00E-6
++ TT=5.0000E-9
+D3 1 4 Green
+.MODEL Green D
++ IS=17.287E-12
++ N=4.9970
++ RS=1.9544
++ IKF=356.06E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*************************
+.subckt 3528_150352M173300 1 2 3 4 5 6
+D1 6 5 Green
+.MODEL  Green D
++ IS=17.287E-12
++ N=4.9970
++ RS=1.9544
++ IKF=356.06E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 4 3 Red
+.MODEL Red D
++ IS=843.65E-18
++ N=2.3334
++ RS=.35062
++ IKF=755.09E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D3 2 1 Blue
+.MODEL Blue D
++ IS=488.35E-12
++ N=4.4633
++ RS=1.5487
++ IKF=779.60E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+************************
+.subckt 5050_150505M173300 1 2 3 4 5 6 
+D1 2 1 Blue
+.MODEL Blue D
++ IS=488.35E-12
++ N=4.4633
++ RS=1.5487
++ IKF=779.60E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 4 3 Red
+.MODEL Red D
++ IS=843.65E-18
++ N=2.3334
++ RS=.35062
++ IKF=755.09E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D3 6 5 Green
+.MODEL Green D
++ IS=17.287E-12
++ N=4.9970
++ RS=1.9544
++ IKF=356.06E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

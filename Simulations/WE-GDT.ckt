@@ -1,0 +1,79 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Gate-Drive-Transformer
+* Matchcode:              WE-GDT
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Toby      
+* Date and Time:          2022-05-23
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+*nominal
+.SUBCKT 760301103 1 2 3 4 5 6
+L1 2 N001 475u Rser=0.52
+L2 4 3 76u Rser=0.11
+L4 1 N001 2.3u
+C1 3 N001 3.5p
+L3 6 5 76u Rser=0.09
+C2 6 2 3.5p
+k1 L1 L2 L3 1
+.ENDS 760301103
+
+*nominal
+.SUBCKT 760301104 1 2 3 4 5 6
+L1 2 N001 470u Rser=0.46
+L2 4 3 117.5u Rser=0.17
+L4 1 N001 1.9u
+C1 3 N001 3.5p
+L3 6 5 117.5u Rser=0.17
+C2 6 2 3.5p
+k1 L1 L2 L3 1
+.ENDS 760301104
+
+*nominal
+.SUBCKT 760301105 1 2 3 4 5 6
+L1 2 N001 370u Rser=0.45
+L2 4 3 370u Rser=0.45
+L4 1 N001 1.1u
+C1 3 N001 4.5p
+L3 6 5 370u Rser=0.45
+C2 6 2 4.5p
+k1 L1 L2 L3 1
+.ENDS 760301105
+
+*nominal
+.SUBCKT 760301106 1 2 3 4
+L1 2 N001 510u Rser=0.38
+L2 4 3 510u Rser=0.47
+L3 1 N001 1.4u
+C1 3 N001 10p
+k1 L1 L2 1
+.ENDS 760301106
+
+*nominal
+.SUBCKT 760301107 1 2 3 4
+L1 2 N001 950u Rser=0.92
+L2 4 3 422u Rser=0.4
+L3 1 N001 2.5u
+C1 3 N001 9p
+k1 L1 L2 1
+.ENDS 760301107
+
+*nominal
+.SUBCKT 760301108 1 2 3 4
+L1 2 N001 700u Rser=0.55
+L2 4 3 112u Rser=0.1
+L3 1 N001 1.8u
+C1 3 N001 9p
+k1 L1 L2 1
+.ENDS 760301108

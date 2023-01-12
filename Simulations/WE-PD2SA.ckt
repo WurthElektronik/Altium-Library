@@ -1,0 +1,160 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 SMT Power Inductor
+* Matchcode:             WE-PD2SA
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         2021/06/08
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 7850_784787012_1.2u 1 2
+Rp 1 2 1567.8
+Cp 1 2 1.42212p
+Rs 1 N3 0.0085
+L1 N3 2 1.057u
+.ends 7850_784787012_1.2u
+*******
+.subckt 7850_784787027_2.7u 1 2
+Rp 1 2 3585.63518054733
+Cp 1 2 2.29802579793333p
+Rs 1 N3 0.0135
+L1 N3 2 2.730611362176u
+.ends 7850_784787027_2.7u
+*******
+.subckt 7850_784787039_3.9u 1 2
+Rp 1 2 4862.94238666467
+Cp 1 2 2.7307252436p
+Rs 1 N3 0.0167
+L1 N3 2 3.97490430307033u
+.ends 7850_784787039_3.9u
+*******
+.subckt 7850_784787047_4.7u 1 2
+Rp 1 2 6514.10720602067
+Cp 1 2 1.85361402373333p
+Rs 1 N3 0.0243
+L1 N3 2 5.31488094922333u
+.ends 7850_784787047_4.7u
+*******
+.subckt 7850_784787068_6.8u 1 2
+Rp 1 2 7805.17584637567
+Cp 1 2 2.76866504796667p
+Rs 1 N3 0.027
+L1 N3 2 6.85881458022967u
+.ends 7850_784787068_6.8u
+*******
+.subckt 7850_784787082_8.2u 1 2
+Rp 1 2 9529.31827276767
+Cp 1 2 3.238862247p
+Rs 1 N3 0.033
+L1 N3 2 8.531405991286u
+.ends 7850_784787082_8.2u
+*******
+.subckt 7850_784787100_10u 1 2
+Rp 1 2 11224.0795676207
+Cp 1 2 4.02207064810345p
+Rs 1 N3 0.0365
+L1 N3 2 10.5755145933683u
+.ends 7850_784787100_10u
+*******
+.subckt 7850_784787120_12u 1 2
+Rp 1 2 12963.05617136
+Cp 1 2 4.58405566886667p
+Rs 1 N3 0.045
+L1 N3 2 12.8865686454833u
+.ends 7850_784787120_12u
+*******
+.subckt 7850_784787150_15u 1 2
+Rp 1 2 15598.67632312
+Cp 1 2 4.2129571996p
+Rs 1 N3 0.052
+L1 N3 2 15.01268318414u
+.ends 7850_784787150_15u
+*******
+.subckt 7850_784787180_18u 1 2
+Rp 1 2 18190.4247659
+Cp 1 2 4.92709206186667p
+Rs 1 N3 0.067
+L1 N3 2 17.8797717990633u
+.ends 7850_784787180_18u
+*******
+.subckt 7850_784787220_22u 1 2
+Rp 1 2 23622.9725197533
+Cp 1 2 4.8940914135p
+Rs 1 N3 0.088
+L1 N3 2 23.6167243621567u
+.ends 7850_784787220_22u
+*******
+.subckt 7850_784787330_33u 1 2
+Rp 1 2 32248.0361339533
+Cp 1 2 5.12694056563333p
+Rs 1 N3 0.137
+L1 N3 2 34.22246018631u
+.ends 7850_784787330_33u
+*******
+.subckt 7850_784787470_47u 1 2
+Rp 1 2 48588.93515897
+Cp 1 2 5.8237652998p
+Rs 1 N3 0.206
+L1 N3 2 49.34217356142u
+.ends 7850_784787470_47u
+*******
+.subckt 7850_784787680_68u 1 2
+Rp 1 2 64029
+Cp 1 2 6.5p
+Rs 1 N3 0.246
+L1 N3 2 68.718u
+.ends 7850_784787680_68u
+*******
+.subckt 7850_784787820_82u 1 2
+Rp 1 2 75510.7220294133
+Cp 1 2 6.86708349616667p
+Rs 1 N3 0.278
+L1 N3 2 83.2923400321433u
+.ends 7850_784787820_82u
+*******
+.subckt 7850_784787101_100u 1 2
+Rp 1 2 82357.9320145433
+Cp 1 2 7.69412628366667p
+Rs 1 N3 0.396
+L1 N3 2 101.514394743543u
+.ends 7850_784787101_100u
+*******
+.subckt 7850_784787121_120u 1 2
+Rp 1 2 95242.30470446
+Cp 1 2 7.86412104153333p
+Rs 1 N3 0.545
+L1 N3 2 124.584452123867u
+.ends 7850_784787121_120u
+*******
+.subckt 7850_784787151_150u 1 2
+Rp 1 2 114048.471804833
+Cp 1 2 7.1168652549p
+Rs 1 N3 0.61
+L1 N3 2 152.1271792882u
+.ends 7850_784787151_150u
+*******
+.subckt 7850_784787181_180u 1 2
+Rp 1 2 128514.551799913
+Cp 1 2 7.33419313113333p
+Rs 1 N3 0.673
+L1 N3 2 183.5309236062u
+.ends 7850_784787181_180u
+*******
+.subckt 7850_784787221_220u 1 2
+Rp 1 2 139660.4923342
+Cp 1 2 7.40852698833333p
+Rs 1 N3 0.743
+L1 N3 2 216.833862755467u
+.ends 7850_784787221_220u
+*******

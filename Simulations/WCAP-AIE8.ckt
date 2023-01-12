@@ -1,0 +1,237 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Aluminum Electrolytic Capacitors
+* Matchcode:              WCAP-AIE8 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-31
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 861220784007_3.3mF 1 2
+Rser 1 3 0.043877
+Lser 2 4 1.9832344526E-08
+C1 3 4 0.0033
+Rpar 3 4 46056.671637863
+.ends 861220784007_3.3mF
+*****
+.subckt 861220785014_4.7mF 1 2
+Rser 1 3 0.02889
+Lser 2 4 1.8448848697E-08
+C1 3 4 0.0047
+Rpar 3 4 38592.2999173022
+.ends 861220785014_4.7mF
+*****
+.subckt 861220786020_6.8mF 1 2
+Rser 1 3 0.04455
+Lser 2 4 1.9103544217E-08
+C1 3 4 0.0068
+Rpar 3 4 32084.4176678193
+.ends 861220786020_6.8mF
+*****
+.subckt 861221084006_0.47mF 1 2
+Rser 1 3 0.13384
+Lser 2 4 1.7119787884E-08
+C1 3 4 0.00047
+Rpar 3 4 217443.301659092
+.ends 861221084006_0.47mF
+*****
+.subckt 861221084017_1mF 1 2
+Rser 1 3 0.075975
+Lser 2 4 1.6546297324E-08
+C1 3 4 0.001
+Rpar 3 4 149071.285888912
+.ends 861221084017_1mF
+*****
+.subckt 861221385012_0.22mF 1 2
+Rser 1 3 0.3131
+Lser 2 4 1.6449605551E-08
+C1 3 4 0.00022
+Rpar 3 4 449468.503494618
+.ends 861221385012_0.22mF
+*****
+.subckt 861221386021_0.47mF 1 2
+Rser 1 3 0.1846
+Lser 2 4 1.3568717809E-08
+C1 3 4 0.00047
+Rpar 3 4 307510.167054898
+.ends 861221386021_0.47mF
+*****
+.subckt 861221483001_68uF 1 2
+Rser 1 3 0.399
+Lser 2 4 1.4199115455E-08
+C1 3 4 0.000068
+Rpar 3 4 857485.851483451
+.ends 861221483001_68uF
+*****
+.subckt 861221483002_82uF 1 2
+Rser 1 3 0.349
+Lser 2 4 1.3864254849E-08
+C1 3 4 0.000082
+Rpar 3 4 780870.410217256
+.ends 861221483002_82uF
+*****
+.subckt 861221483003_0.1mF 1 2
+Rser 1 3 0.291
+Lser 2 4 1.2861836684E-08
+C1 3 4 0.0001
+Rpar 3 4 707102.451288498
+.ends 861221483003_0.1mF
+*****
+.subckt 861221483004_0.12mF 1 2
+Rser 1 3 0.244
+Lser 2 4 1.3021156155E-08
+C1 3 4 0.00012
+Rpar 3 4 645494.448747741
+.ends 861221483004_0.12mF
+*****
+.subckt 861221483005_0.15mF 1 2
+Rser 1 3 0.203
+Lser 2 4 1.2678635194E-08
+C1 3 4 0.00015
+Rpar 3 4 577352.390238896
+.ends 861221483005_0.15mF
+*****
+.subckt 861221483006_0.18mF 1 2
+Rser 1 3 0.191
+Lser 2 4 1.2969012151E-08
+C1 3 4 0.00018
+Rpar 3 4 527049.343530762
+.ends 861221483006_0.18mF
+*****
+.subckt 861221484007_0.1mF 1 2
+Rser 1 3 0.291
+Lser 2 4 1.473608604E-08
+C1 3 4 0.0001
+Rpar 3 4 707102.451288498
+.ends 861221484007_0.1mF
+*****
+.subckt 861221484008_0.12mF 1 2
+Rser 1 3 0.263
+Lser 2 4 1.98823755068289E-08
+C1 3 4 0.00012
+Rpar 3 4 645494.448747741
+.ends 861221484008_0.12mF
+*****
+.subckt 861221484009_0.15mF 1 2
+Rser 1 3 0.224
+Lser 2 4 1.4837267947E-08
+C1 3 4 0.00015
+Rpar 3 4 577352.390238896
+.ends 861221484009_0.15mF
+*****
+.subckt 861221484010_0.18mF 1 2
+Rser 1 3 0.187
+Lser 2 4 1.421767445E-08
+C1 3 4 0.00018
+Rpar 3 4 527049.343530762
+.ends 861221484010_0.18mF
+*****
+.subckt 861221484011_0.22mF 1 2
+Rser 1 3 0.16
+Lser 2 4 1.3516163691E-08
+C1 3 4 0.00022
+Rpar 3 4 476730.266015488
+.ends 861221484011_0.22mF
+*****
+.subckt 861221485012_0.12mF 1 2
+Rser 1 3 0.268
+Lser 2 4 1.6630406106E-08
+C1 3 4 0.00012
+Rpar 3 4 645494.448747741
+.ends 861221485012_0.12mF
+*****
+.subckt 861221485013_0.15mF 1 2
+Rser 1 3 0.231
+Lser 2 4 1.5511057602E-08
+C1 3 4 0.00015
+Rpar 3 4 577352.390238896
+.ends 861221485013_0.15mF
+*****
+.subckt 861221485014_0.18mF 1 2
+Rser 1 3 0.195
+Lser 2 4 2.4024464390881E-08
+C1 3 4 0.00018
+Rpar 3 4 527049.343530762
+.ends 861221485014_0.18mF
+*****
+.subckt 861221485015_0.22mF 1 2
+Rser 1 3 0.17
+Lser 2 4 1.6048514797E-08
+C1 3 4 0.00022
+Rpar 3 4 476730.266015488
+.ends 861221485015_0.22mF
+*****
+.subckt 861221485016_0.27mF 1 2
+Rser 1 3 0.15
+Lser 2 4 9.33981131218067E-09
+C1 3 4 0.00027
+Rpar 3 4 430329.632498494
+.ends 861221485016_0.27mF
+*****
+.subckt 861221485017_0.33mF 1 2
+Rser 1 3 0.131
+Lser 2 4 9.70576910419093E-09
+C1 3 4 0.00033
+Rpar 3 4 389249.785912618
+.ends 861221485017_0.33mF
+*****
+.subckt 861221485018_0.39mF 1 2
+Rser 1 3 0.112
+Lser 2 4 1.12131457404893E-08
+C1 3 4 0.00039
+Rpar 3 4 358057.893983036
+.ends 861221485018_0.39mF
+*****
+.subckt 861221486019_0.22mF 1 2
+Rser 1 3 0.162
+Lser 2 4 1.327136846E-08
+C1 3 4 0.00022
+Rpar 3 4 476730.266015488
+.ends 861221486019_0.22mF
+*****
+.subckt 861221486020_0.27mF 1 2
+Rser 1 3 0.126
+Lser 2 4 8.07449593102488E-09
+C1 3 4 0.00027
+Rpar 3 4 430329.632498494
+.ends 861221486020_0.27mF
+*****
+.subckt 861221486021_0.33mF 1 2
+Rser 1 3 0.106
+Lser 2 4 9.0579350029691E-09
+C1 3 4 0.00033
+Rpar 3 4 389249.785912618
+.ends 861221486021_0.33mF
+*****
+.subckt 861221486022_0.39mF 1 2
+Rser 1 3 0.107
+Lser 2 4 2.36165022378636E-08
+C1 3 4 0.00039
+Rpar 3 4 358057.893983036
+.ends 861221486022_0.39mF
+*****
+.subckt 861221486023_0.47mF 1 2
+Rser 1 3 0.08
+Lser 2 4 9.00948364384751E-09
+C1 3 4 0.00047
+Rpar 3 4 326164.952488639
+.ends 861221486023_0.47mF
+*****
+.subckt 861221486024_0.56mF 1 2
+Rser 1 3 0.074
+Lser 2 4 1.0032629769535E-08
+C1 3 4 0.00056
+Rpar 3 4 298806.764985159
+.ends 861221486024_0.56mF
+*****

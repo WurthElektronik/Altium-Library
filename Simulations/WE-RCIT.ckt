@@ -1,0 +1,104 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Rod Core Inductor THT
+* Matchcode:             WE-RCIT
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/8/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 7847110020_2u 1 2
+Rp 1 2 7698.045
+Cp 1 2 0.178455p
+Rs 1 N3 0.011
+L1 N3 2 1.591095u
+.ends 7847110020_2u
+*******
+.subckt 7847111020_2u 1 2
+Rp 1 2 11437.23
+Cp 1 2 0.4855888p
+Rs 1 N3 0.0065
+L1 N3 2 1.637084u
+.ends 7847111020_2u
+*******
+.subckt 7847120060_6u 1 2
+Rp 1 2 20676.36
+Cp 1 2 0.2683343p
+Rs 1 N3 0.022
+L1 N3 2 4.569755u
+.ends 7847120060_6u
+*******
+.subckt 7847121020_2u 1 2
+Rp 1 2 12525.55
+Cp 1 2 0.7721451p
+Rs 1 N3 0.0038
+L1 N3 2 1.45996u
+.ends 7847121020_2u
+*******
+.subckt 7847111100_10u 1 2
+Rp 1 2 38009.34
+Cp 1 2 0.3961534p
+Rs 1 N3 0.033
+L1 N3 2 8.059388u
+.ends 7847111100_10u
+*******
+.subckt 7847121060_6u 1 2
+Rp 1 2 23204.57
+Cp 1 2 0.6112124p
+Rs 1 N3 0.0117
+L1 N3 2 4.657141u
+.ends 7847121060_6u
+*******
+.subckt 7847121100_10u 1 2
+Rp 1 2 23663.35
+Cp 1 2 2.1172p
+Rs 1 N3 0.0151
+L1 N3 2 4.853395u
+.ends 7847121100_10u
+*******
+.subckt 7847131020_2u 1 2
+Rp 1 2 10097.38
+Cp 1 2 1.820823p
+Rs 1 N3 0.0017
+L1 N3 2 2.013147u
+.ends 7847131020_2u
+*******
+.subckt 7847131060_6u 1 2
+Rp 1 2 24026.74
+Cp 1 2 0.9564423p
+Rs 1 N3 0.0065
+L1 N3 2 5.182968u
+.ends 7847131060_6u
+*******
+.subckt 7847132060_6u 1 2
+Rp 1 2 25796.93
+Cp 1 2 1.249712p
+Rs 1 N3 0.0035
+L1 N3 2 7.768712u
+.ends 7847132060_6u
+*******
+.subckt 7847132100_10u 1 2
+Rp 1 2 37085.52
+Cp 1 2 2.372764p
+Rs 1 N3 0.0057
+L1 N3 2 7.151282u
+.ends 7847132100_10u
+*******
+.subckt 7847131100_10u 1 2
+Rp 1 2 22037.57
+Cp 1 2 1.468885p
+Rs 1 N3 0.0088
+L1 N3 2 8.721021u
+.ends 7847131100_10u
+*******

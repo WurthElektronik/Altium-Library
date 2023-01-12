@@ -1,0 +1,77 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Gate-Drive-Transformer
+* Matchcode:              WE-GDTI
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Toby      
+* Date and Time:          2022-05-23
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.SUBCKT 760301301 1 2 3 4 5 6
+L1 2 N001 1060u Rser=0.84
+L2 4 3 1060u Rser=0.97
+L4 1 N001 2.8u
+C1 3 N001 5.5p
+L3 6 5 1060u Rser=0.97
+C2 6 2 5.5p
+k1 L1 L2 L3 1
+.ENDS 760301301
+
+.SUBCKT 760301302 1 2 3 4
+L1 2 N001 1060u Rser=0.84
+L2 4 3 1060u Rser=0.99
+L3 1 N001 2.3u
+C1 3 N001 11p
+k1 L1 L2 1
+.ENDS 760301302
+
+.SUBCKT 760301303 1 2 3 4 5 6
+L1 2 N001 1060u Rser=0.84
+L2 4 3 265u Rser=0.5
+L4 1 N001 2.7u
+C1 3 N001 5.5p
+L3 6 5 265u Rser=0.5
+C2 6 2 5.5p
+k1 L1 L2 L3 1
+.ENDS 760301303
+
+.SUBCKT 760301304 1 2 3 4 5 6
+L1 2 N001 1410u Rser=1
+L2 4 3 225.6u Rser=0.45
+L4 1 N001 3.8u
+C1 3 N001 5.5p
+L3 6 5 225.6u Rser=0.45
+C2 6 2 5.5p
+k1 L1 L2 L3 1
+.ENDS 760301304
+
+.SUBCKT 760301305 1 2 3 4 5 6
+L1 2 N001 1050u Rser=0.82
+L2 4 3 467u Rser=0.64
+L4 1 N001 2.6u
+C1 3 N001 5.5p
+L3 6 5 467u Rser=0.64
+C2 6 2 5.5p
+k1 L1 L2 L3 1
+.ENDS 760301305
+
+.SUBCKT 760301306 1 2 3 4 5 6
+L1 2 N001 2900u Rser=1.25
+L2 4 3 322u Rser=0.52
+L4 1 N001 6.8u
+C1 3 N001 5.5p
+L3 6 5 322u Rser=0.52
+C2 6 2 5.5p
+k1 L1 L2 L3 1
+.ENDS 760301306

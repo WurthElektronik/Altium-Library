@@ -1,0 +1,34 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Supercapacitors (EDLCs) 
+* Matchcode:             WCAP-SISC
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         2022/03/23
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 851617031001_100F 1 2
+Rser 1 3 0.012
+Lser 2 4 0.000000025
+C1 3 4 100
+Rpar 3 4 4909.09090909091
+.ends 851617031001_100F
+*******
+.subckt 851617034001_350F 1 2
+Rser 1 3 0.003
+Lser 2 4 0.000000025
+C1 3 4 350
+Rpar 3 4 1800
+.ends 851617034001_350F
+*******

@@ -1,0 +1,927 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Mono-color Chip LED Waterclear
+* Matchcode:              WL-SMCW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-18
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0603_150060AS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8643
++ RS=1.0000E-6
++ IKF=999
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060BS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=316.72E-15
++ N=3.9746
++ RS=1.2476
++ IKF=130.15E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060GS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.3359E-12
++ N=3.7918
++ RS=1.0646
++ IKF=1.7269E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060RS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=39.260E-18
++ N=2.2264
++ RS=1.0000E-6
++ IKF=.13281
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060SS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=246.63E-21
++ N=1.8995
++ RS=1.0000E-6
++ IKF=.24821
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060VS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.9077
++ RS=1.0000E-6
++ IKF=32.936E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060YS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8441
++ RS=1.0000E-6
++ IKF=1.0000E3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060BS84000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=695.94E-6
++ N=5
++ RS=2.4677
++ IKF=16.109E-12
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060GS84000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=695.94E-6
++ N=5
++ RS=2.4677
++ IKF=16.109E-12
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060RS86000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060VS86000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=557.55E-18
++ N=2.1602
++ RS=.37378
++ IKF=236.66E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060YS86000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=824.78E-18
++ N=2.2038
++ RS=.38595
++ IKF=240.07E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060AS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=678.87E-18
++ N=2.1818
++ RS=.37963
++ IKF=238.04E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060BS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=7.6676E-9
++ N=5
++ RS=2.6261
++ IKF=1.3194E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060GS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=201.81E-12
++ N=5
++ RS=3.4664
++ IKF=29.301E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060RS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060SS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=46.043E-12
++ N=3.6830
++ RS=1.0000E-6
++ IKF=98.960E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060VS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=557.55E-18
++ N=2.1602
++ RS=.37378
++ IKF=236.66E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*****
+.subckt 0603_150060YS75020  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=824.78E-18
++ N=2.2038
++ RS=.38595
++ IKF=240.07E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060AS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060BS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=695.94E-6
++ N=5
++ RS=2.4677
++ IKF=16.109E-12
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060GS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=695.94E-6
++ N=5
++ RS=2.4677
++ IKF=16.109E-12
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060RS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060SS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=46.043E-12
++ N=3.6830
++ RS=1.0000E-6
++ IKF=98.960E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060VS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060YS75003  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=3.0166E-9
++ N=4.9950
++ RS=1.0000E-6
++ IKF=999
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080AS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8643
++ RS=1.0000E-6
++ IKF=999
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080BS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=2.3621E-12
++ N=4.7136
++ RS=.9458
++ IKF=930.15E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080GS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=906.98E-12
++ N=4.4982
++ RS=1.5743
++ IKF=518.93E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080RS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.000E-21
++ N=1.6992
++ RS=1.0000E-6
++ IKF=1.2373E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080SS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=177.33E-21
++ N=1.8781
++ RS=1.0000E-6
++ IKF=.24756
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080VS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.000E-21
++ N=1.8458
++ RS=1.0082
++ IKF=6.4818
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0805_150080YS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.000E-21
++ N=1.8000
++ RS=1.0003E-6
++ IKF=1.8092E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120AS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8571
++ RS=1.0000E-6
++ IKF=999
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120BS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=567.56E-18
++ N=3.5950
++ RS=.53756
++ IKF=743.89E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120GS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=4.8571E-12
++ N=4.8999
++ RS=1.0169
++ IKF=951.49E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120RS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=227.31E-21
++ N=1.8314
++ RS=.21987
++ IKF=642.81E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120SS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.012E-21
++ N=1.7421
++ RS=1.0000E-6
++ IKF=.26961
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120VS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8390
++ RS=1.0000E-6
++ IKF=1.0000E3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120YS75000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=10.010E-21
++ N=1.8505
++ RS=1.0000E-6
++ IKF=.26942
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120BS87000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=27.217E-18
++ N=3.3922
++ RS=.54596
++ IKF=413.64E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120GS87000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=84.972E-18
++ N=3.3921
++ RS=.54619
++ IKF=413.52E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120RS87000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=8.3603E-18
++ N=2.1908
++ RS=1.0000E-6
++ IKF=.23331
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120VS87000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=8.3603E-18
++ N=2.1908
++ RS=1.0001E-6
++ IKF=.23331
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 1206_150120YS87000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=8.3603E-18
++ N=2.1908
++ RS=1.0001E-6
++ IKF=.23331
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

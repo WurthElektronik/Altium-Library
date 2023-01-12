@@ -1,0 +1,288 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  THT Mono-color Round Waterclear
+* Matchcode:              WL-TMRW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-23
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3mm_151033BS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=273.29E-18
++ N=2.9601
++ RS=1.0279
++ IKF=191.62E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151033GS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=49.736E-9
++ N=4.9996
++ RS=2.3546
++ IKF=281.88E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151033RS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=404.38E-18
++ N=2.1466
++ RS=.75545
++ IKF=193.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151033YS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=404.38E-18
++ N=2.1466
++ RS=.75545
++ IKF=193.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151034BS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=273.29E-18
++ N=2.9601
++ RS=1.0279
++ IKF=191.62E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151034GS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=406.49E-12
++ N=4.8627
++ RS=4.1370
++ IKF=13.914E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151034RS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=404.38E-18
++ N=2.1466
++ RS=.75545
++ IKF=193.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_151034YS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=404.38E-18
++ N=2.1466
++ RS=.75545
++ IKF=193.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151053BS04500  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=68.784E-18
++ N=2.7313
++ RS=.91252
++ IKF=184.29E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151053GS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=419.72E-9
++ N=4.3096
++ RS=7.9084
++ IKF=259.74E-12
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151053RS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=56.391E-12
++ N=3.7753
++ RS=.87778
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151053YS04500  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=1.9466E-15
++ N=2.3301
++ RS=.86225
++ IKF=202.15E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151054BS04500  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=2.0536E-15
++ N=3.4745
++ RS=1.0000E-6
++ IKF=48.312E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151054GS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=2.0625E-15
++ N=4.4480
++ RS=1.0000E-6
++ IKF=48.388E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151054RS03000  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=10.010E-21
++ N=1.8334
++ RS=1.0000E-6
++ IKF=1.0000E3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_151054YS04500  1  2
+D1 1 2 TMRW
+.MODEL TMRW D
++ IS=10.010E-21
++ N=2.0120
++ RS=1.0000E-6
++ IKF=1.0000E3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=50.00E-6
++ TT=5.0000E-9
+.ends
+******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

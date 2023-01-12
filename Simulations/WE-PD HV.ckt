@@ -1,0 +1,195 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 SMT Power Inductor (High Voltage)
+* Matchcode:             WE-PD HV
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/10/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1060_7687714470_47u 1 2
+Rp 1 2 45600
+Cp 1 2 5.8p
+Rs 1 N3 0.13
+L1 N3 2 42.1u
+.ends 1060_7687714470_47u
+*******
+.subckt 1060_7687714221_220u 1 2
+Rp 1 2 147680
+Cp 1 2 6.339p
+Rs 1 N3 0.57
+L1 N3 2 197.8u
+.ends 1060_7687714221_220u
+*******
+.subckt 1060_7687714471_470u 1 2
+Rp 1 2 154450
+Cp 1 2 6.75p
+Rs 1 N3 1.25
+L1 N3 2 446.95u
+.ends 1060_7687714471_470u
+*******
+.subckt 1060_7687714681_680u 1 2
+Rp 1 2 231060
+Cp 1 2 7.75p
+Rs 1 N3 1.9
+L1 N3 2 609.3u
+.ends 1060_7687714681_680u
+*******
+.subckt 1060_7687714102_1000u 1 2
+Rp 1 2 277000
+Cp 1 2 7.5p
+Rs 1 N3 2.7
+L1 N3 2 919.1u
+.ends 1060_7687714102_1000u
+*******
+.subckt 1060_7687714152_1500u 1 2
+Rp 1 2 308000
+Cp 1 2 7.75p
+Rs 1 N3 3.8
+L1 N3 2 1361u
+.ends 1060_7687714152_1500u
+*******
+.subckt 1060_7687714222_2200u 1 2
+Rp 1 2 325360
+Cp 1 2 7.58p
+Rs 1 N3 5.5
+L1 N3 2 2093u
+.ends 1060_7687714222_2200u
+*******
+.subckt 1210_7687709221_220u 1 2
+Rp 1 2 114020
+Cp 1 2 17.38p
+Rs 1 N3 0.3
+L1 N3 2 191.43u
+.ends 1210_7687709221_220u
+*******
+.subckt 1210_7687709471_470u 1 2
+Rp 1 2 123970
+Cp 1 2 15.069p
+Rs 1 N3 0.68
+L1 N3 2 422.83u
+.ends 1210_7687709471_470u
+*******
+.subckt 1210_7687709681_680u 1 2
+Rp 1 2 150160
+Cp 1 2 17.89p
+Rs 1 N3 0.95
+L1 N3 2 621.5u
+.ends 1210_7687709681_680u
+*******
+.subckt 1210_7687709102_1000u 1 2
+Rp 1 2 178860
+Cp 1 2 15.1p
+Rs 1 N3 1.2
+L1 N3 2 855.18u
+.ends 1210_7687709102_1000u
+*******
+.subckt 1210_7687709152_1500u 1 2
+Rp 1 2 249710
+Cp 1 2 17.127p
+Rs 1 N3 1.9
+L1 N3 2 1344u
+.ends 1210_7687709152_1500u
+*******
+.subckt 1210_7687709222_2200u 1 2
+Rp 1 2 296540
+Cp 1 2 18.035p
+Rs 1 N3 3.1
+L1 N3 2 1904u
+.ends 1210_7687709222_2200u
+*******
+.subckt 1210_7687709332_3300u 1 2
+Rp 1 2 363070
+Cp 1 2 18.37p
+Rs 1 N3 4.4
+L1 N3 2 2855u
+.ends 1210_7687709332_3300u
+*******
+.subckt 1210_7687709472_4700u 1 2
+Rp 1 2 300000
+Cp 1 2 20p
+Rs 1 N3 6.5
+L1 N3 2 4500u
+.ends 1210_7687709472_4700u
+*******
+.subckt 1210_7687709682_6800u 1 2
+Rp 1 2 298000
+Cp 1 2 20.2p
+Rs 1 N3 8
+L1 N3 2 6100u
+.ends 1210_7687709682_6800u
+*******
+.subckt 7332_7687789102_1000u 1 2
+Rp 1 2 327000
+Cp 1 2 2.7p
+Rs 1 N3 7.6
+L1 N3 2 920u
+.ends 7332_7687789102_1000u
+*******
+.subckt 7332_7687789471_470u 1 2
+Rp 1 2 239000
+Cp 1 2 2.78p
+Rs 1 N3 2.9
+L1 N3 2 413u
+.ends 7332_7687789471_470u
+*******
+.subckt 7332_7687789681_680u 1 2
+Rp 1 2 340000
+Cp 1 2 3.4p
+Rs 1 N3 4.7
+L1 N3 2 662u
+.ends 7332_7687789681_680u
+*******
+.subckt 7345_7687779470_47u 1 2
+Rp 1 2 34000
+Cp 1 2 4.5p
+Rs 1 N3 0.24
+L1 N3 2 43.7u
+.ends 7345_7687779470_47u
+*******
+.subckt 7345_7687779221_220u 1 2
+Rp 1 2 169750
+Cp 1 2 4.6p
+Rs 1 N3 1.1
+L1 N3 2 201.5u
+.ends 7345_7687779221_220u
+*******
+.subckt 7345_7687779471_470u 1 2
+Rp 1 2 195230
+Cp 1 2 4.525p
+Rs 1 N3 2.7
+L1 N3 2 428.7u
+.ends 7345_7687779471_470u
+*******
+.subckt 7345_7687779561_560u 1 2
+Rp 1 2 237260
+Cp 1 2 4.808p
+Rs 1 N3 3
+L1 N3 2 534.3u
+.ends 7345_7687779561_560u
+*******
+.subckt 7345_7687779681_680u 1 2
+Rp 1 2 255110
+Cp 1 2 5.117p
+Rs 1 N3 3.4
+L1 N3 2 623.135u
+.ends 7345_7687779681_680u
+*******
+.subckt 7345_7687779102_1000u 1 2
+Rp 1 2 375650
+Cp 1 2 5.1531p
+Rs 1 N3 5.1
+L1 N3 2 859.17u
+.ends 7345_7687779102_1000u
+*******

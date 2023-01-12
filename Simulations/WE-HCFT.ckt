@@ -1,0 +1,188 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 THT High Current Inductor
+* Matchcode:             WE-HCFT
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/9/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 2504_7443762504010_1u 1 2
+Rp 1 2 386.579
+Cp 1 2 18.31p
+Rs 1 N3 0.00086
+L1 N3 2 0.957088u
+.ends 2504_7443762504010_1u
+*******
+.subckt 2504_7443762504022_2.2u 1 2
+Rp 1 2 1043
+Cp 1 2 23.078p
+Rs 1 N3 0.00178
+L1 N3 2 2.052u
+.ends 2504_7443762504022_2.2u
+*******
+.subckt 2504_7443762504047_4.7u 1 2
+Rp 1 2 1962
+Cp 1 2 27.828p
+Rs 1 N3 0.00277
+L1 N3 2 4.357u
+.ends 2504_7443762504047_4.7u
+*******
+.subckt 2504_7443762504068_6.8u 1 2
+Rp 1 2 3305
+Cp 1 2 31.75p
+Rs 1 N3 0.00421
+L1 N3 2 6.562u
+.ends 2504_7443762504068_6.8u
+*******
+.subckt 2504_7443762504100_10u 1 2
+Rp 1 2 3595
+Cp 1 2 36.942p
+Rs 1 N3 0.00421
+L1 N3 2 9.74u
+.ends 2504_7443762504100_10u
+*******
+.subckt 2012_7443782012033_3.3u 1 2
+Rp 1 2 1214
+Cp 1 2 5.09p
+Rs 1 N3 0.0022
+L1 N3 2 3.14u
+.ends 2012_7443782012033_3.3u
+*******
+.subckt 2012_7443782012047_4.7u 1 2
+Rp 1 2 1052
+Cp 1 2 7.131p
+Rs 1 N3 0.0022
+L1 N3 2 4.472u
+.ends 2012_7443782012047_4.7u
+*******
+.subckt 2012_7443782012068_6.8u 1 2
+Rp 1 2 1862
+Cp 1 2 8.661p
+Rs 1 N3 0.00455
+L1 N3 2 6.456u
+.ends 2012_7443782012068_6.8u
+*******
+.subckt 2012_7443782012082_8.2u 1 2
+Rp 1 2 1887
+Cp 1 2 10.254p
+Rs 1 N3 0.00455
+L1 N3 2 7.715u
+.ends 2012_7443782012082_8.2u
+*******
+.subckt 2012_7443782012100_10u 1 2
+Rp 1 2 1952
+Cp 1 2 9.028p
+Rs 1 N3 0.00455
+L1 N3 2 9.764u
+.ends 2012_7443782012100_10u
+*******
+.subckt 2012_7443782012150_15u 1 2
+Rp 1 2 2123
+Cp 1 2 10.996p
+Rs 1 N3 0.00455
+L1 N3 2 14.397u
+.ends 2012_7443782012150_15u
+*******
+.subckt 3521_7443763521015_1.5u 1 2
+Rp 1 2 675
+Cp 1 2 12.666p
+Rs 1 N3 0.00034
+L1 N3 2 1.44u
+.ends 3521_7443763521015_1.5u
+*******
+.subckt 3521_7443763521022_2.2u 1 2
+Rp 1 2 710.532
+Cp 1 2 13.476p
+Rs 1 N3 0.00034
+L1 N3 2 2.161u
+.ends 3521_7443763521022_2.2u
+*******
+.subckt 3521_7443763521033_3.3u 1 2
+Rp 1 2 788.561
+Cp 1 2 13.116p
+Rs 1 N3 0.00034
+L1 N3 2 3.154u
+.ends 3521_7443763521033_3.3u
+*******
+.subckt 3533_7443783533220_22u 1 2
+Rp 1 2 14411
+Cp 1 2 16.635p
+Rs 1 N3 0.008
+L1 N3 2 22.944u
+.ends 3533_7443783533220_22u
+*******
+.subckt 3533_7443783533330_33u 1 2
+Rp 1 2 15155
+Cp 1 2 20.186p
+Rs 1 N3 0.009
+L1 N3 2 33.933u
+.ends 3533_7443783533330_33u
+*******
+.subckt 3533_7443783533470_47u 1 2
+Rp 1 2 18081
+Cp 1 2 20.23p
+Rs 1 N3 0.0118
+L1 N3 2 48.089u
+.ends 3533_7443783533470_47u
+*******
+.subckt 3533_7443783533650_65u 1 2
+Rp 1 2 21316
+Cp 1 2 20.57p
+Rs 1 N3 0.01313
+L1 N3 2 67.169u
+.ends 3533_7443783533650_65u
+*******
+.subckt 3540_7443763540068_6.8u 1 2
+Rp 1 2 2809
+Cp 1 2 14.05p
+Rs 1 N3 0.00101
+L1 N3 2 6.676u
+.ends 3540_7443763540068_6.8u
+*******
+.subckt 3540_7443763540100_10u 1 2
+Rp 1 2 3447
+Cp 1 2 13.448p
+Rs 1 N3 0.00101
+L1 N3 2 9.906u
+.ends 3540_7443763540100_10u
+*******
+.subckt 3540_7443763540150_15u 1 2
+Rp 1 2 5621
+Cp 1 2 11.08p
+Rs 1 N3 0.00177
+L1 N3 2 15.192u
+.ends 3540_7443763540150_15u
+*******
+.subckt 3540_7443763540220_22u 1 2
+Rp 1 2 7526
+Cp 1 2 13.756p
+Rs 1 N3 0.00263
+L1 N3 2 21.96u
+.ends 3540_7443763540220_22u
+*******
+.subckt 3540_7443763540330_33u 1 2
+Rp 1 2 10324
+Cp 1 2 17.101p
+Rs 1 N3 0.00567
+L1 N3 2 31.699u
+.ends 3540_7443763540330_33u
+*******
+.subckt 3540_7443763540470_47u 1 2
+Rp 1 2 13284
+Cp 1 2 14.992p
+Rs 1 N3 0.00567
+L1 N3 2 45.688u
+.ends 3540_7443763540470_47u
+*******

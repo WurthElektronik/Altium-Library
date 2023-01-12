@@ -1,0 +1,93 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Bi-color Side View Waterclear
+* Matchcode:              WL-SBSW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-16
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1204_155124RG73200 1 2 3
+D1 2 1 Red
+.MODEL Red D
++ IS=89.339E-15
++ N=2.7278
++ RS=.47854
++ IKF=843.27E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 2 3 Green
+.MODEL Green D
++ IS=10.010E-21
++ N=3.0350
++ RS=1.0000E-6
++ IKF=10.684E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+********
+.subckt 1204_155124RV73200 1 2 3
+D1 2 1 Red
+.MODEL Red D
++ IS=15.037E-15
++ N=2.4740
++ RS=.41091
++ IKF=803.24E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 2 3 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.9564
++ RS=1.0000E-6
++ IKF=1.0000E3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+**********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

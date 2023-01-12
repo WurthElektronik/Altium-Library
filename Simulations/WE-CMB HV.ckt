@@ -1,0 +1,859 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Common Mode Power Line Choke
+* Matchcode:              WE-CMB HV 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-26
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt XL_744830007215_0.7m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.0038
+.param L1=660.38e-006
+.param L2=80.35e-006
+.param L3=90.47e-006
+.param L4=157.22e-006
+.param L5=3.5e-009
+.param C1=1.5e-011
+.param C2=2.0e-016
+.param Rs1=3098
+.param Rs2=837
+.param Rs3=1193
+.param Rs4=1278
+.param Rs5=6490
+.param R2=16
+.param dL3=29.8e-08
+.param dC3=13.8e-012
+.param dL4=9.51e-009
+.param dC4=100e-09
+.param dR3=0.19
+.param dR4=1930
+.param dR5=1
+.param dR6=200
+.param ck=0.001pF
+.backanno
+.ends XL_744830007215_0.7m
+*--------------------------------------------------------
+.subckt XL_744830010185_1m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.0055
+.param L1=880.38e-006
+.param L2=199.35e-006
+.param L3=185.47e-006
+.param L4=225.22e-006
+.param L5=2.8e-010
+.param C1=1.280e-011
+.param C2=1.4e-016
+.param Rs1=5000
+.param Rs2=3700
+.param Rs3=593
+.param Rs4=1578
+.param Rs5=7490
+.param R2=17
+.param dL3=44.1e-08
+.param dC3=15e-012
+.param dL4=9.51e-09
+.param dC4=100e-09
+.param dR3=0.19
+.param dR4=3550
+.param dR5=1
+.param dR6=200
+.param ck=0.2pF
+.backanno
+.ends XL_744830010185_1m
+*--------------------------------------------------------
+.subckt XL_744830017132_1.7m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.01
+.param L1=1760.38e-006
+.param L2=700.35e-006
+.param L3=95.47e-006
+.param L4=99.22e-006
+.param L5=2.5e-010
+.param C1=1.98e-011
+.param C2=3e-016
+.param Rs1=12128
+.param Rs2=837
+.param Rs3=1493
+.param Rs4=1378
+.param Rs5=7490
+.param R2=17
+.param dL3=70e-08
+.param dC3=20e-012
+.param dL4=9.51e-09
+.param dC4=10e-09
+.param dR3=0.19
+.param dR4=4950
+.param dR5=1
+.param dR6=200
+.param ck=0.2pF
+.backanno
+.ends XL_744830017132_1.7m
+*--------------------------------------------------------------
+.subckt XL_744830025103_2.5m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.018
+.param L1=2610.38e-006
+.param L2=700.35e-006
+.param L3=950.47e-006
+.param L4=200.22e-006
+.param L5=2.75e-010
+.param C1=2.20e-011
+.param C2=2.7e-011
+.param Rs1=23600
+.param Rs2=837
+.param Rs3=1493
+.param Rs4=1378
+.param Rs5=8490
+.param R2=16
+.param dL3=118e-08
+.param dC3=20.6e-012
+.param dL4=9.51e-09
+.param dC4=100e-09
+.param dR3=0.19
+.param dR4=7000
+.param dR5=1
+.param dR6=200
+.param ck=0.1pF
+.backanno
+.ends XL_744830025103_2.5m
+*--------------------------------------------------------------
+.subckt XL_744830039080_3.9m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.031
+.param L1=3398.38e-006
+.param L2=700.35e-006
+.param L3=950.47e-006
+.param L4=85.22e-006
+.param L5=2.75e-010
+.param C1=2.15e-011
+.param C2=2.75e-011
+.param Rs1=37000
+.param Rs2=837
+.param Rs3=1493
+.param Rs4=13780
+.param Rs5=8490
+.param R2=16
+.param dL3=144e-08
+.param dC3=27.9e-012
+.param dL4=9.51e-09
+.param dC4=100e-09
+.param dR3=0.19
+.param dR4=9050
+.param dR5=1
+.param dR6=200
+.param ck=0.1pF
+.backanno
+.ends XL_744830039080_3.9m
+*--------------------------------------------------------------
+.subckt XXL_744831010205_1m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.0055
+.param L1=879.38e-006
+.param L2=80.35e-006
+.param L3=95.47e-006
+.param L4=85.22e-006
+.param L5=2.0e-009
+.param C1=2.050e-011
+.param C2=3e-016
+.param Rs1=11928
+.param Rs2=837
+.param Rs3=1193
+.param Rs4=1278
+.param Rs5=6490
+.param R2=12
+.param dL3=62e-08
+.param dC3=18.5e-012
+.param dL4=9.51e-009
+.param dC4=10e-09
+.param dR3=0.19
+.param dR4=4050
+.param dR5=1
+.param dR6=10
+.param ck=0.5pF
+.backanno
+.ends XXL_744831010205_1m
+*--------------------------------------------------------------
+.subckt XXL_744831016164_1.6m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.0055
+.param L1=1550.38e-006
+.param L2=80.35e-006
+.param L3=95.47e-006
+.param L4=85.22e-006
+.param L5=2.0e-009
+.param C1=2.250e-011
+.param C2=3e-016
+.param Rs1=19928
+.param Rs2=837
+.param Rs3=1193
+.param Rs4=1278
+.param Rs5=6490
+.param R2=12
+.param dL3=91e-08
+.param dC3=24.6e-012
+.param dL4=9.51e-09
+.param dC4=45e-09
+.param dR3=3
+.param dR4=5950
+.param dR5=1
+.param dR6=10
+.param ck=1pF
+.backanno
+.ends XXL_744831016164_1.6m
+*--------------------------------------------------------------
+.subckt XXL_744831020133_2m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.013
+.param L1=1863.38e-006
+.param L2=80.35e-006
+.param L3=95.47e-006
+.param L4=85.22e-006
+.param L5=2.0e-009
+.param C1=2.060e-011
+.param C2=3e-016
+.param Rs1=24928
+.param Rs2=837
+.param Rs3=1193
+.param Rs4=1278
+.param Rs5=6490
+.param R2=10
+.param dL3=130e-08
+.param dC3=21.5e-012
+.param dL4=9.51e-09
+.param dC4=45e-09
+.param dR3=3
+.param dR4=6100
+.param dR5=1
+.param dR6=10
+.param ck=0.01pF
+.backanno
+.ends XXL_744831020133_2m
+*--------------------------------------------------------------
+.subckt XXL_744831034090_3.4m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.013
+.param L1=1.80e-003
+.param L2=5.80e-004
+.param L3=4.95e-004
+.param L4=4.85e-004
+.param L5=2.50e-009
+.param C1=2.650e-011
+.param C2=2.5e-016
+.param Rs1=48928
+.param Rs2=5837
+.param Rs3=5893
+.param Rs4=5878
+.param Rs5=6490
+.param R2=10
+.param dL3=205e-08
+.param dC3=23.6e-012
+.param dL4=9.51e-09
+.param dC4=45e-09
+.param dR3=3
+.param dR4=10580
+.param dR5=1
+.param dR6=10
+.param ck=0.01pF
+.backanno
+.ends XXL_744831034090_3.4m
+*--------------------------------------------------------------
+.subckt XXL_744831047068_4.7m 1 2 3 4
+R1 N004 1 {Rdc}
+R2 N006 N004 {dR4}
+C1 N005 N004 {dC3}
+L1 N011 N004 {dL3}
+L2 N018 N019 {dL3}
+C2 N011 N019 {ck}
+R3 N006 N005 {dR3}
+R4 N020 N022 {dR3}
+C3 N022 N018 {dC3}
+R5 N020 N018 {dR4}
+L3 N006 N011 {dL3}
+L4 N019 N020 {dL3}
+R6 N018 2 {Rdc}
+R8 N001 N006 {dR6}
+C4 N007 N006 {dC4}
+L5 N012 N006 {dL4}
+L6 N020 N021 {dL4}
+C5 N012 N021 {ck}
+R9 N001 N007 {dR5}
+R10 N013 N023 {dR5}
+C6 N023 N020 {dC4}
+R11 N013 N020 {dR6}
+L7 N001 N012 {dL4}
+L8 N021 N013 {dL4}
+L9 N009 N008 {L3}
+C7 N003 N002 {C1}
+R13 N009 N008 {Rs3}
+L10 4 N010 {L1}
+R14 4 N010 {Rs1}
+L11 N010 N009 {L2}
+R15 N010 N009 {Rs2}
+L12 N016 N015 {L3}
+C8 N024 N014 {C1}
+L13 3 N017 {L1}
+L14 N017 N016 {L2}
+R16 4 N003 {R2}
+R17 3 N024 {R2}
+L15 N015 N014 {L4}
+R18 N008 N002 {Rs4}
+L16 N008 N002 {L4}
+R21 3 N017 {Rs1}
+R22 N017 N016 {Rs2}
+R23 N016 N015 {Rs3}
+R24 N015 N014 {Rs4}
+R25 N002 N001 {Rs5}
+R26 N014 N013 {Rs5}
+C9 N002 N001 {C2}
+C10 N014 N013 {C2}
+L17 N002 N001 {L5}
+L18 N014 N013 {L5}
+K7 L1 L3 L2 L4 0.9999
+K6 L5 L7 L6 L8 0.9999
+K3 L9 L12 1
+K2 L11 L14 1
+K1 L10 L13 1
+K4 L16 L15 1
+K5 L17  L18 1
+.param Rdc=0.044
+.param L1=5050.380e-006
+.param L2=80.35e-006
+.param L3=95.47e-006
+.param L4=85.22e-006
+.param L5=2.0e-009
+.param C1=2.750e-011
+.param C2=3e-016
+.param Rs1=92028
+.param Rs2=8380050
+.param Rs3=1193
+.param Rs4=1278
+.param Rs5=10490
+.param R2=15
+.param dL3=305e-08
+.param dC3=28.8e-012
+.param dL4=9.51e-09
+.param dC4=45e-09
+.param dR3=3
+.param dR4=12100
+.param dR5=1
+.param dR6=10
+.param ck=0.01pF
+.backanno
+.ends XXL_744831047068_4.7m

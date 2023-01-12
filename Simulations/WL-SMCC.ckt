@@ -1,0 +1,298 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Mono-color Chip LED Compact 
+* Matchcode:              WL-SMCC
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-17
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0402_150040AS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=177.48E-12
++ N=4.1591
++ RS=.55187
++ IKF=727.11
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+************************
+.subckt 0402_150040BS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=11.416E-15
++ N=3.7886
++ RS=1.4842
++ IKF=213.88E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=100
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*************************
+.subckt 0402_150040GS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=6.1877E-9
++ N=5
++ RS=5.3132
++ IKF=888.94E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+**************************
+.subckt 0402_150040RS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=1.6972E-12
++ N=3.2944
++ RS=2.1152
++ IKF=492.85
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+****************************
+.subckt 0402_150040SS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+****************************
+.subckt 0402_150040VS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=405.27E-18
++ N=2.1772
++ RS=.76388
++ IKF=194.19E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*****************************
+.subckt 0402_150040YS73240 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=2.2176E-18
++ N=2.1216
++ RS=1.9039
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+*******************************
+.subckt 0402_150040AS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=267.10E-21
++ N=1.9663
++ RS=1.5631
++ IKF=8.6866
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+************************
+.subckt 0402_150040BS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=7.6676E-9
++ N=5
++ RS=2.6261
++ IKF=1.3194E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*************************
+.subckt 0402_150040GS73220  1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=2.4395E-9
++ N=5
++ RS=3.2882
++ IKF=2.7030E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+**************************
+.subckt 0402_150040RS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+**************************
+.subckt 0402_150040SS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=1.0025E-15
++ N=2.2259
++ RS=.3926
++ IKF=240.91E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+****************************
+.subckt 0402_150040VS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=557.55E-18
++ N=2.1602
++ RS=.37378
++ IKF=236.66E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******************************
+.subckt 0402_150040YS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=824.78E-18
++ N=2.2038
++ RS=.38595
++ IKF=240.07E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*****************************
+.subckt 0603_150060BS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=11.416E-15
++ N=3.7886
++ RS=1.4842
++ IKF=213.88E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******************************
+.subckt 0603_150060GS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=406.49E-12
++ N=4.8627
++ RS=4.1370
++ IKF=13.914E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******************************
+.subckt 0603_150060RS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=153.31E-12
++ N=4.1406
++ RS=1.0267
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*******************************
+.subckt 0603_150060VS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=405.27E-18
++ N=2.1772
++ RS=.76388
++ IKF=194.19E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0603_150060YS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=405.27E-18
++ N=2.1772
++ RS=.76388
++ IKF=194.19E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+**********************************

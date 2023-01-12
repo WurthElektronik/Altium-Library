@@ -1,0 +1,80 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  THT Infrared Round Waterclear
+* Matchcode:              WL-TIRW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-03-02
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3mm_15400385A3590  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=1.2274
++ RS=2.1166
++ IKF=12.711
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3mm_15400394A3590  1  2
+D1 1 2 led
+.MODEL led D
++ IS=8.3303E-15
++ N=1.6135
++ RS=1.2370
++ IKF=.16248
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_15400585A3590  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=1.2331
++ RS=2.3128
++ IKF=16.630
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 5mm_15400594A3590  1  2
+D1 1 2 led
+.MODEL led D
++ IS=11.628E-15
++ N=1.6308
++ RS=1.4202
++ IKF=3.4106
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
