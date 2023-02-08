@@ -64,5 +64,5 @@ polarity mark<br>
 #### No Components or Connection Error<br>  
 ![](https://github.com/bjch-eisos/Pics/blob/main/ErrorMessageAltium.png)<br>
 How to fix this issue:<br>
-1, For Altium Designer 17 and older: Download and install [MSSQL Native Client 32 Bit](https://go.microsoft.com/fwlink/?LinkID=239647&clcid=0x409)  <br>
-2, For Altium Designer 18 and newer: Download and install [MSSQL Native Client 64 Bit](https://go.microsoft.com/fwlink/?LinkID=239648&clcid=0x409)  <br>
+[Using Database Libraries with 32-bit and 64-bit Altium Design Software on the same Computer](https://www.altium.com/documentation/altium-designer/using-database-libraries-with-32-64-bit-altium-design-software-same-computer)  <br>
+
