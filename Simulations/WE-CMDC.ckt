@@ -1,0 +1,171 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Common Mode Data Line Filter 
+* Matchcode:              WE-CMDC
+* Library Type:           LTspice
+* Version:                rev23a
+* Created/modified by:    Ella      
+* Date and Time:          2023-02-14
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1211_744237701_9u 1  2  3  4
+X1  1  2  3  4  CMDC  PARAMS:
++ dL3=26.1701n
++ dL4=498.8631p
++ dC3=33.4498f
++ dC4=5.4579p
++ dR3=3.8040
++ dR4=928.1069
++ dR5=814.6549m
++ dR6=1231.8319
++ Rdc=6m
++ ck=217.4503f
++ L1=4.5460n
++ L2=85.7001p
++ L3=52.8784u
++ L4=21.7938n
++ L5=3.2345u
++ C1=591.2577p
++ C2=78.3483f
++ Rs1=2.4234k
++ Rs2=1.8113k
++ Rs3=67.8206
++ Rs4=457.3101k
++ Rs5=1.4862k
++ R2=1.6817k
+.ends 
+*****
+.subckt 1211_744237102_13u 1  2  3  4
+X1  1  2  3  4  CMDC  PARAMS:
++ dL3=47.5976n
++ dL4=29.5680n
++ dC3=4.4583f
++ dC4=7.9192p
++ dR3=9.7189
++ dR4=2.0433k
++ dR5=1.7339
++ dR6=45.9839
++ Rdc=14m
++ ck=266.5405f
++ L1=4.5716n
++ L2=85.6710p
++ L3=52.3896u
++ L4=25.2594n
++ L5=8.6925u
++ C1=591.0539p
++ C2=116.9880f
++ Rs1=2.4233k
++ Rs2=1.8111k
++ Rs3=67.8352
++ Rs4=457.3043k
++ Rs5=2.4304k
++ R2=1.6861k
+.ends 
+****
+.subckt 1211_744237152_17u 1  2  3  4
+X1  1  2  3  4  CMDC  PARAMS:
++ dL3=8.6204n
++ dL4=42.2750n
++ dC3=979.9839f
++ dC4=29.8002p
++ dR3=9.9998m
++ dR4=1.8709k
++ dR5=1.2117k
++ dR6=9.0738k
++ Rdc=21m
++ ck=172.2793f
++ L1=4.6532n
++ L2=85.6798p
++ L3=52.0102u
++ L4=33.8282n
++ L5=9.1415u
++ C1=591.2723p
++ C2=88.6014f
++ Rs1=2.4233k
++ Rs2=1.8111k
++ Rs3=67.8959
++ Rs4=457.3047k
++ Rs5=3.2682k
++ R2=1.6924k
+.ends 
+****
+.SUBCKT  CMDC    1  2  3  4  PARAMS: 
+L5 N009 N008 {L3}
+C3 N002 N001 {C1}
+L1 2 N010 {L1}
+L3 N010 N009 {L2}
+L6 N015 N014 {L3}
+C4 N024 N013 {C1}
+L2 4 N016 {L1}
+L4 N016 N015 {L2}
+L8 N014 N013 {L4}
+L7 N008 N001 {L4}
+L9 N001 N007 {L5}
+L10 N013 N021 {L5}
+R1 N003 1 {Rdc}
+R2 N005 N003 {dR4}
+C1 N004 N003 {dC3}
+L17 N011 N003 {dL3}
+L18 N017 N018 {dL3}
+C2 N011 N018 {ck}
+R3 N005 N004 {dR3}
+R4 N019 N022 {dR3}
+C9 N022 N017 {dC3}
+R5 N019 N017 {dR4}
+L19 N005 N011 {dL3}
+L20 N018 N019 {dL3}
+R6 N017 3 {Rdc}
+R8 N007 N005 {dR6}
+C10 N006 N005 {dC4}
+L13 N012 N005 {dL4}
+L14 N019 N020 {dL4}
+C11 N012 N020 {ck}
+R9 N007 N006 {dR5}
+R10 N021 N023 {dR5}
+C12 N023 N019 {dC4}
+R11 N021 N019 {dR6}
+L15 N007 N012 {dL4}
+L16 N020 N021 {dL4}
+R7 N001 N007 {Rs5}
+C5 N001 N007 {C2}
+R12 N013 N021 {Rs5}
+C6 N013 N021 {C2}
+R13 N008 N001 {Rs4}
+R14 N009 N008 {Rs3}
+R15 N010 N009 {Rs2}
+R16 2 N010 {Rs1}
+R17 N014 N013 {Rs4}
+R18 N015 N014 {Rs3}
+R19 N016 N015 {Rs2}
+R20 4 N016 {Rs1}
+R21 2 N002 {R2}
+R22 4 N024 {R2}
+K1 L1 L2 1
+K2 L3 L4 1
+K3 L5 L6 1
+K4 L7 L8 1
+K5 L9  L10 1
+K6_1 L13 L14 0.9999
+K6_2 L13 L15 0.9999
+K6_3 L13 L16 0.9999
+K6_4 L14 L15 0.9999
+K6_5 L14 L16 0.9999
+K6_6 L15 L16 0.9999
+K7_1 L17 L18 0.9999
+K7_2 L17 L19 0.9999
+K7_3 L17 L20 0.9999
+K7_4 L18 L19 0.9999
+K7_5 L18 L20 0.9999
+K7_6 L19 L20 0.9999
+.ends  CMDC
+****
