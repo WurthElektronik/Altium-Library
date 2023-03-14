@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\CR7\Library\Al
 AddMode=3
 RemoveMode=2
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Assembly
+LastFocusedTable=Connectors
 [Table1]
 SchemaName=
 TableName=Assembly
@@ -32,6 +32,9 @@ TableName=Connectors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=568|Library Ref0=276|Library Path0=228|Footprint Ref0=202|Footprint Path0=304|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=206|Footprint Path 20=147|Published Date0=101|Category0=149|Match Code0=85|Comment0=96|ComponentLink1Description0=170|ComponentLink1URL0=350|ComponentLink2Description0=170|ComponentLink2URL0=342|Manufacturer0=96|Mount0=119|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=130|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Application0=132|Center Contact Diameter0=149|Compliance0=96|Connector Type0=104|Contact Resistance0=120|Frequency Range0=112|Fuse Size0=70|Gender0=102|Impedance0=79|Ingress Protection Code0=146|Insulation Resistance0=132|Insulator Color0=100|Insulator Material0=114|Interface Type0=95|LED0=64|Modularity0=79|Number of Pins0=102|Number of Ports0=107|Number of Rows0=109|Opening Diameter0=118|Orientation0=159|Panel Thickness0=104|Plug Inner Diameter0=125|Plug Outer Diameter0=128|PCB/Cable/Panel0=107|Pitch0=53|Rated Current0=95|Shielding0=72|Type0=73|Working Voltage0=111|Withstanding Voltage0=137
 [Table3]
 SchemaName=
 TableName=REDCUBE Terminals
