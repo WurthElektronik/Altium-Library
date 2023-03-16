@@ -3,9 +3,9 @@
 * Kinds:                  SMT High Current Wire Wound Ceramic Inductor
 * Matchcode:              WE-KI HC
 * Library Type:           LTspice
-* Version:                rev22a
+* Version:                rev22b
 * Created/modified by:    Ella      
-* Date and Time:          2022-05-24
+* Date and Time:          2022-11-07
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
@@ -195,6 +195,24 @@ R4 2 N4 733.4708m
 R5 2 N5 605.0706m
 R6 2 N6 593.7937m
 R7 2 N7 2.8865
+R8 2 1 10g
+.ends 
+*******
+.subckt 0402_744916056_5.6n 1 2
+C1 1 N7 134.1332f
+L1 1 N1 5.48n
+L2 N1 N2 18.4075p
+L3 N2 N3 192.2062p
+L4 N3 N4 431.2415p
+L5 N4 N5 169.8016p
+L6 N5 N6 139.7105p
+R1 2 N1 2.4420
+R2 2 N2 987.9505m
+R3 2 N3 250.0718m
+R4 2 N4 81.5229m
+R5 2 N5 412.8570m
+R6 2 N6 59.5957m
+R7 2 N7 2.9100
 R8 2 1 10g
 .ends 
 *******
