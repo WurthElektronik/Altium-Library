@@ -41,7 +41,7 @@ Go to component panel and install the DB library as the way of integrated librar
 * Component Outline (M11 paired with M12)<br>
  0.1mm line thickness<br>
  exact component contour<br><br>
- * Designator (M3 paired with M5)<br>
+ * Designator (M3 paired with M4)<br>
  including a .Designator text string in the footprint center<br><br>
 * 3D Body (M13 paired with M14)<br>
 embedded step model<br><br>
@@ -49,9 +49,15 @@ embedded step model<br><br>
 0.05mm line thickness<br>
 min. 0.2mm distance from silk lines<br>
 min. 0.2mm distance from line center to pad edges<br>
-including a cross mark in the origin<br><br>
+* Component Center (M17 paired with M18)<br>
+including a cross mark in the origin<br>
+(available for the PCB libraries release since 6th June 2023)<br>
+
+* Notes (M5 paired with M6)<br>
+not build-in layer type, for explanatory notes<br>
+(available for the PCB libraries release since 6th June 2023)<br>
 * V-Cut (M9)<br><br>
-* Notes (M2)<br><br>
+
 * Silkscreen<br>
 0.2mm line thickness<br>
 component contour based on the maximum dimensions<br>
