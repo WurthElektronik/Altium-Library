@@ -1,23 +1,23 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
+* Manufacturer:          Würth Elektronik
 * Kinds:                 SMT Shielded Power Inductor
 * Matchcode:             WE-PDA
 * Library Type:          LTspice
-* Version:               rev22a
+* Version:               rev23a
 * Created/modified by:   Ella
-* Date and Time:         6/9/2022
+* Date and Time:         8/7/2023
 * Team:                  eiSos EDA Service  
 * Contact:               libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
-* All Rights Reserved.
-**************************************************
-* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
-* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
-* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
-* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
-* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
-**************************************************
+* Copyright(C) 2023 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
 .subckt 1210_7847709010_1u 1 2
 Rp 1 2 2294.915406849
 Cp 1 2 1.3882750261p
@@ -535,4 +535,74 @@ Cp 1 2 8.166242278p
 Rs 1 N3 4.8
 L1 N3 2 910.643699477u
 .ends 7345_784777102_1000u
+*******
+.subckt 1050_7847714033_3.3u 1 2
+Rp 1 2 2007
+Cp 1 2 9.206p
+Rs 1 N3 0.012
+L1 N3 2 3.271u
+.ends 1050_7847714033_3.3u
+*******
+.subckt 1050_7847714047_4.7u 1 2
+Rp 1 2 3886
+Cp 1 2 9.489p
+Rs 1 N3 0.014
+L1 N3 2 4.189u
+.ends 1050_7847714047_4.7u
+*******
+.subckt 1050_7847714100_10u 1 2
+Rp 1 2 7924
+Cp 1 2 10.391p
+Rs 1 N3 0.026
+L1 N3 2 8.684u
+.ends 1050_7847714100_10u
+*******
+.subckt 1050_7847714220_22u 1 2
+Rp 1 2 16615
+Cp 1 2 12.333p
+Rs 1 N3 0.063
+L1 N3 2 22.297u
+.ends 1050_7847714220_22u
+*******
+.subckt 1050_7847714330_33u 1 2
+Rp 1 2 21893
+Cp 1 2 11.489p
+Rs 1 N3 0.079
+L1 N3 2 31.318u
+.ends 1050_7847714330_33u
+*******
+.subckt 1050_7847714470_47u 1 2
+Rp 1 2 23438
+Cp 1 2 13.651p
+Rs 1 N3 0.123
+L1 N3 2 45.46u
+.ends 1050_7847714470_47u
+*******
+.subckt 1050_7847714680_68u 1 2
+Rp 1 2 29832
+Cp 1 2 13.617p
+Rs 1 N3 0.147
+L1 N3 2 60.755u
+.ends 1050_7847714680_68u
+*******
+.subckt 1050_7847714101_100u 1 2
+Rp 1 2 32869
+Cp 1 2 14.482p
+Rs 1 N3 0.245
+L1 N3 2 90.064u
+.ends 1050_7847714101_100u
+*******
+.subckt 1050_7847714221_220u 1 2
+Rp 1 2 53359
+Cp 1 2 14.021p
+Rs 1 N3 0.59
+L1 N3 2 214.773u
+.ends 1050_7847714221_220u
+*******
+.subckt 1050_7847714331_330u 1 2
+Rp 1 2 67719
+Cp 1 2 13.604p
+Rs 1 N3 0.75
+L1 N3 2 318.302u
+.ends 1050_7847714331_330u
 *******
