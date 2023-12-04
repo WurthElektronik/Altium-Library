@@ -53,9 +53,8 @@ min. 0.2mm distance from line center to pad edges<br>
 including a cross mark in the origin<br>
 (available for the PCB libraries release since 6th June 2023)<br>
 
-* Notes (M5 paired with M6)<br>
-not build-in layer type, for explanatory notes<br>
-(available for the PCB libraries release since 6th June 2023)<br>
+* Assembly Notes (M2)<br>
+
 * V-Cut (M9)<br><br>
 
 * Silkscreen<br>
