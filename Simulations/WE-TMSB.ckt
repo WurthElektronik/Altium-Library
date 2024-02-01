@@ -1,15 +1,15 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
+* Manufacturer:          Würth Elektronik
 * Kinds:                 Tiny Multilayer Suppression Bead
 * Matchcode:             WE-TMSB
 * Library Type:          LTspice
-* Version:               rev21a
+* Version:               rev24a
 * Created/modified by:   Ella
-* Date and Time:         5/30/2022
+* Date and Time:         01/26/2024
 * Team:                  eiSos EDA Service  
 * Contact:               libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
@@ -59,6 +59,13 @@ Cp 1 2 0.55p
 Rs 1 N3 0.75
 L1 N3 2 1.747131u
 .ends 0201_74269221561_560ohm
+*******
+.subckt 0201_74269221102_1000ohm 1 2
+Rp 1 2 939.432757
+Cp 1 2 0.239541786
+Rs 1 N3 1.13
+L1 N3 2 2.719606u
+.ends 0201_74269221102_1000ohm
 *******
 .subckt 0402_74269241102_1000ohm 1 2
 Rp 1 2 1205.835
