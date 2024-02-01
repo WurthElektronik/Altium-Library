@@ -1,15 +1,15 @@
 **************************************************
-* Manufacturer:           Wurth Elektronik 
+* Manufacturer:           Würth Elektronik
 * Kinds:                  SMT Mono-color Chip LED Diffused
 * Matchcode:              WL-SMCD
 * Library Type:           LTspice
 * Version:                rev22a
 * Created/modified by:    Ella      
-* Date and Time:          2022-02-17
+* Date and Time:          2024-01-26
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
@@ -18,6 +18,21 @@
 * Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
 * Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
 **************************************************
+.subckt 0603_150060AS55040 1 2
+D1 1 2 SMCD
+.MODEL SMCD D
++ IS=179.05E-12
++ N=4.1622
++ RS=.56312
++ IKF=81.248
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*****************************
 .subckt 0603_150060BS55040 1 2
 D1 1 2 SMCD
 .MODEL SMCD D
