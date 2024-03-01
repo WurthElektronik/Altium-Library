@@ -1,23 +1,23 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
+* Manufacturer:          Würth Elektronik 
 * Kinds:                 SMT Power Inductor
 * Matchcode:             WE-MAPI
 * Library Type:          LTspice
-* Version:               rev22a
+* Version:               rev24a
 * Created/modified by:   Ella
-* Date and Time:         6/10/2022
+* Date and Time:         2/28/2024
 * Team:                  eiSos EDA Service  
 * Contact:               libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
-* All Rights Reserved.
-**************************************************
-* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
-* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
-* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
-* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
-* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
-**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
 .subckt 2512_744383240047_0.47u 1 2
 Rp 1 2 1038.4604951
 Cp 1 2 2.9596p
@@ -976,4 +976,326 @@ Cp 1 2 15.66p
 Rs 1 N3 0.061
 L1 N3 2 9.563u
 .ends 5030_74438367100_10u
+*******
+.subckt 2512HT_744383240033HT_0.33u 1 2
+Rp 1 2 713.532
+Cp 1 2 2.928p
+Rs 1 N3 0.0232
+L1 N3 2 0.286249u
+.ends 2512HT_744383240033HT_0.33u
+*******
+.subckt 2512HT_744383240047HT_0.47u 1 2
+Rp 1 2 1014
+Cp 1 2 3.558p
+Rs 1 N3 0.0301
+L1 N3 2 0.412145u
+.ends 2512HT_744383240047HT_0.47u
+*******
+.subckt 2512HT_744383240056HT_0.56u 1 2
+Rp 1 2 1383
+Cp 1 2 4.249p
+Rs 1 N3 0.0383
+L1 N3 2 0.567452u
+.ends 2512HT_744383240056HT_0.56u
+*******
+.subckt 2512HT_74438324010HT_1u 1 2
+Rp 1 2 2258
+Cp 1 2 4.965p
+Rs 1 N3 0.0534
+L1 N3 2 1.015u
+.ends 2512HT_74438324010HT_1u
+*******
+.subckt 2512HT_74438324012HT_1.2u 1 2
+Rp 1 2 2590
+Cp 1 2 4.76p
+Rs 1 N3 0.0649
+L1 N3 2 1.19u
+.ends 2512HT_74438324012HT_1.2u
+*******
+.subckt 2512HT_74438324015HT_1.5u 1 2
+Rp 1 2 3572
+Cp 1 2 5.011p
+Rs 1 N3 0.0887
+L1 N3 2 1.606u
+.ends 2512HT_74438324015HT_1.5u
+*******
+.subckt 2512HT_74438324022HT_2.2u 1 2
+Rp 1 2 4359
+Cp 1 2 4.441p
+Rs 1 N3 0.1413
+L1 N3 2 2.036u
+.ends 2512HT_74438324022HT_2.2u
+*******
+.subckt 2512HT_74438324033HT_3.3u 1 2
+Rp 1 2 5972
+Cp 1 2 4.542p
+Rs 1 N3 0.2388
+L1 N3 2 3.179u
+.ends 2512HT_74438324033HT_3.3u
+*******
+.subckt 2512HT_74438324047HT_4.7u 1 2
+Rp 1 2 8027
+Cp 1 2 5.136p
+Rs 1 N3 0.3196
+L1 N3 2 4.488u
+.ends 2512HT_74438324047HT_4.7u
+*******
+.subckt 3015HT_744383350056HT_0.56u 1 2
+Rp 1 2 1233
+Cp 1 2 5.884p
+Rs 1 N3 0.0193
+L1 N3 2 0.494u
+.ends 3015HT_744383350056HT_0.56u
+*******
+.subckt 3015HT_744383350068HT_0.68u 1 2
+Rp 1 2 1632
+Cp 1 2 6.41p
+Rs 1 N3 0.0221
+L1 N3 2 0.658u
+.ends 3015HT_744383350068HT_0.68u
+*******
+.subckt 3015HT_74438335010HT_1u 1 2
+Rp 1 2 2361
+Cp 1 2 5.162p
+Rs 1 N3 0.0462
+L1 N3 2 0.925u
+.ends 3015HT_74438335010HT_1u
+*******
+.subckt 3015HT_74438335022HT_2.2u 1 2
+Rp 1 2 4091
+Cp 1 2 7.078p
+Rs 1 N3 0.0834
+L1 N3 2 2.04u
+.ends 3015HT_74438335022HT_2.2u
+*******
+.subckt 3015HT_74438335033HT_3.3u 1 2
+Rp 1 2 6465
+Cp 1 2 6.813p
+Rs 1 N3 0.1156
+L1 N3 2 3.01u
+.ends 3015HT_74438335033HT_3.3u
+*******
+.subckt 3015HT_74438335047HT_4.7u 1 2
+Rp 1 2 7862
+Cp 1 2 7.621p
+Rs 1 N3 0.1629
+L1 N3 2 4.829u
+.ends 3015HT_74438335047HT_4.7u
+*******
+.subckt 3015HT_74438335068HT_6.8u 1 2
+Rp 1 2 9282
+Cp 1 2 7.56p
+Rs 1 N3 0.2701
+L1 N3 2 6.915u
+.ends 3015HT_74438335068HT_6.8u
+*******
+.subckt 3015HT_74438335100HT_10u 1 2
+Rp 1 2 11568
+Cp 1 2 8.042p
+Rs 1 N3 0.4778
+L1 N3 2 9.231u
+.ends 3015HT_74438335100HT_10u
+*******
+.subckt 3020HT_744383360068HT_0.68u 1 2
+Rp 1 2 1504
+Cp 1 2 5.503p
+Rs 1 N3 0.0244
+L1 N3 2 0.636u
+.ends 3020HT_744383360068HT_0.68u
+*******
+.subckt 3020HT_74438336010HT_1u 1 2
+Rp 1 2 2123
+Cp 1 2 5.792p
+Rs 1 N3 0.0285
+L1 N3 2 0.978u
+.ends 3020HT_74438336010HT_1u
+*******
+.subckt 3020HT_74438336012HT_1.2u 1 2
+Rp 1 2 2341
+Cp 1 2 6.396p
+Rs 1 N3 0.0326
+L1 N3 2 1.119u
+.ends 3020HT_74438336012HT_1.2u
+*******
+.subckt 3020HT_74438336015HT_1.5u 1 2
+Rp 1 2 2851
+Cp 1 2 6.152p
+Rs 1 N3 0.0352
+L1 N3 2 1.47u
+.ends 3020HT_74438336015HT_1.5u
+*******
+.subckt 3020HT_74438336022HT_2.2u 1 2
+Rp 1 2 4559
+Cp 1 2 5.855p
+Rs 1 N3 0.0569
+L1 N3 2 1.952u
+.ends 3020HT_74438336022HT_2.2u
+*******
+.subckt 3020HT_74438336033HT_3.3u 1 2
+Rp 1 2 6126
+Cp 1 2 6.307p
+Rs 1 N3 0.0859
+L1 N3 2 2.893u
+.ends 3020HT_74438336033HT_3.3u
+*******
+.subckt 3020HT_74438336047HT_4.7u 1 2
+Rp 1 2 7667
+Cp 1 2 7.768p
+Rs 1 N3 0.1306
+L1 N3 2 4.215u
+.ends 3020HT_74438336047HT_4.7u
+*******
+.subckt 3020HT_74438336068HT_6.8u 1 2
+Rp 1 2 10703
+Cp 1 2 8.277p
+Rs 1 N3 0.1974
+L1 N3 2 6.315u
+.ends 3020HT_74438336068HT_6.8u
+*******
+.subckt 6030HT_744383770033HT_0.33u 1 2
+Rp 1 2 666
+Cp 1 2 8.985p
+Rs 1 N3 0.0026
+L1 N3 2 0.304u
+.ends 6030HT_744383770033HT_0.33u
+*******
+.subckt 6030HT_744383770068HT_0.68u 1 2
+Rp 1 2 1585
+Cp 1 2 11.485p
+Rs 1 N3 0.0048
+L1 N3 2 0.728u
+.ends 6030HT_744383770068HT_0.68u
+*******
+.subckt 6030HT_74438377010HT_1u 1 2
+Rp 1 2 2159
+Cp 1 2 11.644p
+Rs 1 N3 0.006
+L1 N3 2 0.981u
+.ends 6030HT_74438377010HT_1u
+*******
+.subckt 6030HT_74438377022HT_2.2u 1 2
+Rp 1 2 3944
+Cp 1 2 15.465p
+Rs 1 N3 0.0119
+L1 N3 2 2.117u
+.ends 6030HT_74438377022HT_2.2u
+*******
+.subckt 6030HT_74438377033HT_3.3u 1 2
+Rp 1 2 5737
+Cp 1 2 16.068p
+Rs 1 N3 0.0177
+L1 N3 2 3.253u
+.ends 6030HT_74438377033HT_3.3u
+*******
+.subckt 6030_744383770033_0.33u 1 2
+Rp 1 2 721
+Cp 1 2 8.238p
+Rs 1 N3 0.0025
+L1 N3 2 0.353u
+.ends 6030_744383770033_0.33u
+*******
+.subckt 6030_744383770068_0.68u 1 2
+Rp 1 2 1213
+Cp 1 2 11.36p
+Rs 1 N3 0.0037
+L1 N3 2 0.61u
+.ends 6030_744383770068_0.68u
+*******
+.subckt 6030_74438377010_1u 1 2
+Rp 1 2 1802
+Cp 1 2 12.264p
+Rs 1 N3 0.0048
+L1 N3 2 0.932u
+.ends 6030_74438377010_1u
+*******
+.subckt 6030_74438377015_1.5u 1 2
+Rp 1 2 2543
+Cp 1 2 12.457p
+Rs 1 N3 0.0086
+L1 N3 2 1.464u
+.ends 6030_74438377015_1.5u
+*******
+.subckt 6030_74438377022_2.2u 1 2
+Rp 1 2 3251
+Cp 1 2 12.62p
+Rs 1 N3 0.0103
+L1 N3 2 2.308u
+.ends 6030_74438377022_2.2u
+*******
+.subckt 6030_74438377033_3.3u 1 2
+Rp 1 2 4683
+Cp 1 2 13.69p
+Rs 1 N3 0.0159
+L1 N3 2 3.397u
+.ends 6030_74438377033_3.3u
+*******
+.subckt 4012_7443835400033_0.033u 1 2
+Rp 1 2 157.464
+Cp 1 2 1.69p
+Rs 1 N3 0.0009
+L1 N3 2 0.032211u
+.ends 4012_7443835400033_0.033u
+*******
+.subckt 4012_7443835400068_0.068u 1 2
+Rp 1 2 229.552
+Cp 1 2 2.854p
+Rs 1 N3 0.0017
+L1 N3 2 0.063398u
+.ends 4012_7443835400068_0.068u
+*******
+.subckt 4030_744383570033_0.33u 1 2
+Rp 1 2 714.869
+Cp 1 2 8.025p
+Rs 1 N3 0.0043
+L1 N3 2 0.343004u
+.ends 4030_744383570033_0.33u
+*******
+.subckt 4030_744383570056_0.56u 1 2
+Rp 1 2 1107
+Cp 1 2 7.679p
+Rs 1 N3 0.0059
+L1 N3 2 0.534928u
+.ends 4030_744383570056_0.56u
+*******
+.subckt 5020_744383660033_0.33u 1 2
+Rp 1 2 595.608
+Cp 1 2 8.941p
+Rs 1 N3 0.0031
+L1 N3 2 0.284152u
+.ends 5020_744383660033_0.33u
+*******
+.subckt 5020_744383660047_0.47u 1 2
+Rp 1 2 967.085
+Cp 1 2 9.677p
+Rs 1 N3 0.0051
+L1 N3 2 0.498172u
+.ends 5020_744383660047_0.47u
+*******
+.subckt 5020_744383660068_0.68u 1 2
+Rp 1 2 1357
+Cp 1 2 10.75p
+Rs 1 N3 0.0063
+L1 N3 2 0.669197u
+.ends 5020_744383660068_0.68u
+*******
+.subckt 5030_744383670013_0.13u 1 2
+Rp 1 2 265.719
+Cp 1 2 5.918p
+Rs 1 N3 0.0016
+L1 N3 2 0.119244u
+.ends 5030_744383670013_0.13u
+*******
+.subckt 5030_744383670033_0.33u 1 2
+Rp 1 2 609.66
+Cp 1 2 7.317p
+Rs 1 N3 0.0032
+L1 N3 2 0.295846u
+.ends 5030_744383670033_0.33u
+*******
+.subckt 5030_744383670047_0.47u 1 2
+Rp 1 2 850.697
+Cp 1 2 10.357p
+Rs 1 N3 0.004
+L1 N3 2 0.465466u
+.ends 5030_744383670047_0.47u
 *******
