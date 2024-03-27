@@ -3,6 +3,7 @@
 *.libPreview
 *.SchDocPreview
 *.lnk
+*archive*/
 For IntLib.DbLib
 Components/WE - Custom Magnetics.mdb
 WE - Custom Magnetics.DbLib
