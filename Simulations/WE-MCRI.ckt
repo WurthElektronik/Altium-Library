@@ -1,15 +1,15 @@
 **************************************************
-* Manufacturer:           Wurth Elektronik 
+* Manufacturer:           Würth Elektronik
 * Kinds:                  SMT Molded Coupled Inductor 
 * Matchcode:              WE-MCRI
 * Library Type:           LTspice
-* Version:                rev22a
+* Version:                rev24a
 * Created/modified by:    Ella      
-* Date and Time:          2022-05-25
+* Date and Time:          2024-02-21
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
@@ -18,7 +18,8 @@
 * Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
 * Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
 **************************************************
-.subckt 1090_7448990010_1u  1  2  3  4  PARAMS:
+.subckt  1090_7448990010_1u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=76p
 +  Rp1=2131
 +  Cp1=18.45p
@@ -29,21 +30,10 @@
 +  RDC1=0.007
 +  RDC2=0.007
 +  K=0.9
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990015_1.5u  1  2  3  4  PARAMS:
+.subckt  1090_7448990015_1.5u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=79p
 +  Rp1=2700
 +  Cp1=19.49p
@@ -54,21 +44,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.016
 +  RDC2=0.016
 +  K=0.921592824046137
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990022_2.2u  1  2  3  4  PARAMS:
+.subckt  1090_7448990022_2.2u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=90p
 +  Rp1=4880
 +  Cp1=26.707p
@@ -79,21 +58,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.022
 +  RDC2=0.022
 +  K=0.945082968940727
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990033_3.3u  1  2  3  4  PARAMS:
+.subckt  1090_7448990033_3.3u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=99p
 +  Rp1=6700
 +  Cp1=20.581p
@@ -104,21 +72,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.028
 +  RDC2=0.028
 +  K=0.9613752775282
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990047_4.7u  1  2  3  4  PARAMS:
+.subckt  1090_7448990047_4.7u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=98p
 +  Rp1=4913
 +  Cp1=22.582p
@@ -129,21 +86,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.035
 +  RDC2=0.035
 +  K=0.972275243403929
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990068_6.8u  1  2  3  4  PARAMS:
+.subckt  1090_7448990068_6.8u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=131p
 +  Rp1=6400
 +  Cp1=23.196p
@@ -154,21 +100,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.048
 +  RDC2=0.048
 +  K=0.980696031338127
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990082_8.2u  1  2  3  4  PARAMS:
+.subckt  1090_7448990082_8.2u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=162p
 +  Rp1=4896
 +  Cp1=25.504p
@@ -179,21 +114,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.059
 +  RDC2=0.059
 +  K=0.983398785199426
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990100_10u  1  2  3  4  PARAMS:
+.subckt  1090_7448990100_10u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=178p
 +  Rp1=7321
 +  Cp1=28.172p
@@ -204,21 +128,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.064
 +  RDC2=0.064
 +  K=0.986154146165801
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990150_15u  1  2  3  4  PARAMS:
+.subckt  1090_7448990150_15u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=199p
 +  Rp1=8298
 +  Cp1=26.456p
@@ -229,21 +142,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.075
 +  RDC2=0.075
 +  K=0.990252493054171
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990220_22u  1  2  3  4  PARAMS:
+.subckt  1090_7448990220_22u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=226p
 +  Rp1=9865
 +  Cp1=24.449p
@@ -254,21 +156,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.099
 +  RDC2=0.099
 +  K=0.99304398877208
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990330_33u  1  2  3  4  PARAMS:
+.subckt  1090_7448990330_33u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=345p
 +  Rp1=11110
 +  Cp1=29.2p
@@ -279,21 +170,10 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.129
 +  RDC2=0.129
 +  K=0.994530496812898
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
-Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
-.subckt 1090_7448990470_47u  1  2  3  4  PARAMS:
+.subckt  1090_7448990470_47u  1  2  3  4
+X1  1  2  3  4  MCRI  PARAMS:
 +  Cww=363p
 +  Rp1=26460
 +  Cp1=26.452p
@@ -304,17 +184,30 @@ Kn_K1  L_L1  L_L2      {K}
 +  RDC1=0.222
 +  RDC2=0.222
 +  K=0.996162850909386
-C_C1  2  1    {Cww/2}
-R_R50  2  1  5000g
-C_C2  3  4    {Cww/2}
-C_C5  3  2    {Cp1}
-R_R1  3  N05454    {RDC1}
-R_R2  3  2    {Rp1}
-L_L1  N05454  2    {Lp1}
-L_L2  N05750  1    {Lp2}
-C_C6  4  1    {Cp2}
-R_R3  4  1    {Rp2}
-R_R4  4  N05750    {RDC2}
+.ends
+******
+.subckt  MCRI  1  2  3  4  PARAMS:
++  Cww=76p
++  Rp1=2131
++  Cp1=18.45p
++  Lp1=1.112u
++  Rp2=2113
++  Cp2=19.055p
++  Lp2=1.076u
++  RDC1=0.007
++  RDC2=0.007
++  K=0.9
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 4 2 {Cww/2}
+C_C5 4 3 {Cp1}
+R_R1 4 N05454 {RDC1}
+R_R2 4 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 2 1 {Cp2}
+R_R3 2 1 {Rp2}
+R_R4 2 N05750 {RDC2}
 Kn_K1  L_L1  L_L2      {K}
 .ends
 ******
