@@ -1,22 +1,22 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
+* Manufacturer:          Würth Elektronik
 * Kinds:                 Film Capacitor
 * Matchcode:             WCAP-FTXH
 * Library Type:          LTspice
-* Version:               rev22a
+* Version:               rev24a
 * Created/modified by:   Ella
-* Date and Time:         7/11/2022
+* Date and Time:         5/21/2024
 * Team:                  eiSos EDA Service  
 * Contact:               libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
-* All Rights Reserved.
-**************************************************
-* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
-* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
-* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
-* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
-* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
 **************************************************
 .subckt 890414025001CS_0.1uF 1 2
 Rser 1 3 0.06225
@@ -171,4 +171,95 @@ Lser 2 4 0.00000001612
 C1 3 4 0.0000068
 Rpar 3 4 750000000
 .ends 890414028003CS_6.8uF
+*******
+.subckt 890414025011CS_0.33uF 1 2
+Rser 1 3 0.03178
+Lser 2 4 0.00000000834
+C1 3 4 0.00000033
+Rpar 3 4 25000000000
+.ends 890414025011CS_0.33uF
+*******
+.subckt 890414025012CS_0.47uF 1 2
+Rser 1 3 0.02693
+Lser 2 4 0.00000000791
+C1 3 4 0.00000047
+Rpar 3 4 15950000000
+.ends 890414025012CS_0.47uF
+*******
+.subckt 890414025013CS_0.27uF 1 2
+Rser 1 3 0.03083
+Lser 2 4 0.00000000871
+C1 3 4 0.00000027
+Rpar 3 4 25000000000
+.ends 890414025013CS_0.27uF
+*******
+.subckt 890414026013CS_1.2uF 1 2
+Rser 1 3 0.02689
+Lser 2 4 0.00000001344
+C1 3 4 0.0000012
+Rpar 3 4 6250000000
+.ends 890414026013CS_1.2uF
+*******
+.subckt 890414027011CS_2.2uF 1 2
+Rser 1 3 0.02257
+Lser 2 4 0.00000001572
+C1 3 4 0.0000022
+Rpar 3 4 3400000000
+.ends 890414027011CS_2.2uF
+*******
+.subckt 890414026014CS_1uF 1 2
+Rser 1 3 0.02747
+Lser 2 4 0.00000001117
+C1 3 4 0.000001
+Rpar 3 4 7500000000
+.ends 890414026014CS_1uF
+*******
+.subckt 890414027012CS_1uF 1 2
+Rser 1 3 0.03183
+Lser 2 4 0.00000001533
+C1 3 4 0.000001
+Rpar 3 4 7500000000
+.ends 890414027012CS_1uF
+*******
+.subckt 890414027013CS_1.2uF 1 2
+Rser 1 3 0.02886
+Lser 2 4 0.00000001239
+C1 3 4 0.0000012
+Rpar 3 4 6250000000
+.ends 890414027013CS_1.2uF
+*******
+.subckt 890414027014CS_1.8uF 1 2
+Rser 1 3 0.02576
+Lser 2 4 0.00000001407
+C1 3 4 0.0000018
+Rpar 3 4 4160000000
+.ends 890414027014CS_1.8uF
+*******
+.subckt 890414028005CS_3.3uF 1 2
+Rser 1 3 0.02191
+Lser 2 4 0.00000001686
+C1 3 4 0.0000033
+Rpar 3 4 2270000000
+.ends 890414028005CS_3.3uF
+*******
+.subckt 890414028006CS_4.7uF 1 2
+Rser 1 3 0.01576
+Lser 2 4 0.00000001962
+C1 3 4 0.0000047
+Rpar 3 4 1590000000
+.ends 890414028006CS_4.7uF
+*******
+.subckt 890414028007CS_10uF 1 2
+Rser 1 3 0.01079
+Lser 2 4 0.00000002214
+C1 3 4 0.00001
+Rpar 3 4 750000000
+.ends 890414028007CS_10uF
+*******
+.subckt 890414025003CS_0.22uF 1 2
+Rser 1 3 0.04474
+Lser 2 4 0.00000000656
+C1 3 4 0.00000022
+Rpar 3 4 25000000000
+.ends 890414025003CS_0.22uF
 *******
