@@ -40,22 +40,21 @@ Go to component panel and install the DB library as the way of integrated librar
 ![](https://github.com/bjch-eisos/Pics/blob/main/MechanicalLayer.png)<br>
 * Component Outline (M11 paired with M12)<br>
  0.1mm line thickness<br>
- exact component contour<br><br>
- * Designator (M3 paired with M4)<br>
- including a .Designator text string in the footprint center<br><br>
+ exact component contour<br>
 * 3D Body (M13 paired with M14)<br>
-embedded step model<br><br>
+embedded step model<br>
 * Component Courtyard (M15 paired with M16)<br>
 0.05mm line thickness<br>
 min. 0.2mm distance from silk lines<br>
 min. 0.2mm distance from line center to pad edges<br>
 * Component Center (M17 paired with M18)<br>
 including a cross mark in the origin<br>
-(available for the PCB libraries release since 6th June 2023)<br>
+* Designator (M19 paired with M20)<br>
+ including a .Designator text string in the footprint center<br>
 
+* Board Shape (M1)<br>
 * Assembly Notes (M2)<br>
-
-* V-Cut (M9)<br><br>
+* V-Cut (M9)<br>
 
 * Silkscreen<br>
 0.2mm line thickness<br>
