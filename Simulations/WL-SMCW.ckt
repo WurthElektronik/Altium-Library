@@ -1,15 +1,15 @@
 **************************************************
-* Manufacturer:           Wurth Elektronik 
+* Manufacturer:           Würth Elektronik 
 * Kinds:                  SMT Mono-color Chip LED Waterclear
 * Matchcode:              WL-SMCW
 * Library Type:           LTspice
-* Version:                rev22a
+* Version:                rev24a
 * Created/modified by:    Ella      
-* Date and Time:          2022-02-18
+* Date and Time:          2024-08-23
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
@@ -692,236 +692,93 @@ D1 1 2 SMCW
 + TT=5.0000E-9
 .ends
 ******
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.subckt 0603_150060AS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=97.900E-3
++ N=3.2548
++ RS=.77951
++ IKF=130.37E-15
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060BS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=462.67E-15
++ N=5
++ RS=2.5398
++ IKF=999
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060GS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=213.54E-15
++ N=5
++ RS=2.5396
++ IKF=237.40
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060RS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=97.900E-3
++ N=3.2548
++ RS=.77951
++ IKF=130.37E-15
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060VS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=97.900E-3
++ N=3.2548
++ RS=.77951
++ IKF=130.37E-15
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 0603_150060YS83000  1  2
+D1 1 2 SMCW
+.MODEL SMCW D
++ IS=97.900E-3
++ N=3.2548
++ RS=.77951
++ IKF=130.37E-15
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+******

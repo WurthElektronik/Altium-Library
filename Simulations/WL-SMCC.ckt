@@ -1,15 +1,15 @@
 **************************************************
-* Manufacturer:           Wurth Elektronik 
+* Manufacturer:           Würth Elektronik 
 * Kinds:                  SMT Mono-color Chip LED Compact 
 * Matchcode:              WL-SMCC
 * Library Type:           LTspice
-* Version:                rev22a
+* Version:                rev23a
 * Created/modified by:    Ella      
-* Date and Time:          2022-02-17
+* Date and Time:          2023-08-08
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2023 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
@@ -222,6 +222,21 @@ D1 1 2 SMCC
 + TT=5.0000E-9
 .ends
 *****************************
+.subckt 0603_150060AS73220 1 2
+D1 1 2 SMCC
+.MODEL SMCC D
++ IS=662.87E-18
++ N=2.1778
++ RS=.40066
++ IKF=227.34E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+**********************************
 .subckt 0603_150060BS73220 1 2
 D1 1 2 SMCC
 .MODEL SMCC D
