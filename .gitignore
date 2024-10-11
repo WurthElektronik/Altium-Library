@@ -10,4 +10,5 @@ WE - Custom Magnetics.DbLib
 *.LOG
 00 - New Parts.DbLib
 Components/00 - New Parts.mdb
+*CN3775WE*.mdb
 
