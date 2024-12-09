@@ -38,30 +38,35 @@ Go to component panel and install the DB library as the way of integrated librar
 
 ## Mechanical Layer Definition
 ![](https://github.com/bjch-eisos/Pics/blob/main/MechanicalLayer.png)<br>
-* Component Outline (M11 paired with M12)<br>
- 0.1mm line thickness<br>
- exact component contour<br>
+* Assembly (M9 paired with M10)<br>
+ 0.1 mm line width<br>
+ maximum component contour<br>
+* Designator (M11 paired with M12)<br>
+  contains a .Designator text string in the footprint center<br>
+ font type: Stroke, Sans Serif, stroke width 0.1 mm, text height 1 mm, justification: center; center<br>
 * 3D Body (M13 paired with M14)<br>
-embedded step model<br>
+embedded 3D model<br>
+exact component contour, line width 0.1 mm<br>
 * Component Courtyard (M15 paired with M16)<br>
-0.05mm line thickness<br>
-min. 0.2mm distance from silk lines<br>
-min. 0.2mm distance from line center to pad edges<br>
+0.05 mm line width<br>
+minimum 0.2 mm distance from line center to Assembly line center<br>
+minimum 0.2 mm distance from line center to pad edges<br>
 * Component Center (M17 paired with M18)<br>
-including a cross mark in the origin<br>
-* Designator (M19 paired with M20)<br>
- including a .Designator text string in the footprint center<br>
+contains a cross mark in the origin<br>
+line length 1 mm, line width 0.1 mm<br>
+
 
 * Board Shape (M1)<br>
-* Assembly Notes (M2)<br>
-* V-Cut (M9)<br>
+* V-Cut (M6)<br>
+* Assembly Notes (M8)<br>
+
 
 * Silkscreen<br>
-0.2mm line thickness<br>
-component contour based on the maximum dimensions<br>
-min. 0.2mm clearance from pads<br>
-min 0.1mm distance from assembly outlines<br>
-polarity mark<br>
+0.2 mm line width<br>
+maximum component contour<br>
+minimum 0.2 mm clearance from line edge to pad edge<br>
+minimum 0.1 mm distance from line center to Assembly line center<br>
+may contain polarity mark<br>
 
 
 ## Troubleshooting
