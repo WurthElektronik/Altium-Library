@@ -1,17 +1,17 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
-* Kinds:                 SMD Flat Wire High Current Inductor
-* Matchcode:             WE-HCIA
-* Library Type:          LTspice
-* Version:               rev22b
-* Created/modified by:   Ella
-* Date and Time:         06/08/2022
-* Team:                  eiSos EDA Service  
-* Contact:               libraries@we-online.com
+* Manufacturer:           Würth Elektronik
+* Kinds:                  SMD Flat Wire High Current Inductor
+* Matchcode:              WE-HCIA
+* Library Type:           LTspice
+* Version:                rev24a
+* Created/modified by:    Ella
+* Date and Time:          11/27/2024
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
-**************************************************
+ **************************************************
 * Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
 * of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
 * the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
@@ -137,4 +137,80 @@ Rs 1 N3 0.033
 L1 N3 2 8.728u
 .ends 7050_784314100_10u
 *******
-
+.subckt 7030_7843100055_0.52u 1 2
+Rp 1 2 388.13
+Cp 1 2 1.529p
+Rs 1 N3 0.0034
+L1 N3 2 0.46184u
+.ends 7030_7843100055_0.52u
+*******
+.subckt 7030_7843100115_1.15u 1 2
+Rp 1 2 1051
+Cp 1 2 2.475p
+Rs 1 N3 0.0083
+L1 N3 2 1.078u
+.ends 7030_7843100115_1.15u
+*******
+.subckt 7030_7843100150_1.5u 1 2
+Rp 1 2 1289
+Cp 1 2 2.139p
+Rs 1 N3 0.0122
+L1 N3 2 1.43u
+.ends 7030_7843100150_1.5u
+*******
+.subckt 7030_7843100200_2u 1 2
+Rp 1 2 1237
+Cp 1 2 1.753p
+Rs 1 N3 0.0145
+L1 N3 2 1.875u
+.ends 7030_7843100200_2u
+*******
+.subckt 7040_7843110022_0.22u 1 2
+Rp 1 2 234.051
+Cp 1 2 0.863212p
+Rs 1 N3 0.0011
+L1 N3 2 0.218484u
+.ends 7040_7843110022_0.22u
+*******
+.subckt 7040_7843110068_0.68u 1 2
+Rp 1 2 506.656
+Cp 1 2 1.404p
+Rs 1 N3 0.003
+L1 N3 2 0.616415u
+.ends 7040_7843110068_0.68u
+*******
+.subckt 7040_7843110100_1u 1 2
+Rp 1 2 592.205
+Cp 1 2 1.532p
+Rs 1 N3 0.0042
+L1 N3 2 0.927627u
+.ends 7040_7843110100_1u
+*******
+.subckt 7040_7843110150_1.5u 1 2
+Rp 1 2 1089
+Cp 1 2 2.064p
+Rs 1 N3 0.0063
+L1 N3 2 1.383u
+.ends 7040_7843110150_1.5u
+*******
+.subckt 7040_7843110220_2.2u 1 2
+Rp 1 2 1479
+Cp 1 2 2.058p
+Rs 1 N3 0.0106
+L1 N3 2 2.146u
+.ends 7040_7843110220_2.2u
+*******
+.subckt 7040_7843110330_3.3u 1 2
+Rp 1 2 2048
+Cp 1 2 2.251p
+Rs 1 N3 0.0158
+L1 N3 2 3.264u
+.ends 7040_7843110330_3.3u
+*******
+.subckt 7040_7843110470_4.7u 1 2
+Rp 1 2 2883
+Cp 1 2 2.373p
+Rs 1 N3 0.0172
+L1 N3 2 4.215u
+.ends 7040_7843110470_4.7u
+*******
