@@ -1,22 +1,22 @@
 **************************************************
-* Manufacturer:          Wurth Elektronik 
-* Kinds:                 THT High Current Inductor
-* Matchcode:             WE-HCFT
-* Library Type:          LTspice
-* Version:               rev22a
-* Created/modified by:   Ella
-* Date and Time:         6/9/2022
-* Team:                  eiSos EDA Service  
-* Contact:               libraries@we-online.com
+* Manufacturer:           Würth Elektronik
+* Kinds:                  THT High Current Inductor
+* Matchcode:              WE-HCFT
+* Library Type:           LTspice
+* Version:                rev25a
+* Created/modified by:    Ella
+* Date and Time:          2/6/2025
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 WÃ¼rth Elektronik eiSos GmbH & Co. KG
+* Copyright(C) 2025 Würth Elektronik eiSos GmbH & Co. KG
 * All Rights Reserved.
 **************************************************
-* Disclaimer: While WÃ¼rth Elektronik eiSos has made every reasonable effort to ensure the accuracy
-* of the simulation models provided, WÃ¼rth Elektronik eiSos does not guarantee the exemption of error on
-* the simulation models, nor does WÃ¼rth Elektronik eiSos guarantee that the simulation model is current.
-* WÃ¼rth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
-* WÃ¼rth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
 **************************************************
 .subckt 2504_7443762504010_1u 1 2
 Rp 1 2 386.579
@@ -185,4 +185,95 @@ Cp 1 2 14.992p
 Rs 1 N3 0.00567
 L1 N3 2 45.688u
 .ends 3540_7443763540470_47u
+*******
+.subckt 2520_74437625200061_0.6u 1 2
+Rp 1 2 996.12
+Cp 1 2 2.442p
+Rs 1 N3 0.00021
+L1 N3 2 0.570103u
+.ends 2520_74437625200061_0.6u
+*******
+.subckt 2520_74437625200651_6.5u 1 2
+Rp 1 2 5896
+Cp 1 2 4.304p
+Rs 1 N3 0.0022
+L1 N3 2 6.306u
+.ends 2520_74437625200651_6.5u
+*******
+.subckt 2520_74437625200122_1.2u 1 2
+Rp 1 2 689.956
+Cp 1 2 2.656p
+Rs 1 N3 0.00021
+L1 N3 2 1.201u
+.ends 2520_74437625200122_1.2u
+*******
+.subckt 2520_74437625201002_10u 1 2
+Rp 1 2 3909
+Cp 1 2 4.184p
+Rs 1 N3 0.00185
+L1 N3 2 10.52u
+.ends 2520_74437625201002_10u
+*******
+.subckt 3231_74437632310422_4.2u 1 2
+Rp 1 2 1801
+Cp 1 2 5.405p
+Rs 1 N3 0.00046
+L1 N3 2 4.374u
+.ends 3231_74437632310422_4.2u
+*******
+.subckt 3231_74437632313002_30u 1 2
+Rp 1 2 7936
+Cp 1 2 6.896p
+Rs 1 N3 0.00242
+L1 N3 2 29.175u
+.ends 3231_74437632313002_30u
+*******
+.subckt 3231_74437632310323_3.2u 1 2
+Rp 1 2 1875
+Cp 1 2 8.625p
+Rs 1 N3 0.0004
+L1 N3 2 3.613u
+.ends 3231_74437632310323_3.2u
+*******
+.subckt 3231_74437632313003_30u 1 2
+Rp 1 2 12131
+Cp 1 2 8.368p
+Rs 1 N3 0.00311
+L1 N3 2 33.966u
+.ends 3231_74437632313003_30u
+*******
+.subckt 3635_74437636350472_4.7u 1 2
+Rp 1 2 1901
+Cp 1 2 6.712p
+Rs 1 N3 0.0003
+L1 N3 2 4.975u
+.ends 3635_74437636350472_4.7u
+*******
+.subckt 3635_74437636355602_56u 1 2
+Rp 1 2 13559
+Cp 1 2 7.245p
+Rs 1 N3 0.00319
+L1 N3 2 63.62u
+.ends 3635_74437636355602_56u
+*******
+.subckt 3635_74437636351012_110u 1 2
+Rp 1 2 21460
+Cp 1 2 7.353p
+Rs 1 N3 0.00628
+L1 N3 2 134.015u
+.ends 3635_74437636351012_110u
+*******
+.subckt 3635_74437636350333_3.3u 1 2
+Rp 1 2 1897
+Cp 1 2 7.71p
+Rs 1 N3 0.0003
+L1 N3 2 3.52u
+.ends 3635_74437636350333_3.3u
+*******
+.subckt 3635_74437636356203_62u 1 2
+Rp 1 2 18453
+Cp 1 2 8.647p
+Rs 1 N3 0.00522
+L1 N3 2 75.298u
+.ends 3635_74437636356203_62u
 *******
