@@ -1,26 +1,26 @@
 **************************************************
-* Manufacturer:           Wurth Elektronik 
+* Manufacturer:           Würth Elektronik
 * Kinds:                  EMI Multilayer Power Suppression Bead
-* Matchcode:              WE-MPSB 
+* Matchcode:              WE-MPSB
 * Library Type:           LTspice
-* Version:                rev22a
-* Created/modified by:    Ella      
-* Date and Time:          2022-05-30
+* Version:                rev24a
+* Created/modified by:    Ella
+* Date and Time:          6/18/2024
 * Team:                   eiSos EDA Service  
 * Contact:                libraries@we-online.com
 **************************************************
-* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
-* All Rights Reserved.
-**************************************************
-* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
-* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
-* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
-* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
-* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
-**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
 .subckt 0603_7427922808_8ohm 1 2
 Rp 1 2 18
-Cp 1 2 0p
+Cp 1 2 0.0001p
 Rs 1 N3 0.0025
 L1 N3 2 0.0175u
 .ends 0603_7427922808_8ohm
