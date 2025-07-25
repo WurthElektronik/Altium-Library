@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\baojun.c
 AddMode=3
 RemoveMode=2
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Connectors
+LastFocusedTable=Switches
 [Table1]
 SchemaName=
 TableName=Assembly
@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=463|Library Ref0=89|Library Path0=163|Footprint Ref0=92|Footprint Path0=159|Footprint Ref 20=101|Footprint Path 20=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Published Date0=101|Category0=87|Match Code0=85|Comment0=117|ComponentLink1Description0=170|ComponentLink1URL0=335|ComponentLink2Description0=170|ComponentLink2URL0=327|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Battery Type0=113|Blade Design0=90|Gender0=61|Inside Diameter0=103|Inside Thread Length0=132|Hole Diameter0=96|Material0=96|Orientation0=83|Outside Diameter0=113|Pin Length0=78|Surface0=61|Solder Cream Thickness Min0=167|Thread Size0=82|Tightenning Torque Max0=151
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=463|Library Ref0=89|Library Path0=163|Footprint Ref0=92|Footprint Path0=159|Footprint Ref 20=101|Footprint Path 20=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Last Update0=84|Category0=87|Match Code0=85|Comment0=117|ComponentLink1Description0=170|ComponentLink1URL0=335|ComponentLink2Description0=170|ComponentLink2URL0=327|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Battery Type0=113|Blade Design0=90|Gender0=61|Inside Diameter0=103|Inside Thread Length0=132|Hole Diameter0=96|Material0=96|Orientation0=83|Outside Diameter0=113|Pin Length0=78|Surface0=61|Solder Cream Thickness Min0=167|Thread Size0=82|Tightenning Torque Max0=151
 [Table2]
 SchemaName=
 TableName=Connectors
@@ -37,13 +37,16 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=610|Library Ref0=283|Library Path0=228|Footprint Ref0=202|Footprint Path0=304|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=206|Footprint Path 20=147|Published Date0=101|Footprint Ref 30=101|Footprint Path 30=107|Category0=149|Match Code0=85|Comment0=96|ComponentLink1Description0=170|ComponentLink1URL0=350|ComponentLink2Description0=170|ComponentLink2URL0=342|Manufacturer0=96|Mount0=119|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=130|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Application0=132|Center Contact Diameter0=149|Compliance0=96|Connector Type0=104|Contact Resistance0=120|Frequency Range0=112|Fuse Size0=70|Gender0=102|Impedance0=79|Ingress Protection Code0=146|Insulation Resistance0=132|Insulator Color0=100|Insulator Material0=114|Interface Type0=95|LED0=64|Modularity0=79|Number of Pins0=102|Number of Ports0=107|Number of Rows0=109|Opening Diameter0=118|Orientation0=159|Panel Thickness0=104|Plug Inner Diameter0=125|Plug Outer Diameter0=128|PCB/Cable/Panel0=107|Pitch0=53|Rated Current0=95|Shielding0=72|Solid Wire Section0=117|Type0=73|Working Voltage0=111|Withstanding Voltage0=137
+BrowserOrder_Visible=Description0=594|Library Ref0=283|Library Path0=228|Footprint Ref0=202|Footprint Path0=299|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=206|Footprint Path 20=147|Footprint Ref 30=101|Footprint Path 30=107|Last Update0=84|Category0=149|Match Code0=85|Comment0=96|ComponentLink1Description0=170|ComponentLink1URL0=350|ComponentLink2Description0=170|ComponentLink2URL0=342|Manufacturer0=96|Mount0=119|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=130|Case/Size Code0=101|Length0=62|Width0=56|Height0=58|Diameter0=69|Application0=132|Center Contact Diameter0=149|Compliance0=83|Connector Type0=104|Contact Resistance0=120|Durability0=110|Frequency Range0=112|Fuse Size0=70|Gender0=102|Impedance0=79|Ingress Protection Code0=146|Insulation Resistance0=132|Insulator Color0=100|Insulator Material0=114|Interface Type0=95|LED0=64|Modularity0=79|Number of Pins0=102|Number of Ports0=107|Number of Rows0=109|Opening Diameter0=118|Orientation0=162|Panel Thickness0=104|Plug Inner Diameter0=125|Plug Outer Diameter0=128|PCB/Cable/Panel0=107|Pitch0=53|Polarity0=61|Rated Current0=95|Shielding0=72|Solid Wire Section0=117|System0=117|Type0=73|Working Voltage0=111|Withstanding Voltage0=137
 [Table3]
 SchemaName=
 TableName=REDCUBE Terminals
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=569|Library Ref0=138|Library Path0=163|Footprint Ref0=260|Footprint Path0=162|Footprint Ref 20=191|Footprint Path 20=151|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Last Update0=84|Category0=109|Match Code0=85|Footprint Ref 30=101|Footprint Path 30=107|Comment0=80|ComponentLink1Description0=170|ComponentLink1URL0=323|ComponentLink2Description0=170|ComponentLink2URL0=315|Manufacturer0=96|Mount0=119|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Contact Material0=108|Contact Plating0=102|Contact Resistance0=120|Color0=51|Inner Diameter0=99|Insulator Material0=114|Material0=65|Number of Pins0=102|Outer Diameter0=102|Rated Current0=95|Surface0=61|Thread Length0=98|Thread Size0=82
 [Table4]
 SchemaName=
 TableName=Switches
@@ -52,7 +55,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=590|Library Ref0=139|Library Path0=124|Footprint Ref0=212|Footprint Path0=153|Footprint Ref 20=180|Footprint Path 20=149|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Footprint Ref 30=180|Footprint Path 30=149|Published Date0=101|Category0=119|Match Code0=85|Comment0=90|ComponentLink1Description0=170|ComponentLink1URL0=344|ComponentLink2Description0=170|ComponentLink2URL0=336|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=88|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Actuator Color0=106|Actuation Function0=122|Actuator Length0=106|Actuator Type0=94|Bushing Length0=104|Circuit0=56|Code0=103|Contact Material0=108|Contact Plating0=102|Contact Resistance0=120|Cover Material0=97|Operation Force0=107|Detent0=68|Electrical Life Encoder0=134|Electrical Life Switch0=126|Emitting Color0=153|Frame Color0=85|Ingress Protection Code0=146|Insulation Resistance0=132|Number of Poles0=108|Number of Positions0=128|Orientation0=83|Pitch0=48|Rated Current0=95|Rated Current Non-Switching0=175|Rated Current Switching0=149|Rated Voltage (DC)0=120|Rated Voltage0=96|Rated Voltage Non-Switching0=176|Rated Voltage Switching0=150|Resolution0=79|Switching Function0=123|Terminal Material0=112|Terminal Plating0=106|Washable0=74|Withstanding Voltage0=137
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=645|Library Ref0=140|Library Path0=124|Footprint Ref0=191|Footprint Path0=153|Footprint Ref 20=180|Footprint Path 20=151|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Footprint Ref 30=180|Footprint Path 30=149|Last Update0=84|Category0=119|Match Code0=85|Comment0=90|ComponentLink1Description0=170|ComponentLink1URL0=344|ComponentLink2Description0=170|ComponentLink2URL0=336|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=88|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Actuator Color0=106|Actuation Function0=122|Actuator Length0=106|Actuator Type0=94|Bushing Length0=104|Circuit0=56|Code0=103|Contact Material0=108|Contact Plating0=102|Contact Resistance0=120|Cover Material0=97|Operation Force0=107|Detent0=68|Electrical Life Encoder0=134|Electrical Life Switch0=126|Emitting Color0=153|Frame Color0=85|Ingress Protection Code0=146|Insulation Resistance0=132|Number of Poles0=108|Number of Positions0=128|Operating Position0=121|Orientation0=83|Pitch0=48|Rated Current0=95|Rated Current Non-Switching0=175|Rated Current Switching0=149|Rated Voltage (DC)0=120|Rated Voltage0=96|Rated Voltage Non-Switching0=176|Rated Voltage Switching0=150|Resolution0=79|Switching Function0=123|Terminal Material0=112|Terminal Plating0=106|Washable0=74|Withstanding Voltage0=137
 [FieldMap1]
 Options=FieldName=Assembly.Manufacturer Part Number|TableNameOnly=Assembly|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -84,7 +87,7 @@ Options=FieldName=Assembly.Sim Port Map|TableNameOnly=Assembly|FieldNameOnly=Sim
 [FieldMap15]
 Options=FieldName=Assembly.Sim Spice Prefix|TableNameOnly=Assembly|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Assembly.Published Date|TableNameOnly=Assembly|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Assembly.Last Update|TableNameOnly=Assembly|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
 Options=FieldName=Connectors.Description|TableNameOnly=Connectors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
@@ -116,11 +119,11 @@ Options=FieldName=Connectors.Footprint Ref 2|TableNameOnly=Connectors|FieldNameO
 [FieldMap31]
 Options=FieldName=Connectors.Footprint Path 2|TableNameOnly=Connectors|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Connectors.Published Date|TableNameOnly=Connectors|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap33]
 Options=FieldName=Connectors.Footprint Ref 3|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap34]
+[FieldMap33]
 Options=FieldName=Connectors.Footprint Path 3|TableNameOnly=Connectors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=Connectors.Last Update|TableNameOnly=Connectors|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
 Options=FieldName=REDCUBE Terminals.Manufacturer Part Number|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
@@ -152,40 +155,44 @@ Options=FieldName=REDCUBE Terminals.Sim Port Map|TableNameOnly=REDCUBE Terminals
 [FieldMap49]
 Options=FieldName=REDCUBE Terminals.Sim Spice Prefix|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap50]
-Options=FieldName=REDCUBE Terminals.Published Date|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=REDCUBE Terminals.Last Update|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=Switches.Manufacturer Part Number|TableNameOnly=Switches|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=REDCUBE Terminals.Footprint Ref 3|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=Switches.Description|TableNameOnly=Switches|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=REDCUBE Terminals.Footprint Path 3|TableNameOnly=REDCUBE Terminals|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=Switches.Library Ref|TableNameOnly=Switches|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Manufacturer Part Number|TableNameOnly=Switches|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=Switches.Library Path|TableNameOnly=Switches|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Description|TableNameOnly=Switches|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=Switches.Footprint Ref|TableNameOnly=Switches|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Library Ref|TableNameOnly=Switches|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=Switches.Footprint Path|TableNameOnly=Switches|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Library Path|TableNameOnly=Switches|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=Switches.Footprint Ref 2|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref|TableNameOnly=Switches|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Switches.Footprint Path 2|TableNameOnly=Switches|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Path|TableNameOnly=Switches|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=Switches.Sim Model Name|TableNameOnly=Switches|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref 2|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=Switches.Sim File|TableNameOnly=Switches|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Path 2|TableNameOnly=Switches|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=Switches.Sim Kind|TableNameOnly=Switches|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim Model Name|TableNameOnly=Switches|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=Switches.Sim SubKind|TableNameOnly=Switches|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim File|TableNameOnly=Switches|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=Switches.Sim Netlist|TableNameOnly=Switches|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim Kind|TableNameOnly=Switches|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=Switches.Sim Port Map|TableNameOnly=Switches|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim SubKind|TableNameOnly=Switches|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=Switches.Sim Spice Prefix|TableNameOnly=Switches|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim Netlist|TableNameOnly=Switches|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=Switches.Footprint Ref 3|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim Port Map|TableNameOnly=Switches|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=Switches.Footprint Path 3|TableNameOnly=Switches|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Sim Spice Prefix|TableNameOnly=Switches|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=Switches.Published Date|TableNameOnly=Switches|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref 3|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=Switches.Footprint Path 3|TableNameOnly=Switches|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=Switches.Last Update|TableNameOnly=Switches|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\CR7\Library\Altium Library\00_Database Library\Components\WE - Passive Components.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\baojun.chen\OneDrive - WGS 365\Sharing\Altium\Database Library\Components\WE - Passive Components.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=2
 UpdateMode=2
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Resistors
+LastFocusedTable=Capacitors
 [Table1]
 SchemaName=
 TableName=Capacitors
@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=539|Library Ref0=135|Library Path0=139|Footprint Ref0=218|Footprint Path0=168|Sim Model Name0=138|Sim File0=153|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=175|Sim Port Map0=91|Sim Spice Prefix0=102|Footprint Ref 20=210|Footprint Path 20=168|Manufacturer Part Number0=160|Published Date0=101|Category0=186|Match Code0=85|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=347|ComponentLink2Description0=170|ComponentLink2URL0=339|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Capacitance0=85|Capacitance Tolerance0=138|Ceramic Type0=90|Discharge Current Max0=140|Dissipation Factor0=116|Dissipation Factor @1kHz0=155|Dissipation Factor @10kHz0=161|Dissipation Factor @100kHz0=167|Endurance0=78|Energy Density0=99|ESR0=44|ESR (AC)0=65|ESR (DC)0=66|Impulse Voltage0=106|Insulation Resistance0=132|Leakage Current0=107|Life Cycle0=75|Pitch0=48|Power Density0=96|Q Factor0=66|Rated Discharge Current0=149|Rate of Voltage Rise0=127|Rated Voltage (AC)0=119|Rated Voltage (DC)0=120|Ripple Current0=98|Safety Class0=83|Technical Reference0=162
+BrowserOrder_Visible=Description0=594|Library Ref0=135|Library Path0=139|Footprint Ref0=218|Footprint Path0=168|Sim Model Name0=152|Sim File0=156|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=175|Sim Port Map0=91|Sim Spice Prefix0=102|Footprint Ref 20=206|Footprint Path 20=164|Manufacturer Part Number0=160|Last Update0=84|Category0=197|Match Code0=85|Footprint Ref 30=101|Footprint Path 30=107|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=347|ComponentLink2Description0=170|ComponentLink2URL0=339|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=91|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Application0=82|Capacitance0=85|Capacitance Tolerance0=138|Ceramic Type0=90|Discharge Current Max0=140|Dissipation Factor0=116|Dissipation Factor @1kHz0=155|Dissipation Factor @10kHz0=161|Dissipation Factor @100kHz0=167|Endurance0=78|Energy Density0=99|ESR0=60|ESR (AC)0=65|ESR (DC)0=66|Impulse Voltage0=106|Insulation Resistance0=132|Leakage Current0=107|Life Cycle0=75|Pitch0=48|Power Density0=96|Q Factor0=66|Rated Discharge Current0=149|Rate of Voltage Rise0=127|Rated Voltage0=96|Rated Voltage (AC)0=119|Rated Voltage (DC)0=120|Rated Voltage @85degC0=149|Rated Voltage @105degC0=155|Ripple Current0=98|Safety Class0=83|Technical Reference0=162
 [Table2]
 SchemaName=
 TableName=Crystals & Oscillators
@@ -37,7 +37,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=422|Library Ref0=125|Library Path0=139|Footprint Ref0=179|Footprint Path0=150|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Published Date0=101|Category0=69|Match Code0=85|Comment0=104|ComponentLink1Description0=170|ComponentLink1URL0=334|ComponentLink2Description0=170|ComponentLink2URL0=326|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Frequency0=76|Frequency Stability0=120|Frequency Tolerance0=129|Load Capacitance0=113|Supply Voltage0=101
+BrowserOrder_Visible=Description0=488|Library Ref0=136|Library Path0=139|Footprint Ref0=139|Footprint Path0=150|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Last Update0=84|Category0=69|Match Code0=85|Comment0=79|ComponentLink1Description0=170|ComponentLink1URL0=334|ComponentLink2Description0=170|ComponentLink2URL0=326|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Application0=332|Frequency0=79|Frequency Stability0=120|Frequency Tolerance0=129|Load Capacitance0=113|Output Logic0=91|Supply Voltage0=101
 [Table3]
 SchemaName=
 TableName=EMC & RFI Components
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Published Date0=101|Manufacturer Part Number0=160|Description0=501|Library Ref0=252|Library Path0=205|Footprint Ref0=210|Footprint Path0=175|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=145|Sim File0=141|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=175|Sim Port Map0=91|Sim Spice Prefix0=102|Category0=136|Match Code0=85|Comment0=125|ComponentLink1Description0=170|ComponentLink1URL0=340|ComponentLink2Description0=170|ComponentLink2URL0=332|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Base Material0=91|Capacitance0=85|Channel ESD Clamping Voltage0=184|Channel Input Capacitance0=162|Channel Operating Voltage0=165|Channel Reverse Leakage Current0=195|Clamping Voltage0=115|Common Mode Attenuation0=167|Common Mode Attenuation Test Condition0=246|Cut Off Frequency0=117|DC Resistance0=95|DC Resistance Max0=119|ESD Air Discharge Capability0=168|ESD Contact Discharge Capability0=194|Energy Absorption0=119|Impedance0=79|Impedance @10MHz0=128|Impedance @25MHz0=128|Impedance @100MHz0=134|Impedance @1GHz0=120|Impedance Max0=103|Impedance Max Test Condition0=182|Inductance0=80|Inductance Tolerance0=133|Insulation Resistance0=132|Insulation Test Voltage0=142|Insulation Test Voltage (AC)0=165|Leakage Current0=107|Leakage Inductance0=125|Material0=378|Number of Channels0=129|Number of Windings0=131|Operating Voltage0=119|Operating Voltage (AC)0=142|Operating Voltage (DC)0=143|Peak Voltage0=90|Pitch0=48|Plating0=59|Polarity0=81|Power Dissipation0=116|Q Factor0=66|Rated Current0=95|Rated Inductance0=113|Rated Voltage0=96|Rated Voltage (DC)0=120|Rated Voltage (AC)0=119|Recommended Compression Min0=192|Recommended Compression Max0=193|Recommended Working Height Min0=208|Recommended Working Height Max0=209|(Reverse) Breakdown Voltage0=172|(Reverse) Peak Pulse Current0=167|Saturation Current0=119|Self Resonant Frequency0=150|Shielding Effectiveness @100MHz0=196|Surface Resistance0=118|Trigger Voltage0=103|Type0=113|Winding Style0=95
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=494|Library Ref0=252|Library Path0=205|Footprint Ref0=212|Footprint Path0=175|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=155|Sim File0=161|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=211|Sim Port Map0=101|Sim Spice Prefix0=102|Last Update0=84|Category0=136|Match Code0=85|Comment0=125|ComponentLink1Description0=170|ComponentLink1URL0=340|ComponentLink2Description0=170|ComponentLink2URL0=332|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Base Material0=91|Capacitance0=85|Channel ESD Clamping Voltage0=184|Channel Input Capacitance0=162|Channel Operating Voltage0=165|Channel Reverse Leakage Current0=195|Clamping Voltage0=115|Common Mode Attenuation0=167|Common Mode Attenuation Test Condition0=246|Cut Off Frequency0=117|DC Resistance0=95|DC Resistance Max0=119|ESD Air Discharge Capability0=168|ESD Contact Discharge Capability0=194|Energy Absorption0=119|Impedance0=79|Impedance @10MHz0=128|Impedance @25MHz0=128|Impedance @100MHz0=134|Impedance @1GHz0=120|Impedance Max0=103|Impedance Max Test Condition0=182|Inductance0=80|Inductance Tolerance0=133|Insulation Resistance0=132|Insulation Test Voltage0=142|Insulation Test Voltage (AC)0=165|Leakage Current0=107|Leakage Inductance0=125|Material0=378|Number of Channels0=129|Number of Windings0=131|Operating Voltage0=119|Operating Voltage (AC)0=142|Operating Voltage (DC)0=143|Peak Voltage0=90|Pitch0=48|Plating0=59|Polarity0=81|Power Dissipation0=116|Q Factor0=66|Rated Current0=95|Rated Inductance0=113|Rated Voltage0=96|Rated Voltage (DC)0=120|Rated Voltage (AC)0=119|Recommended Compression Min0=192|Recommended Compression Max0=193|Recommended Working Height Min0=208|Recommended Working Height Max0=209|(Reverse) Breakdown Voltage0=172|(Reverse) Peak Pulse Current0=167|Saturation Current0=119|Self Resonant Frequency0=150|Shielding Effectiveness @100MHz0=196|Surface Resistance0=118|Trigger Voltage0=103|Type0=113|Winding Style0=95
 [Table4]
 SchemaName=
 TableName=Inductors
@@ -55,7 +55,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Published Date0=101|Manufacturer Part Number0=160|Description0=620|Library Ref0=128|Library Path0=134|Footprint Ref0=196|Footprint Path0=162|Footprint Ref 20=201|Footprint Path 20=148|Footprint Ref 30=201|Footprint Path 30=148|Footprint Ref 40=203|Footprint Path 40=148|Sim Model Name0=170|Sim File0=150|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=211|Sim Port Map0=101|Sim Spice Prefix0=102|Category0=156|Match Code0=85|Comment0=136|ComponentLink1Description0=170|ComponentLink1URL0=348|ComponentLink2Description0=170|ComponentLink2URL0=340|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Capacitance0=85|Compliance0=137|DC Resistance0=95|DC Resistance 10=104|DC Resistance 20=104|DC Resistance Base0=121|DC Resistance Max0=119|DC Resistance Max 10=128|DC Resistance Max 20=128|DC Resistance Max 30=128|IC Reference0=87|Inductance0=80|Inductance 10=89|Inductance 20=89|Inductance 30=89|Inductance Base0=106|Inductance Tolerance0=133|Input Voltage0=94|Input Voltage Min0=117|Input Voltage Max0=118|Insulation Test Voltage0=142|Interwinding Capacitance0=155|Leakage Inductance0=125|Leakage Inductance Base0=151|Material0=71|Operating Voltage (DC)0=143|Output Power0=96|Output Voltage0=104|Output Voltage 20=113|Performance Rated Current0=162|Peak Voltage0=90|Power Capability0=109|Q Factor0=66|Q Factor 20=75|Q Factor 30=75|Rated Current0=95|Rated Current 10=104|Rated Current 20=104|Rated Current 30=104|Rated Current Base0=121|Rated Inductance0=113|Rated Voltage0=96|Saturation Current0=119|Saturation Current 10=128|Saturation Current 20=128|Saturation Current Base0=145|Self Resonant Frequency0=150|Self Resonant Frequency 20=159|Self Resonant Frequency 30=159|Switching Frequency0=130|Turns Ratio0=82|Type0=193|Voltage-µSecond0=112|Voltage-µSecond Base0=138
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=542|Library Ref0=128|Library Path0=134|Footprint Ref0=175|Footprint Path0=164|Footprint Ref 20=144|Footprint Path 20=150|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=170|Sim File0=152|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=247|Sim Port Map0=149|Sim Spice Prefix0=102|Last Update0=84|Category0=156|Match Code0=85|Comment0=136|ComponentLink1Description0=170|ComponentLink1URL0=348|ComponentLink2Description0=170|ComponentLink2URL0=340|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Capacitance0=85|Compliance0=137|Coupling Coefficient0=130|DC Resistance0=95|DC Resistance 10=104|DC Resistance 20=104|DC Resistance Base0=121|DC Resistance Max0=119|DC Resistance Max 10=128|DC Resistance Max 20=128|DC Resistance Max 30=128|IC Reference0=87|Impedance @10MHz0=128|Impedance @25MHz0=128|Impedance @100MHz0=134|Impedance Max0=103|Impedance Max Test Condition0=182|Inductance0=80|Inductance 10=89|Inductance 20=89|Inductance 30=89|Inductance Base0=106|Inductance Tolerance0=133|Input Voltage0=94|Input Voltage Min0=117|Input Voltage Max0=118|Insulation Test Voltage0=142|Interwinding Capacitance0=155|Leakage Inductance0=125|Leakage Inductance Base0=151|Material0=71|Operating Voltage0=119|Operating Voltage (DC)0=143|Output Power0=96|Output Voltage0=104|Output Voltage 20=113|Performance Rated Current0=162|Performance Rated Current 10=171|Performance Rated Current 20=171|Peak Voltage0=90|Power Capability0=109|Q Factor0=66|Q Factor 20=75|Q Factor 30=75|Q Factor Min0=89|Q Factor Test Condition0=145|Operating Voltage (AC)0=142|Rated Current0=95|Rated Current 10=104|Rated Current 20=104|Rated Current 30=104|Rated Current Base0=121|Rated Inductance0=113|Rated Voltage0=96|Saturation Current0=119|Saturation Current 10=128|Saturation Current 20=128|Saturation Current @ 10%0=157|Saturation Current @ 30%0=157|Saturation Current @ 20°C0=159|Saturation Current Base0=145|Self Resonant Frequency0=150|Self Resonant Frequency 20=159|Self Resonant Frequency 30=159|Switching Frequency0=130|Turns Ratio0=82|Type0=132|Voltage-µSecond0=112|Voltage-µSecond Base0=138
 [Table5]
 SchemaName=
 TableName=Resistors
@@ -64,7 +64,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Published Date0=101|Manufacturer Part Number0=160|Description0=366|Library Ref0=77|Library Path0=131|Footprint Ref0=179|Footprint Path0=167|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Category0=114|Match Code0=85|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=334|ComponentLink2Description0=170|ComponentLink2URL0=326|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Rated Current0=95|Rated Power0=88|Resistance0=77|Resistance Tolerance0=130|Technical Reference0=154|Temperature Coefficient of Resistance0=218
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=382|Library Ref0=77|Library Path0=131|Footprint Ref0=179|Footprint Path0=167|Footprint Ref 20=126|Footprint Path 20=158|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Last Update0=84|Category0=114|Match Code0=85|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=334|ComponentLink2Description0=170|ComponentLink2URL0=326|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Limiting Element Voltage0=151|Rated Current0=95|Rated Power0=88|Resistance0=77|Resistance Tolerance0=130|Technical Reference0=154|Temperature Coefficient of Resistance0=218|Temperature Coefficient of Resistance Min0=241|Temperature Coefficient of Resistance Max0=242
 [Table6]
 SchemaName=
 TableName=Signal & Communications
@@ -73,7 +73,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=450|Library Ref0=135|Library Path0=200|Footprint Ref0=92|Footprint Path0=169|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=101|Footprint Path 20=107|Published Date0=101|Category0=109|Match Code0=85|Comment0=116|ComponentLink1Description0=170|ComponentLink1URL0=336|ComponentLink2Description0=170|ComponentLink2URL0=328|Manufacturer0=96|Mount0=119|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Balanced Impedance0=128|Capacitance0=85|Code0=50|Creepage Distance0=119|Data Rate0=106|DC Resistance0=95|DC Resistance Max0=119|Frequency Range0=112|Frequency Range 20=121|Impedance0=79|Inductance0=80|Inductance Tolerance0=133|Insertion Loss0=94|Insertion Loss Max0=118|Insulation Test Voltage0=142|LED0=146|Number of Bands0=112|Number of Ports0=107|Operating Voltage (DC)0=143|Orientation0=83|Peak Gain0=74|Peak Gain 20=83|PoE0=195|Q Factor0=66|(Reverse) Breakdown Voltage0=172|Rated Current0=95|Saturation Current0=119|Self Resonant Frequency0=150|Shield Tabs0=82|Tab0=58|Unbalanced Impedance0=144|USB0=57|VSWR0=54|VSWR 20=63|Working Voltage0=111
+BrowserOrder_Visible=Description0=466|Library Ref0=130|Library Path0=200|Footprint Ref0=92|Footprint Path0=169|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=101|Footprint Path 20=107|Last Update0=84|Category0=109|Match Code0=85|Footprint Ref 30=101|Footprint Path 30=107|Comment0=83|ComponentLink1Description0=170|ComponentLink1URL0=336|ComponentLink2Description0=170|ComponentLink2URL0=328|Manufacturer0=96|Mount0=119|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Balanced Impedance0=128|Capacitance0=85|Code0=50|Creepage Distance0=119|Data Rate0=106|DC Resistance0=95|DC Resistance Max0=119|Frequency Range0=112|Frequency Range 20=121|Impedance0=79|Inductance0=80|Inductance Tolerance0=133|Insertion Loss0=94|Insertion Loss Max0=118|Insulation Test Voltage0=142|LED0=146|Number of Bands0=112|Number of Ports0=107|Operating Voltage (DC)0=143|Orientation0=83|Peak Gain0=74|Peak Gain 20=83|PoE0=195|Q Factor0=66|(Reverse) Breakdown Voltage0=172|Rated Current0=95|Saturation Current0=119|Self Resonant Frequency0=150|Shield Tabs0=82|Tab0=58|Unbalanced Impedance0=144|USB0=57|VSWR0=54|VSWR 20=63|Working Voltage0=111
 [Table7]
 SchemaName=
 TableName=Transformers
@@ -82,7 +82,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Published Date0=101|Manufacturer Part Number0=160|Description0=558|Library Ref0=149|Library Path0=206|Footprint Ref0=156|Footprint Path0=166|Footprint Ref 20=182|Footprint Path 20=147|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Category0=185|Match Code0=85|Comment0=430|ComponentLink1Description0=170|ComponentLink1URL0=329|ComponentLink2Description0=170|ComponentLink2URL0=321|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=105|Length0=59|Width0=55|Height0=58|Diameter0=69|Application0=181|Auxiliary Voltage0=109|Creepage Distance0=119|Data Rate0=198|DC Resistance0=95|DC Resistance 10=104|DC Resistance 20=104|DC Resistance 30=104|DC Resistance 40=104|DC Resistance Base0=121|DC Resistance Max0=119|DC Resistance Max 10=128|DC Resistance Max 20=128|IC Reference0=143|HPLE0=48|Inductance0=80|Inductance 10=89|Inductance 20=89|Inductance Base0=106|Inductance Tolerance0=133|Input Voltage0=94|Input Voltage Min0=117|Input Voltage Max0=118|Insulation Test Voltage0=142|Interwinding Capacitance0=155|Leakage Inductance0=125|Leakage Inductance Base0=151|Material0=65|Number of Windings0=131|Number of Pins0=102|Number of Ports0=107|Operating Voltage (DC)0=143|Output Current0=103|Output Current 10=112|Output Current 20=112|Output Current 30=112|Output Current 40=112|Output Power0=96|Output Voltage0=104|Output Voltage 10=113|Output Voltage 20=113|Output Voltage 30=113|Output Voltage 40=113|Performance Rated Current0=162|Peak Voltage0=90|PoE0=122|Q Factor0=66|Rated Current0=95|Rated Current 10=104|Rated Current 20=104|Rated Current 30=104|Rated Current 40=104|Rated Current Base0=121|Rated Inductance0=113|Rated Voltage0=96|Saturation Current0=119|Saturation Current 10=128|Saturation Current 20=128|Saturation Current Base0=145|Self Resonant Frequency0=150|Switching Frequency0=130|Turns Ratio0=95|Type0=62|Voltage-µSecond0=112|Voltage-µSecond Base0=138|Working Voltage0=111
+BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=852|Library Ref0=163|Library Path0=218|Footprint Ref0=260|Footprint Path0=166|Footprint Ref 20=182|Footprint Path 20=147|Footprint Ref 30=101|Footprint Path 30=107|Footprint Ref 40=101|Footprint Path 40=107|Sim Model Name0=109|Sim File0=150|Sim Kind0=67|Sim SubKind0=90|Sim Netlist0=421|Sim Port Map0=401|Sim Spice Prefix0=102|Last Update0=84|Category0=185|Match Code0=85|Comment0=415|ComponentLink1Description0=170|ComponentLink1URL0=329|ComponentLink2Description0=170|ComponentLink2URL0=321|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=105|Length0=59|Width0=56|Height0=58|Diameter0=69|Application0=181|Automotive0=82|Auxiliary Voltage0=109|Buck Voltage0=90|Creepage Distance0=119|Data Rate0=198|DC Resistance0=95|DC Resistance 10=104|DC Resistance 20=104|DC Resistance 30=104|DC Resistance 40=104|DC Resistance Base0=121|DC Resistance Max0=119|DC Resistance Max 10=128|DC Resistance Max 20=128|IC Reference0=143|HPLE0=48|Inductance0=80|Inductance 10=89|Inductance 20=89|Inductance Base0=106|Inductance Tolerance0=133|Input Voltage0=94|Input Voltage Min0=117|Input Voltage Max0=118|Insulation Resistance0=132|Insulation Test Voltage0=142|Insulation Test Voltage (AC)0=165|Interwinding Capacitance0=155|Leakage Inductance0=125|Leakage Inductance Base0=151|Material0=65|Number of Windings0=131|Number of Pins0=102|Number of Ports0=107|Operating Voltage (DC)0=143|Output Current0=103|Output Current 10=112|Output Current 20=112|Output Current 30=112|Output Current 40=112|Output Power0=96|Output Voltage0=104|Output Voltage 10=113|Output Voltage 20=113|Output Voltage 30=113|Output Voltage 40=113|Performance Rated Current0=162|Peak Voltage0=90|PoE0=122|Q Factor0=66|Rated Current0=95|Rated Current 10=104|Rated Current 20=104|Rated Current 30=104|Rated Current 40=104|Rated Current Base0=121|Rated Inductance0=113|Rated Voltage0=96|Saturation Current0=119|Saturation Current 10=128|Saturation Current 20=128|Saturation Current Base0=145|Self Resonant Frequency0=150|Switching Frequency0=130|Turns Ratio0=164|Turns Ratio Test Condition0=161|Type0=62|Type of Insulation0=116|Voltage-Time0=91|Voltage-µSecond0=112|Voltage-µSecond Base0=138|Working Voltage0=111
 [FieldMap1]
 Options=FieldName=Capacitors.Description|TableNameOnly=Capacitors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -114,236 +114,244 @@ Options=FieldName=Capacitors.Footprint Path 2|TableNameOnly=Capacitors|FieldName
 [FieldMap15]
 Options=FieldName=Capacitors.Manufacturer Part Number|TableNameOnly=Capacitors|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Capacitors.Published Date|TableNameOnly=Capacitors|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Last Update|TableNameOnly=Capacitors|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Crystals & Oscillators.Description|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Ref 3|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Crystals & Oscillators.Library Ref|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Path 3|TableNameOnly=Capacitors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Crystals & Oscillators.Library Path|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Description|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=Crystals & Oscillators.Footprint Ref|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Library Ref|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=Crystals & Oscillators.Footprint Path|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Library Path|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=Crystals & Oscillators.Footprint Ref 2|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Ref|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=Crystals & Oscillators.Footprint Path 2|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Path|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=Crystals & Oscillators.Footprint Ref 3|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Ref 2|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=Crystals & Oscillators.Footprint Path 3|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Path 2|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
-Options=FieldName=Crystals & Oscillators.Footprint Ref 4|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Ref 3|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
-Options=FieldName=Crystals & Oscillators.Footprint Path 4|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Path 3|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
-Options=FieldName=Crystals & Oscillators.Sim Model Name|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Ref 4|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=Crystals & Oscillators.Sim File|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Footprint Path 4|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
-Options=FieldName=Crystals & Oscillators.Sim Kind|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim Model Name|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
-Options=FieldName=Crystals & Oscillators.Sim SubKind|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim File|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Crystals & Oscillators.Sim Netlist|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim Kind|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap33]
-Options=FieldName=Crystals & Oscillators.Sim Port Map|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim SubKind|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap34]
-Options=FieldName=Crystals & Oscillators.Sim Spice Prefix|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim Netlist|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=Crystals & Oscillators.Manufacturer Part Number|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim Port Map|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
-Options=FieldName=Crystals & Oscillators.Published Date|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Sim Spice Prefix|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
-Options=FieldName=EMC & RFI Components.Published Date|TableNameOnly=EMC & RFI Components|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Manufacturer Part Number|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
-Options=FieldName=EMC & RFI Components.Manufacturer Part Number|TableNameOnly=EMC & RFI Components|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystals & Oscillators.Last Update|TableNameOnly=Crystals & Oscillators|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=EMC & RFI Components.Description|TableNameOnly=EMC & RFI Components|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Manufacturer Part Number|TableNameOnly=EMC & RFI Components|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=EMC & RFI Components.Library Ref|TableNameOnly=EMC & RFI Components|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Description|TableNameOnly=EMC & RFI Components|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=EMC & RFI Components.Library Path|TableNameOnly=EMC & RFI Components|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Library Ref|TableNameOnly=EMC & RFI Components|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=EMC & RFI Components.Footprint Ref|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Library Path|TableNameOnly=EMC & RFI Components|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=EMC & RFI Components.Footprint Path|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Ref|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=EMC & RFI Components.Footprint Ref 2|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Path|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=EMC & RFI Components.Footprint Path 2|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Ref 2|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
-Options=FieldName=EMC & RFI Components.Footprint Ref 3|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Path 2|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
-Options=FieldName=EMC & RFI Components.Footprint Path 3|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Ref 3|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap48]
-Options=FieldName=EMC & RFI Components.Footprint Ref 4|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Path 3|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap49]
-Options=FieldName=EMC & RFI Components.Footprint Path 4|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Ref 4|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap50]
-Options=FieldName=EMC & RFI Components.Sim Model Name|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Footprint Path 4|TableNameOnly=EMC & RFI Components|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=EMC & RFI Components.Sim File|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim Model Name|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=EMC & RFI Components.Sim Kind|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim File|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=EMC & RFI Components.Sim SubKind|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim Kind|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=EMC & RFI Components.Sim Netlist|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim SubKind|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=EMC & RFI Components.Sim Port Map|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim Netlist|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=EMC & RFI Components.Sim Spice Prefix|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim Port Map|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=Inductors.Published Date|TableNameOnly=Inductors|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Sim Spice Prefix|TableNameOnly=EMC & RFI Components|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Inductors.Manufacturer Part Number|TableNameOnly=Inductors|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=EMC & RFI Components.Last Update|TableNameOnly=EMC & RFI Components|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=Inductors.Description|TableNameOnly=Inductors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Manufacturer Part Number|TableNameOnly=Inductors|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Description|TableNameOnly=Inductors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=Inductors.Library Path|TableNameOnly=Inductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Path|TableNameOnly=Inductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=Inductors.Footprint Path|TableNameOnly=Inductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=Inductors.Footprint Ref 2|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path|TableNameOnly=Inductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=Inductors.Footprint Path 2|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref 2|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=Inductors.Footprint Ref 3|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path 2|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=Inductors.Footprint Path 3|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref 3|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=Inductors.Footprint Ref 4|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path 3|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=Inductors.Footprint Path 4|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref 4|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
-Options=FieldName=Inductors.Sim Model Name|TableNameOnly=Inductors|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path 4|TableNameOnly=Inductors|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap71]
-Options=FieldName=Inductors.Sim File|TableNameOnly=Inductors|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim Model Name|TableNameOnly=Inductors|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=Inductors.Sim Kind|TableNameOnly=Inductors|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim File|TableNameOnly=Inductors|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
-Options=FieldName=Inductors.Sim SubKind|TableNameOnly=Inductors|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim Kind|TableNameOnly=Inductors|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap74]
-Options=FieldName=Inductors.Sim Netlist|TableNameOnly=Inductors|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim SubKind|TableNameOnly=Inductors|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap75]
-Options=FieldName=Inductors.Sim Port Map|TableNameOnly=Inductors|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim Netlist|TableNameOnly=Inductors|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap76]
-Options=FieldName=Inductors.Sim Spice Prefix|TableNameOnly=Inductors|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim Port Map|TableNameOnly=Inductors|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap77]
-Options=FieldName=Resistors.Published Date|TableNameOnly=Resistors|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Sim Spice Prefix|TableNameOnly=Inductors|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap78]
-Options=FieldName=Resistors.Manufacturer Part Number|TableNameOnly=Resistors|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Last Update|TableNameOnly=Inductors|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=Resistors.Description|TableNameOnly=Resistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Manufacturer Part Number|TableNameOnly=Resistors|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Description|TableNameOnly=Resistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=Resistors.Footprint Ref 2|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap85]
-Options=FieldName=Resistors.Footprint Path 2|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Ref 2|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=Resistors.Footprint Ref 3|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Path 2|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=Resistors.Footprint Path 3|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Ref 3|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=Resistors.Footprint Ref 4|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Path 3|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=Resistors.Footprint Path 4|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Ref 4|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Resistors.Sim Model Name|TableNameOnly=Resistors|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Path 4|TableNameOnly=Resistors|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=Resistors.Sim File|TableNameOnly=Resistors|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim Model Name|TableNameOnly=Resistors|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=Resistors.Sim Kind|TableNameOnly=Resistors|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim File|TableNameOnly=Resistors|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Resistors.Sim SubKind|TableNameOnly=Resistors|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim Kind|TableNameOnly=Resistors|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Resistors.Sim Netlist|TableNameOnly=Resistors|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim SubKind|TableNameOnly=Resistors|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Resistors.Sim Port Map|TableNameOnly=Resistors|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim Netlist|TableNameOnly=Resistors|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Resistors.Sim Spice Prefix|TableNameOnly=Resistors|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim Port Map|TableNameOnly=Resistors|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Signal & Communications.Description|TableNameOnly=Signal & Communications|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Sim Spice Prefix|TableNameOnly=Resistors|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Signal & Communications.Library Ref|TableNameOnly=Signal & Communications|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Last Update|TableNameOnly=Resistors|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Signal & Communications.Library Path|TableNameOnly=Signal & Communications|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Description|TableNameOnly=Signal & Communications|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=Signal & Communications.Footprint Ref|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Library Ref|TableNameOnly=Signal & Communications|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
-Options=FieldName=Signal & Communications.Footprint Path|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Library Path|TableNameOnly=Signal & Communications|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap102]
-Options=FieldName=Signal & Communications.Sim Model Name|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Ref|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap103]
-Options=FieldName=Signal & Communications.Sim File|TableNameOnly=Signal & Communications|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Path|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap104]
-Options=FieldName=Signal & Communications.Sim Kind|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim Model Name|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap105]
-Options=FieldName=Signal & Communications.Sim SubKind|TableNameOnly=Signal & Communications|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim File|TableNameOnly=Signal & Communications|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
-Options=FieldName=Signal & Communications.Sim Netlist|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim Kind|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap107]
-Options=FieldName=Signal & Communications.Sim Port Map|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim SubKind|TableNameOnly=Signal & Communications|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap108]
-Options=FieldName=Signal & Communications.Sim Spice Prefix|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim Netlist|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap109]
-Options=FieldName=Signal & Communications.Manufacturer Part Number|TableNameOnly=Signal & Communications|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim Port Map|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap110]
-Options=FieldName=Signal & Communications.Footprint Ref 2|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Sim Spice Prefix|TableNameOnly=Signal & Communications|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap111]
-Options=FieldName=Signal & Communications.Footprint Path 2|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Manufacturer Part Number|TableNameOnly=Signal & Communications|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap112]
-Options=FieldName=Signal & Communications.Published Date|TableNameOnly=Signal & Communications|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Ref 2|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap113]
-Options=FieldName=Transformers.Published Date|TableNameOnly=Transformers|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Path 2|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap114]
-Options=FieldName=Transformers.Manufacturer Part Number|TableNameOnly=Transformers|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Last Update|TableNameOnly=Signal & Communications|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap115]
-Options=FieldName=Transformers.Description|TableNameOnly=Transformers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Ref 3|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap116]
-Options=FieldName=Transformers.Library Ref|TableNameOnly=Transformers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Signal & Communications.Footprint Path 3|TableNameOnly=Signal & Communications|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap117]
-Options=FieldName=Transformers.Library Path|TableNameOnly=Transformers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Manufacturer Part Number|TableNameOnly=Transformers|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap118]
-Options=FieldName=Transformers.Footprint Ref|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Description|TableNameOnly=Transformers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap119]
-Options=FieldName=Transformers.Footprint Path|TableNameOnly=Transformers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Library Ref|TableNameOnly=Transformers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap120]
-Options=FieldName=Transformers.Footprint Ref 2|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Library Path|TableNameOnly=Transformers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap121]
-Options=FieldName=Transformers.Footprint Path 2|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Ref|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap122]
-Options=FieldName=Transformers.Footprint Ref 3|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Path|TableNameOnly=Transformers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap123]
-Options=FieldName=Transformers.Footprint Path 3|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Ref 2|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap124]
-Options=FieldName=Transformers.Footprint Ref 4|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Path 2|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap125]
-Options=FieldName=Transformers.Footprint Path 4|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Ref 3|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap126]
-Options=FieldName=Transformers.Sim Model Name|TableNameOnly=Transformers|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Path 3|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap127]
-Options=FieldName=Transformers.Sim File|TableNameOnly=Transformers|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Ref 4|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap128]
-Options=FieldName=Transformers.Sim Kind|TableNameOnly=Transformers|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Path 4|TableNameOnly=Transformers|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap129]
-Options=FieldName=Transformers.Sim SubKind|TableNameOnly=Transformers|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Sim Model Name|TableNameOnly=Transformers|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap130]
-Options=FieldName=Transformers.Sim Netlist|TableNameOnly=Transformers|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Sim File|TableNameOnly=Transformers|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap131]
-Options=FieldName=Transformers.Sim Port Map|TableNameOnly=Transformers|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Sim Kind|TableNameOnly=Transformers|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap132]
+Options=FieldName=Transformers.Sim SubKind|TableNameOnly=Transformers|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap133]
+Options=FieldName=Transformers.Sim Netlist|TableNameOnly=Transformers|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap134]
+Options=FieldName=Transformers.Sim Port Map|TableNameOnly=Transformers|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap135]
 Options=FieldName=Transformers.Sim Spice Prefix|TableNameOnly=Transformers|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap136]
+Options=FieldName=Transformers.Last Update|TableNameOnly=Transformers|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

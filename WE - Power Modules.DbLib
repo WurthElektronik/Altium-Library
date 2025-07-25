@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\CR7\Library\Altium Library\00_Database Library\Components\WE - Power Modules.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\baojun.chen\OneDrive - WGS 365\Sharing\Altium\Database Library\Components\WE - Power Modules.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=2
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -26,9 +26,6 @@ TableName=Power Modules
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=521|Library Ref0=196|Library Path0=165|Footprint Ref0=241|Footprint Path0=174|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Manufacturer Part Number0=160|Footprint Ref 20=101|Footprint Path 20=107|Published Date0=101|Category0=118|Match Code0=85|Comment0=170|ComponentLink1Description0=170|ComponentLink1URL0=328|ComponentLink2Description0=170|ComponentLink2URL0=320|Manufacturer0=96|Mount0=84|Operating Temperature Max0=168|Operating Temperature Min0=167|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Input Voltage0=94|Input Voltage Min0=117|Input Voltage Max0=118|Isolation Voltage0=111|Output Current0=103|Output Power0=96|Output Voltage0=104|Output Voltage Min0=127|Output Voltage Max0=128|Type0=71|Version0=72
 [FieldMap1]
 Options=FieldName=Power Modules.Description|TableNameOnly=Power Modules|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -60,4 +57,8 @@ Options=FieldName=Power Modules.Footprint Ref 2|TableNameOnly=Power Modules|Fiel
 [FieldMap15]
 Options=FieldName=Power Modules.Footprint Path 2|TableNameOnly=Power Modules|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Power Modules.Published Date|TableNameOnly=Power Modules|FieldNameOnly=Published Date|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Power Modules.Last Update|TableNameOnly=Power Modules|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Power Modules.Footprint Ref 3|TableNameOnly=Power Modules|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Power Modules.Footprint Path 3|TableNameOnly=Power Modules|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
