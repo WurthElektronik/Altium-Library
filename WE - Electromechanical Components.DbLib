@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\baojun.c
 AddMode=3
 RemoveMode=2
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -26,9 +26,6 @@ TableName=Assembly
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Manufacturer Part Number0=160|Description0=463|Library Ref0=89|Library Path0=163|Footprint Ref0=92|Footprint Path0=159|Footprint Ref 20=101|Footprint Path 20=107|Sim Model Name0=109|Sim File0=62|Sim Kind0=67|Sim SubKind0=87|Sim Netlist0=77|Sim Port Map0=91|Sim Spice Prefix0=102|Category0=87|Match Code0=85|Comment0=117|ComponentLink1Description0=170|ComponentLink1URL0=335|ComponentLink2Description0=170|ComponentLink2URL0=327|Manufacturer0=96|Mount0=84|Min Operating Temperature0=167|Max Operating Temperature0=168|Packaging0=81|Case/Size Code0=101|Length0=59|Width0=55|Height0=58|Diameter0=69|Automotive0=82|Battery Type0=113|Blade Design0=90|Gender0=61|Inside Diameter0=103|Inside Thread Length0=132|Hole Diameter0=96|Material0=96|Orientation0=83|Outside Diameter0=113|Pin Length0=78|Surface0=61|Solder Cream Thickness Min0=167|Thread Size0=82|Tightenning Torque Max0=151
 [Table2]
 SchemaName=
 TableName=Connectors
