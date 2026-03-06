@@ -1,0 +1,69 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 Supercapacitors (EDLCs)
+* Matchcode:             WCAP-STSC
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/1/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 850617021001_5F 1 2
+Rser 1 3 0.045
+Lser 2 4 0.000000025
+C1 3 4 5
+Rpar 3 4 66761.8678674813
+.ends 850617021001_5F
+*******
+.subckt 850617021002_7F 1 2
+Rser 1 3 0.04
+Lser 2 4 0.000000025
+C1 3 4 7
+Rpar 3 4 50965.3615167313
+.ends 850617021002_7F
+*******
+.subckt 850617021004_10F 1 2
+Rser 1 3 0.035
+Lser 2 4 0.000000025
+C1 3 4 10
+Rpar 3 4 54446.2322655869
+.ends 850617021004_10F
+*******
+.subckt 850617021005_15F 1 2
+Rser 1 3 0.03
+Lser 2 4 0.000000025
+C1 3 4 15
+Rpar 3 4 91714.674507264
+.ends 850617021005_15F
+*******
+.subckt 850617022001_25F 1 2
+Rser 1 3 0.02
+Lser 2 4 0.000000025
+C1 3 4 25
+Rpar 3 4 58711.67694
+.ends 850617022001_25F
+*******
+.subckt 850617022002_50F 1 2
+Rser 1 3 0.018
+Lser 2 4 0.000000025
+C1 3 4 50
+Rpar 3 4 110123.564781272
+.ends 850617022002_50F
+*******
+.subckt 850617030001_3F 1 2
+Rser 1 3 0.065
+Lser 2 4 0.000000025
+C1 3 4 3
+Rpar 3 4 103875.657014945
+.ends 850617030001_3F
+*******

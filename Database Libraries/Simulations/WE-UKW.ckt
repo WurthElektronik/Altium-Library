@@ -1,0 +1,132 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 EMI Suppression 6-Hole Ferrite Bead
+* Matchcode:             WE-UKW
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         5/30/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 2060_74275013_950ohm 1 2
+Rp 1 2 1220
+Cp 1 2 1.9p
+Rs 1 N3 0.02
+L1 N3 2 6u
+.ends 2060_74275013_950ohm
+*******
+.subckt 2060_74275023_1240ohm 1 2
+Rp 1 2 1160
+Cp 1 2 1.9p
+Rs 1 N3 0.02
+L1 N3 2 3.2u
+.ends 2060_74275023_1240ohm
+*******
+.subckt 3860_74275043_961ohm 1 2
+Rp 1 2 1100
+Cp 1 2 2p
+Rs 1 N3 0.02
+L1 N3 2 5.4u
+.ends 3860_74275043_961ohm
+*******
+.subckt 4060_742750421_230ohm 1 2
+Rp 1 2 275
+Cp 1 2 1.4p
+Rs 1 N3 0.02
+L1 N3 2 1.2u
+.ends 4060_742750421_230ohm
+*******
+.subckt 5060_74275010_860ohm 1 2
+Rp 1 2 880
+Cp 1 2 0.715p
+Rs 1 N3 0.02
+L1 N3 2 12u
+.ends 5060_74275010_860ohm
+*******
+.subckt 6060_74275123_1240ohm 1 2
+Rp 1 2 1160
+Cp 1 2 1.9p
+Rs 1 N3 0.02
+L1 N3 2 3.2u
+.ends 6060_74275123_1240ohm
+*******
+.subckt 6060_74275143_961ohm 1 2
+Rp 1 2 1100
+Cp 1 2 2p
+Rs 1 N3 0.02
+L1 N3 2 5.4u
+.ends 6060_74275143_961ohm
+*******
+.subckt 6560_74275223_1240ohm 1 2
+Rp 1 2 1100
+Cp 1 2 2p
+Rs 1 N3 0.02
+L1 N3 2 3.2u
+.ends 6560_74275223_1240ohm
+*******
+.subckt 6560_74275243_920ohm 1 2
+Rp 1 2 1160
+Cp 1 2 1.9p
+Rs 1 N3 0.02
+L1 N3 2 5.4u
+.ends 6560_74275243_920ohm
+*******
+.subckt 25060_74275011_800ohm 1 2
+Rp 1 2 690
+Cp 1 2 2p
+Rs 1 N3 0.02
+L1 N3 2 8u
+.ends 25060_74275011_800ohm
+*******
+.subckt 25060_74275046_773ohm 1 2
+Rp 1 2 1020
+Cp 1 2 1.9p
+Rs 1 N3 0.02
+L1 N3 2 5.5u
+.ends 25060_74275046_773ohm
+*******
+.subckt 40060_7427501_800ohm 1 2
+Rp 1 2 985
+Cp 1 2 0.7p
+Rs 1 N3 0.02
+L1 N3 2 5.6u
+.ends 40060_7427501_800ohm
+*******
+.subckt 40060_7427502_976ohm 1 2
+Rp 1 2 830
+Cp 1 2 1p
+Rs 1 N3 0.02
+L1 N3 2 8u
+.ends 40060_7427502_976ohm
+*******
+.subckt 40060_7427503_938ohm 1 2
+Rp 1 2 870
+Cp 1 2 1p
+Rs 1 N3 0.02
+L1 N3 2 14u
+.ends 40060_7427503_938ohm
+*******
+.subckt 40060_7427504_773ohm 1 2
+Rp 1 2 940
+Cp 1 2 2p
+Rs 1 N3 0.02
+L1 N3 2 5u
+.ends 40060_7427504_773ohm
+*******
+.subckt 40060_74275022_512ohm 1 2
+Rp 1 2 500
+Cp 1 2 0.7p
+Rs 1 N3 0.02
+L1 N3 2 2.7u
+.ends 40060_74275022_512ohm
+*******

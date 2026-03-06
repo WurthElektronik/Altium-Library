@@ -1,0 +1,132 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Tiny Power Inductor
+* Matchcode:              WE-HEPA
+* Library Type:           spice
+* Version:                rev21a
+* Created/modified by:    Ella
+* Date and Time:          3/1/2023
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
+.subckt 5030_78408053003_3.3u 1 2
+Rp 1 2 5294.2649
+Cp 1 2 0.4823267954p
+Rs 1 N3 0.06
+L1 N3 2 2.9574803u
+.ends 5030_78408053003_3.3u
+*******
+.subckt 5030_78408053004_4.7u 1 2
+Rp 1 2 8709.8
+Cp 1 2 0.6334588p
+Rs 1 N3 0.08
+L1 N3 2 5.1201u
+.ends 5030_78408053004_4.7u
+*******
+.subckt 5030_78408053006_6.8u 1 2
+Rp 1 2 10823.2
+Cp 1 2 1.091p
+Rs 1 N3 0.105
+L1 N3 2 6.819u
+.ends 5030_78408053006_6.8u
+*******
+.subckt 5030_78408053100_10u 1 2
+Rp 1 2 10305.1
+Cp 1 2 1.9928p
+Rs 1 N3 0.12
+L1 N3 2 9.589u
+.ends 5030_78408053100_10u
+*******
+.subckt 5030_78408053150_15u 1 2
+Rp 1 2 12081
+Cp 1 2 3.7677p
+Rs 1 N3 0.18
+L1 N3 2 14.4218u
+.ends 5030_78408053150_15u
+*******
+.subckt 5030_78408053220_22u 1 2
+Rp 1 2 14866.5
+Cp 1 2 3.838p
+Rs 1 N3 0.25
+L1 N3 2 21.6409u
+.ends 5030_78408053220_22u
+*******
+.subckt 5030_78408053330_33u 1 2
+Rp 1 2 22485.2
+Cp 1 2 3.216p
+Rs 1 N3 0.365
+L1 N3 2 31.7094u
+.ends 5030_78408053330_33u
+*******
+.subckt 6030_78408063004_4.7u 1 2
+Rp 1 2 7433.57142857143
+Cp 1 2 1.19469985714286p
+Rs 1 N3 0.07
+L1 N3 2 4.45085714285714u
+.ends 6030_78408063004_4.7u
+*******
+.subckt 6030_78408063006_6.8u 1 2
+Rp 1 2 7705.8
+Cp 1 2 2.5444p
+Rs 1 N3 0.08
+L1 N3 2 6.296u
+.ends 6030_78408063006_6.8u
+*******
+.subckt 6030_78408063100_10u 1 2
+Rp 1 2 10013.5555555556
+Cp 1 2 2.96144444444444p
+Rs 1 N3 0.125
+L1 N3 2 8.99733333333333u
+.ends 6030_78408063100_10u
+*******
+.subckt 6030_78408063150_15u 1 2
+Rp 1 2 14361.3333333333
+Cp 1 2 2.97616666666667p
+Rs 1 N3 0.16
+L1 N3 2 14.6466666666667u
+.ends 6030_78408063150_15u
+*******
+.subckt 6030_78408063220_22u 1 2
+Rp 1 2 18150.9
+Cp 1 2 3.2345p
+Rs 1 N3 0.2
+L1 N3 2 22.7853u
+.ends 6030_78408063220_22u
+*******
+.subckt 6030_78408063330_33u 1 2
+Rp 1 2 22067.3
+Cp 1 2 3.5133p
+Rs 1 N3 0.265
+L1 N3 2 31.0688u
+.ends 6030_78408063330_33u
+*******
+.subckt 6030_78408063470_47u 1 2
+Rp 1 2 29271.8571428571
+Cp 1 2 3.90942857142857p
+Rs 1 N3 0.365
+L1 N3 2 44.5495714285714u
+.ends 6030_78408063470_47u
+*******
+.subckt 6030_78408063680_68u 1 2
+Rp 1 2 31927.5555555556
+Cp 1 2 4.48433333333333p
+Rs 1 N3 0.515
+L1 N3 2 59.6892222222222u
+.ends 6030_78408063680_68u
+*******
+.subckt 6030_78408063101_100u 1 2
+Rp 1 2 50628.5
+Cp 1 2 4.22425p
+Rs 1 N3 0.8
+L1 N3 2 98.916u
+.ends 6030_78408063101_100u
+*******

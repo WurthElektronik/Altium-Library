@@ -1,0 +1,255 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Chip LED Infrared Waterclear
+* Matchcode:              WL-SICW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella   
+* Date and Time:          2021-02-14
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0402_15404085BA420 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=5.3973E-12
++ N=2.4750
++ RS=1.2214
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0402_15404094BA420 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=27.146E-9
++ N=4.0317
++ RS=1.1842
++ IKF=7.6880E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0603_15406085BA300 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=45.893E-21
++ N=1.2870
++ RS=1.1696
++ IKF=14.538E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0603_15406094BA500 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=456.13E-18
++ N=1.4289
++ RS=1.0775
++ IKF=33.746E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0603_15406085BA400A 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=10.000E-21
++ N=1.2501
++ RS=3.0638
++ IKF=1.0650
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0603_15406094BA400A 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=2.1717E-15
++ N=1.5393
++ RS=1.2101
++ IKF=48.569E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+*********************************
+.subckt 0805_15408085BA400 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=10.230E-21
++ N=1.2284
++ RS=2.9210
++ IKF=104.01
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+.subckt 0805_15408094BA400 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=397.24E-18
++ N=1.4456
++ RS=2.2050
++ IKF=28.675E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+.subckt 1206_15412085A9000 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=4.1873E-12
++ N=2.4442
++ RS=1.2338
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+.subckt 1206_15412094A9000 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=11.008E-18
++ N=1.3555
++ RS=.833
++ IKF=40.278E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+.subckt 1206_15412085BA400 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=202.11E-21
++ N=1.3385
++ RS=2.1248
++ IKF=51.975E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+.subckt 1206_15412094BA400 1 2
+D1 1 2 SICW
+.MODEL SICW D
++ IS=7.7556E-15
++ N=1.6105
++ RS=2.0801
++ IKF=2.1298
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ TT=5.0000E-9
+.ends
+********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

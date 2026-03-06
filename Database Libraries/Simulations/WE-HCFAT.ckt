@@ -1,0 +1,118 @@
+**************************************************
+* Manufacturer:          Würth Elektronik
+* Kinds:                 Low Loss THT High Current Inductor
+* Matchcode:             WE-HCFAT
+* Library Type:          LTspice
+* Version:               rev23a
+* Created/modified by:   Ella
+* Date and Time:         8/30/2023
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2023 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
+.subckt 3521_78437613521015_1.5u 1 2
+Rp 1 2 955.554
+Cp 1 2 10.545p
+Rs 1 N3 0.00035
+L1 N3 2 1.508u
+.ends 3521_78437613521015_1.5u
+*******
+.subckt 3521_78437613521022_2.2u 1 2
+Rp 1 2 975.892
+Cp 1 2 12.443p
+Rs 1 N3 0.00035
+L1 N3 2 2.021u
+.ends 3521_78437613521022_2.2u
+*******
+.subckt 3521_78437613521033_3.3u 1 2
+Rp 1 2 1058
+Cp 1 2 13.417p
+Rs 1 N3 0.00035
+L1 N3 2 3.403u
+.ends 3521_78437613521033_3.3u
+*******
+.subckt 3521_7843763521015_1.5u 1 2
+Rp 1 2 596.136
+Cp 1 2 11.925p
+Rs 1 N3 0.00035
+L1 N3 2 1.547u
+.ends 3521_7843763521015_1.5u
+*******
+.subckt 3521_7843763521022_2.2u 1 2
+Rp 1 2 603.077
+Cp 1 2 12.085p
+Rs 1 N3 0.00035
+L1 N3 2 2.081u
+.ends 3521_7843763521022_2.2u
+*******
+.subckt 3521_7843763521033_3.3u 1 2
+Rp 1 2 671.218
+Cp 1 2 15.32p
+Rs 1 N3 0.00035
+L1 N3 2 3.46u
+.ends 3521_7843763521033_3.3u
+*******
+.subckt 3540_78437613540068_6.8u 1 2
+Rp 1 2 4862
+Cp 1 2 9.226p
+Rs 1 N3 0.00101
+L1 N3 2 6.597u
+.ends 3540_78437613540068_6.8u
+*******
+.subckt 3540_78437613540100_10u 1 2
+Rp 1 2 5065
+Cp 1 2 8.687p
+Rs 1 N3 0.00101
+L1 N3 2 9.544u
+.ends 3540_78437613540100_10u
+*******
+.subckt 3540_7843763540068_6.8u 1 2
+Rp 1 2 3362
+Cp 1 2 9.025p
+Rs 1 N3 0.00101
+L1 N3 2 6.744u
+.ends 3540_7843763540068_6.8u
+*******
+.subckt 3540_7843763540100_10u 1 2
+Rp 1 2 3495
+Cp 1 2 9.782p
+Rs 1 N3 0.00101
+L1 N3 2 9.839u
+.ends 3540_7843763540100_10u
+*******
+.subckt 3540_7843763540150_15u 1 2
+Rp 1 2 5612
+Cp 1 2 9.024p
+Rs 1 N3 0.00177
+L1 N3 2 14.21u
+.ends 3540_7843763540150_15u
+*******
+.subckt 3540_7843763540220_22u 1 2
+Rp 1 2 9257
+Cp 1 2 10.94p
+Rs 1 N3 0.00263
+L1 N3 2 21.056u
+.ends 3540_7843763540220_22u
+*******
+.subckt 3540_7843763540330_33u 1 2
+Rp 1 2 13975
+Cp 1 2 9.681p
+Rs 1 N3 0.00567
+L1 N3 2 32.78u
+.ends 3540_7843763540330_33u
+*******
+.subckt 3540_7843763540470_47u 1 2
+Rp 1 2 17757
+Cp 1 2 8.969p
+Rs 1 N3 0.00567
+L1 N3 2 47.167u
+.ends 3540_7843763540470_47u
+*******

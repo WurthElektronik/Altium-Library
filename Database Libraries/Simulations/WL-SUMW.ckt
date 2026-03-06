@@ -1,0 +1,130 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Ultraviolet Ceramic Waterclear 
+* Matchcode:              WL-SUMW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-09
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3535_15335337AA350  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=3.0680
++ RS=.41847
++ IKF=13.956
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ TT=5.0000E-9
+.ends
+******
+.subckt 3535_15335338AA350  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=2.7355
++ RS=.37286
++ IKF=8.5192
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ TT=5.0000E-9
+.ends
+******
+.subckt 3535_15335339AA350  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=2.7070
++ RS=.15573
++ IKF=20.612
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+.subckt 3535_15335340AA350  1  2
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=2.6849
++ RS=.13588
++ IKF=17.753
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+ .subckt 3535_15335327BA250  1  2
+ D1 1 2 led
+.MODEL led D
++ IS=1.1407E-18
++ N=4.9950
++ RS=18.229
++ IKF=2.8321E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+ .subckt 3535_15335327BA252  1  2
+ D1 1 2 led
+ .MODEL led D
++ IS=10.010E-21
++ N=4.9950
++ RS=1.2404
++ IKF=14.319E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+.subckt 3535_15335327CA452  1  2
+D1 1 2 led
+.MODEL led D
++ IS=168.44E-21
++ N=4.9950
++ RS=2.4006
++ IKF=2.7111E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+.subckt 3535_15335327CA554  1  2
+D1 1 2 led
+.MODEL led D
++ IS=237.85E-21
++ N=4.9950
++ RS=.70496
++ IKF=24.121E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
+.ends
+******
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,270 @@
+**************************************************
+* Manufacturer:          Würth Elektronik
+* Kinds:                 High current inductor for TLVR applic
+* Matchcode:             WE-HCMD
+* Library Type:          LTspice
+* Version:               rev25a
+* Created/modified by:   Ella
+* Date and Time:         9/24/2025
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2025 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0910_7443000910070_0.07u 1  2  3  4  PARAMS:
++  Cww=12p
++  Rp1=31.855
++  Cp1=37.59p
++  Lp1=0.0668u
++  Rp2=31.252
++  Cp2=35.744p
++  Lp2=0.070251u
++  RDC1=0.125
++  RDC2=0.33
++  K=0.930198613779791
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 0910_7443000910100_0.1u 1  2  3  4  PARAMS:
++  Cww=13p
++  Rp1=35.257
++  Cp1=46.675p
++  Lp1=0.101599u
++  Rp2=35.596
++  Cp2=49.65p
++  Lp2=0.100707u
++  RDC1=0.125
++  RDC2=0.33
++  K=0.954681334765334
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 0910_7443000910120_0.12u 1  2  3  4  PARAMS:
++  Cww=15p
++  Rp1=37.143
++  Cp1=55.398p
++  Lp1=0.117637u
++  Rp2=37.333
++  Cp2=55.351p
++  Lp2=0.124143u
++  RDC1=0.125
++  RDC2=0.33
++  K=0.960985670387815
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 0910_7443000910150_0.15u 1  2  3  4  PARAMS:
++  Cww=15p
++  Rp1=39.622
++  Cp1=62.369p
++  Lp1=0.151404u
++  Rp2=39.347
++  Cp2=62.482p
++  Lp2=0.15113u
++  RDC1=0.125
++  RDC2=0.33
++  K=0.969822866388133
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111070_0.07u 1  2  3  4  PARAMS:
++  Cww=10p
++  Rp1=27.744
++  Cp1=53.365p
++  Lp1=0.068609u
++  Rp2=27.247
++  Cp2=49.95p
++  Lp2=0.065519u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.932106149899873
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111105_0.105u 1  2  3  4  PARAMS:
++  Cww=10p
++  Rp1=31.069
++  Cp1=62.813p
++  Lp1=0.101296u
++  Rp2=29.66
++  Cp2=63.584p
++  Lp2=0.102491u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.95454254848063
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111120_0.12u 1  2  3  4  PARAMS:
++  Cww=13p
++  Rp1=40.15
++  Cp1=53.038p
++  Lp1=0.119964u
++  Rp2=38.187
++  Cp2=51.126p
++  Lp2=0.114649u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.961757502309171
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111150_0.15u 1  2  3  4  PARAMS:
++  Cww=13p
++  Rp1=41.995
++  Cp1=55.935p
++  Lp1=0.149954u
++  Rp2=42.155
++  Cp2=52.481p
++  Lp2=0.138054u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.96952647945046
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111180_0.18u 1  2  3  4  PARAMS:
++  Cww=15p
++  Rp1=43.294
++  Cp1=60.352p
++  Lp1=0.183211u
++  Rp2=42.824
++  Cp2=66.937p
++  Lp2=0.165274u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.975128869438206
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******
+.subckt 1111_7443001111200_0.2u 1  2  3  4  PARAMS:
++  Cww=15p
++  Rp1=44.368
++  Cp1=65.533p
++  Lp1=0.193722u
++  Rp2=44.181
++  Cp2=66.096p
++  Lp2=0.196333u
++  RDC1=0.125
++  RDC2=0.37
++  K=0.976494584275413
+C_C1 3 1 {Cww/2}
+R_R50 3 1 5000g
+C_C2 2 4 {Cww/2}
+C_C5 2 3 {Cp1}
+R_R1 2 N05454 {RDC1}
+R_R2 2 3 {Rp1}
+L_L1 N05454 3 {Lp1}
+L_L2 N05750 1 {Lp2}
+C_C6 4 1 {Cp2}
+R_R3 4 1 {Rp2}
+R_R4 4 N05750 {RDC2}
+Kn_K1  L_L1  L_L2  {K}
+.ends 
+*******

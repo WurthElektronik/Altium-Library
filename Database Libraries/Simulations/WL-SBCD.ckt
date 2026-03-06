@@ -1,0 +1,202 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Bi-color Chip LED Diffused
+* Matchcode:              WL-SBCD
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-14
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.Subckt 0606_150066RG54050 1 2 3 4
+D1 3 4 Red
+.MODEL Red D
++ IS=10.010E-21
++ N=1.9114
++ RS=1.0000E-6
++ IKF=47.488E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 2 1 Green
+.MODEL Green D
++ IS=34.812E-18
++ N=3.3480
++ RS=.70206
++ IKF=364.33E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+********************************
+.Subckt 0606_150066RV54050 1 2 3 4
+D1 3 4 Red
+.MODEL Red D
++ IS=10.010E-21
++ N=1.9114
++ RS=1.0000E-6
++ IKF=47.488E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 2 1 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.9211
++ RS=1.0000E-6
++ IKF=49.393E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+********************************
+.Subckt 0606_150066YV54050 1 2 3 4
+D1 3 4 Yellow
+.MODEL Yellow D
++ IS=10.010E-21
++ N=1.8631
++ RS=1.0000E-6
++ IKF=38.917E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 2 1 BrightGreen
+.MODEL BrightGreen D
++ IS=10.010E-21
++ N=1.8728
++ RS=1.0000E-6
++ IKF=40.514E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+********************************
+.Subckt 0805_150080RV54050 1 2 3 4
+D1 4 1 Red
+.MODEL Red D
++ IS=10.010E-21
++ N=1.9114
++ RS=1.0000E-6
++ IKF=47.488E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 3 2 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.9211
++ RS=1.0000E-6
++ IKF=49.393E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+********************************
+.Subckt 0805_150080SG54050 1 2 3 4
+D1 4 1 SRed
+.MODEL SRed D
++ IS=10.010E-21
++ N=1.9114
++ RS=1.0000E-6
++ IKF=47.488E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 3 2 Green
+.MODEL Green D
++ IS=48.022E-18
++ N=3.3919
++ RS=.54629
++ IKF=413.19E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+***********************************
+.Subckt 0805_150080YV54050 1 2 3 4
+D1 4 1 Yellow
+.MODEL Yellow D
++ IS=10.010E-21
++ N=1.8631
++ RS=1.0000E-6
++ IKF=38.917E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+D2 3 2 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.8728
++ RS=1.0000E-6
++ IKF=40.514E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+*********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

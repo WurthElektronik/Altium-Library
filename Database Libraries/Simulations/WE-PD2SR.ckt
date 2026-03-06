@@ -1,0 +1,160 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Power Inductor
+* Matchcode:              WE-PD2SR 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-06-10
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 7850_744787012_1.2u 1 2
+Rp 1 2 1567.8
+Cp 1 2 1.42212p
+Rs 1 N3 0.0085
+L1 N3 2 1.17118868u
+.ends 7850_744787012_1.2u
+*******
+.subckt 7850_744787027_2.7u 1 2
+Rp 1 2 3202.753
+Cp 1 2 2.322855p
+Rs 1 N3 0.0135
+L1 N3 2 2.789146u
+.ends 7850_744787027_2.7u
+*******
+.subckt 7850_744787039_3.9u 1 2
+Rp 1 2 4293.294
+Cp 1 2 2.59292p
+Rs 1 N3 0.0167
+L1 N3 2 3.890856u
+.ends 7850_744787039_3.9u
+*******
+.subckt 7850_744787047_4.7u 1 2
+Rp 1 2 5726.39
+Cp 1 2 1.795119p
+Rs 1 N3 0.0243
+L1 N3 2 5.1455719u
+.ends 7850_744787047_4.7u
+*******
+.subckt 7850_744787068_6.8u 1 2
+Rp 1 2 6952.128
+Cp 1 2 3.116245p
+Rs 1 N3 0.027
+L1 N3 2 6.8041224u
+.ends 7850_744787068_6.8u
+*******
+.subckt 7850_744787082_8.2u 1 2
+Rp 1 2 8622.735
+Cp 1 2 2.843537p
+Rs 1 N3 0.033
+L1 N3 2 8.5119732375u
+.ends 7850_744787082_8.2u
+*******
+.subckt 7850_744787100_10u 1 2
+Rp 1 2 10357.96
+Cp 1 2 3.805227p
+Rs 1 N3 0.0365
+L1 N3 2 9.94873u
+.ends 7850_744787100_10u
+*******
+.subckt 7850_744787101_100u 1 2
+Rp 1 2 92925.07
+Cp 1 2 7.9654p
+Rs 1 N3 0.396
+L1 N3 2 103.51202u
+.ends 7850_744787101_100u
+*******
+.subckt 7850_744787120_12u 1 2
+Rp 1 2 12034.24
+Cp 1 2 4.07934p
+Rs 1 N3 0.045
+L1 N3 2 12.0860955u
+.ends 7850_744787120_12u
+*******
+.subckt 7850_744787121_120u 1 2
+Rp 1 2 141840
+Cp 1 2 8.80291p
+Rs 1 N3 0.545
+L1 N3 2 119.011488u
+.ends 7850_744787121_120u
+*******
+.subckt 7850_744787150_15u 1 2
+Rp 1 2 13969.67
+Cp 1 2 4.567326p
+Rs 1 N3 0.052
+L1 N3 2 14.8512893u
+.ends 7850_744787150_15u
+*******
+.subckt 7850_744787151_150u 1 2
+Rp 1 2 106676
+Cp 1 2 10.25425p
+Rs 1 N3 0.61
+L1 N3 2 145.89754u
+.ends 7850_744787151_150u
+*******
+.subckt 7850_744787180_18u 1 2
+Rp 1 2 15649.74
+Cp 1 2 6.131139p
+Rs 1 N3 0.067
+L1 N3 2 17.1350444444444u
+.ends 7850_744787180_18u
+*******
+.subckt 7850_744787181_180u 1 2
+Rp 1 2 139843
+Cp 1 2 7.439317p
+Rs 1 N3 0.673
+L1 N3 2 179.170352u
+.ends 7850_744787181_180u
+*******
+.subckt 7850_744787220_22u 1 2
+Rp 1 2 20858.75
+Cp 1 2 5.88774p
+Rs 1 N3 0.088
+L1 N3 2 22.9388354u
+.ends 7850_744787220_22u
+*******
+.subckt 7850_744787221_220u 1 2
+Rp 1 2 195324.1
+Cp 1 2 7.425036p
+Rs 1 N3 0.743
+L1 N3 2 215.35531u
+.ends 7850_744787221_220u
+*******
+.subckt 7850_744787330_33u 1 2
+Rp 1 2 29973.38
+Cp 1 2 6.003671p
+Rs 1 N3 0.137
+L1 N3 2 33.3202244444444u
+.ends 7850_744787330_33u
+*******
+.subckt 7850_744787470_47u 1 2
+Rp 1 2 45853.18
+Cp 1 2 6.95963p
+Rs 1 N3 0.206
+L1 N3 2 48.969048u
+.ends 7850_744787470_47u
+*******
+.subckt 7850_744787680_68u 1 2
+Rp 1 2 65838.19
+Cp 1 2 6.620799p
+Rs 1 N3 0.246
+L1 N3 2 66.0958052222222u
+.ends 7850_744787680_68u
+*******
+.subckt 7850_744787820_82u 1 2
+Rp 1 2 78401.43
+Cp 1 2 8.23377p
+Rs 1 N3 0.278
+L1 N3 2 78.506u
+.ends 7850_744787820_82u
+*******

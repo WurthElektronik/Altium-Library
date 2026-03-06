@@ -1,0 +1,370 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Toroidal Line Choke 
+* Matchcode:              WE-FI
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-06-08
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 7447010_470u 1 2
+Rp 1 2 8867
+Cp 1 2 8.327p
+Rs 1 N3 0.225
+L1 N3 2 470u
+.ends 7447010_470u
+*******
+.subckt 7447011_130u 1 2
+Rp 1 2 3248
+Cp 1 2 14.968p
+Rs 1 N3 0.085
+L1 N3 2 130u
+.ends 7447011_130u
+*******
+.subckt 7447012_110u 1 2
+Rp 1 2 3154
+Cp 1 2 11.297p
+Rs 1 N3 0.07
+L1 N3 2 110u
+.ends 7447012_110u
+*******
+.subckt 7447013_90u 1 2
+Rp 1 2 2490
+Cp 1 2 11.809p
+Rs 1 N3 0.04
+L1 N3 2 90u
+.ends 7447013_90u
+*******
+.subckt 7447014_58u 1 2
+Rp 1 2 2639
+Cp 1 2 2.692p
+Rs 1 N3 0.055
+L1 N3 2 58u
+.ends 7447014_58u
+*******
+.subckt 7447015_35u 1 2
+Rp 1 2 1433
+Cp 1 2 3.374p
+Rs 1 N3 0.025
+L1 N3 2 35u
+.ends 7447015_35u
+*******
+.subckt 7447016_29u 1 2
+Rp 1 2 1316
+Cp 1 2 8.358p
+Rs 1 N3 0.015
+L1 N3 2 29u
+.ends 7447016_29u
+*******
+.subckt 7447017_22u 1 2
+Rp 1 2 1068
+Cp 1 2 2.607p
+Rs 1 N3 0.015
+L1 N3 2 22u
+.ends 7447017_22u
+*******
+.subckt 7447018_150u 1 2
+Rp 1 2 3450
+Cp 1 2 17.334p
+Rs 1 N3 0.1
+L1 N3 2 150u
+.ends 7447018_150u
+*******
+.subckt 7447019_700u 1 2
+Rp 1 2 15922
+Cp 1 2 68.574p
+Rs 1 N3 0.12
+L1 N3 2 700u
+.ends 7447019_700u
+*******
+.subckt 7447020_220u 1 2
+Rp 1 2 6476
+Cp 1 2 15.549p
+Rs 1 N3 0.16
+L1 N3 2 220u
+.ends 7447020_220u
+*******
+.subckt 7447021_100u 1 2
+Rp 1 2 3274
+Cp 1 2 12.597p
+Rs 1 N3 0.08
+L1 N3 2 100u
+.ends 7447021_100u
+*******
+.subckt 7447022_68u 1 2
+Rp 1 2 2552
+Cp 1 2 9.981p
+Rs 1 N3 0.08
+L1 N3 2 68u
+.ends 7447022_68u
+*******
+.subckt 7447023_60u 1 2
+Rp 1 2 2656
+Cp 1 2 13.984p
+Rs 1 N3 0.04
+L1 N3 2 60u
+.ends 7447023_60u
+*******
+.subckt 7447024_30u 1 2
+Rp 1 2 1901
+Cp 1 2 2.18p
+Rs 1 N3 0.04
+L1 N3 2 30u
+.ends 7447024_30u
+*******
+.subckt 7447025_20u 1 2
+Rp 1 2 1317
+Cp 1 2 2.58p
+Rs 1 N3 0.02
+L1 N3 2 20u
+.ends 7447025_20u
+*******
+.subckt 7447026_10u 1 2
+Rp 1 2 827
+Cp 1 2 2.149p
+Rs 1 N3 0.01
+L1 N3 2 10u
+.ends 7447026_10u
+*******
+.subckt 7447027_20u 1 2
+Rp 1 2 1132
+Cp 1 2 6.512p
+Rs 1 N3 0.015
+L1 N3 2 20u
+.ends 7447027_20u
+*******
+.subckt 7447028_150u 1 2
+Rp 1 2 5601
+Cp 1 2 14.299p
+Rs 1 N3 0.13
+L1 N3 2 150u
+.ends 7447028_150u
+*******
+.subckt 7447030_36u 1 2
+Rp 1 2 1442
+Cp 1 2 1.866p
+Rs 1 N3 0.4
+L1 N3 2 36u
+.ends 7447030_36u
+*******
+.subckt 7447031_140u 1 2
+Rp 1 2 4264
+Cp 1 2 16.646p
+Rs 1 N3 0.11
+L1 N3 2 140u
+.ends 7447031_140u
+*******
+.subckt 7447032_110u 1 2
+Rp 1 2 4351
+Cp 1 2 7.806p
+Rs 1 N3 0.23
+L1 N3 2 110u
+.ends 7447032_110u
+*******
+.subckt 7447033_68u 1 2
+Rp 1 2 2575
+Cp 1 2 12.297p
+Rs 1 N3 0.055
+L1 N3 2 68u
+.ends 7447033_68u
+*******
+.subckt 7447034_43u 1 2
+Rp 1 2 2196
+Cp 1 2 8.143p
+Rs 1 N3 0.06
+L1 N3 2 43u
+.ends 7447034_43u
+*******
+.subckt 7447035_15u 1 2
+Rp 1 2 1344
+Cp 1 2 1.749p
+Rs 1 N3 0.025
+L1 N3 2 15u
+.ends 7447035_15u
+*******
+.subckt 7447036_220u 1 2
+Rp 1 2 7296
+Cp 1 2 14.761p
+Rs 1 N3 0.22
+L1 N3 2 220u
+.ends 7447036_220u
+*******
+.subckt 7447037_360u 1 2
+Rp 1 2 7827
+Cp 1 2 16.847p
+Rs 1 N3 0.45
+L1 N3 2 360u
+.ends 7447037_360u
+*******
+.subckt 7447040_240u 1 2
+Rp 1 2 7484
+Cp 1 2 16.776p
+Rs 1 N3 0.38
+L1 N3 2 240u
+.ends 7447040_240u
+*******
+.subckt 7447041_68u 1 2
+Rp 1 2 2778
+Cp 1 2 7.8p
+Rs 1 N3 0.1
+L1 N3 2 68u
+.ends 7447041_68u
+*******
+.subckt 7447042_56u 1 2
+Rp 1 2 2708
+Cp 1 2 7.132p
+Rs 1 N3 0.18
+L1 N3 2 56u
+.ends 7447042_56u
+*******
+.subckt 7447043_24u 1 2
+Rp 1 2 1718
+Cp 1 2 3.875p
+Rs 1 N3 0.045
+L1 N3 2 24u
+.ends 7447043_24u
+*******
+.subckt 7447044_22u 1 2
+Rp 1 2 1368
+Cp 1 2 4.96p
+Rs 1 N3 0.03
+L1 N3 2 22u
+.ends 7447044_22u
+*******
+.subckt 7447045_8.2u 1 2
+Rp 1 2 834
+Cp 1 2 1.336p
+Rs 1 N3 0.02
+L1 N3 2 8.2u
+.ends 7447045_8.2u
+*******
+.subckt 7447050_140u 1 2
+Rp 1 2 4477.8
+Cp 1 2 9.9014p
+Rs 1 N3 0.26
+L1 N3 2 141.6666u
+.ends 7447050_140u
+*******
+.subckt 7447051_37u 1 2
+Rp 1 2 2189
+Cp 1 2 4.487p
+Rs 1 N3 0.12
+L1 N3 2 37u
+.ends 7447051_37u
+*******
+.subckt 7447052_32u 1 2
+Rp 1 2 2075
+Cp 1 2 5.472p
+Rs 1 N3 0.045
+L1 N3 2 32u
+.ends 7447052_32u
+*******
+.subckt 7447053_12u 1 2
+Rp 1 2 840
+Cp 1 2 1.33p
+Rs 1 N3 0.03
+L1 N3 2 12u
+.ends 7447053_12u
+*******
+.subckt 7447054_10u 1 2
+Rp 1 2 552
+Cp 1 2 3.622p
+Rs 1 N3 0.02
+L1 N3 2 10u
+.ends 7447054_10u
+*******
+.subckt 7447055_150u 1 2
+Rp 1 2 3824
+Cp 1 2 23.371p
+Rs 1 N3 0.042
+L1 N3 2 150u
+.ends 7447055_150u
+*******
+.subckt 7447060_300u 1 2
+Rp 1 2 6986
+Cp 1 2 22.243p
+Rs 1 N3 0.15
+L1 N3 2 300u
+.ends 7447060_300u
+*******
+.subckt 7447065_330u 1 2
+Rp 1 2 7080
+Cp 1 2 42.939p
+Rs 1 N3 0.085
+L1 N3 2 330u
+.ends 7447065_330u
+*******
+.subckt 7447070_100u 1 2
+Rp 1 2 2743
+Cp 1 2 18.895p
+Rs 1 N3 0.035
+L1 N3 2 100u
+.ends 7447070_100u
+*******
+.subckt 7447071_470u 1 2
+Rp 1 2 9050
+Cp 1 2 55.774p
+Rs 1 N3 0.11
+L1 N3 2 470u
+.ends 7447071_470u
+*******
+.subckt 7447075_860u 1 2
+Rp 1 2 14871
+Cp 1 2 44.256p
+Rs 1 N3 0.15
+L1 N3 2 860u
+.ends 7447075_860u
+*******
+.subckt 7447076_150u 1 2
+Rp 1 2 3537
+Cp 1 2 19.886p
+Rs 1 N3 0.045
+L1 N3 2 150u
+.ends 7447076_150u
+*******
+.subckt 74470291_220u 1 2
+Rp 1 2 6509
+Cp 1 2 20.261p
+Rs 1 N3 0.15
+L1 N3 2 220u
+.ends 74470291_220u
+*******
+.subckt 74470292_130u 1 2
+Rp 1 2 3548
+Cp 1 2 11.942p
+Rs 1 N3 0.09
+L1 N3 2 130u
+.ends 74470292_130u
+*******
+.subckt 7447077_180u 1 2
+Rp 1 2 4966
+Cp 1 2 32.471p
+Rs 1 N3 0.52
+L1 N3 2 180u
+.ends 7447077_180u
+*******
+.subckt 7447078_15u 1 2
+Rp 1 2 711
+Cp 1 2 2.153p
+Rs 1 N3 0.012
+L1 N3 2 15u
+.ends 7447078_15u
+*******
+.subckt 7447079_211u 1 2
+Rp 1 2 8294
+Cp 1 2 25.904p
+Rs 1 N3 0.2
+L1 N3 2 211u
+.ends 7447079_211u
+*******

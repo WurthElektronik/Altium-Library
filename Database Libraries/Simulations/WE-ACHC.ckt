@@ -1,0 +1,200 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  High Current Air Coil
+* Matchcode:              WE-AC HC 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-24
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1010_7449150023_23n 1 2
+C1 1 N7 0.9p
+L1 1 N1 22.5n
+L2 N1 N2 5.4765p
+L3 N2 N3 4.1302p
+L4 N3 N4 3.6863p
+L5 N4 N5 3.8895p
+L6 N5 N6 208.1224p
+R1 2 N1 3.9812
+R2 2 N2 4.7057
+R3 2 N3 4.2675
+R4 2 N4 3.3716
+R5 2 N5 123.0715m
+R6 2 N6 30.1203m
+R7 2 N7 870.0374m
+R8 2 1 10g
+.ends 
+*******
+.subckt 1010_7449150046_46.5n 1 2
+C1 1 N7 1.1497p
+L1 1 N1 46.5n
+L2 N1 N2 5.4754p
+L3 N2 N3 4.1292p
+L4 N3 N4 3.6857p
+L5 N4 N5 3.8902p
+L6 N5 N6 394.9342p
+R1 2 N1 3.9798
+R2 2 N2 4.7047
+R3 2 N3 4.2664
+R4 2 N4 3.3698
+R5 2 N5 296.9388m
+R6 2 N6 66.7246m
+R7 2 N7 972.1795m
+R8 2 1 10g
+.ends 
+*******
+.subckt 1010_7449150079_79n 1 2
+C1 1 N7 1.1114p
+L1 1 N1 79n
+L2 N1 N2 5.4930p
+L3 N2 N3 4.1587p
+L4 N3 N4 3.7257p
+L5 N4 N5 3.9406p
+L6 N5 N6 920.2439p
+R1 2 N1 3.9833
+R2 2 N2 4.7074
+R3 2 N3 4.2697
+R4 2 N4 3.3751
+R5 2 N5 638.5259m
+R6 2 N6 93.0447m
+R7 2 N7 1.084
+R8 2 1 10g
+.ends 
+*******
+.subckt 1010_7449150111_111n 1 2
+C1 1 N7 1.20481p
+L1 1 N1 111n
+L2 N1 N2 5.5502p
+L3 N2 N3 4.2433p
+L4 N3 N4 3.8299p
+L5 N4 N5 4.0565p
+L6 N5 N6 1.2805n
+R1 2 N1 3.9170
+R2 2 N2 4.6597
+R3 2 N3 4.0147
+R4 2 N4 2.4344
+R5 2 N5 1.0484
+R6 2 N6 79.9597m
+R7 2 N7 1.4077
+R8 2 1 10g
+.ends 
+*******
+.subckt 1010_7449150146_146n 1 2
+C1 1 N7 1.1436p
+L1 1 N1 146n
+L2 N1 N2 5.5637p
+L3 N2 N3 4.2639p
+L4 N3 N4 3.8552p
+L5 N4 N5 4.0825p
+L6 N5 N6 2.1591n
+R1 2 N1 3.9477
+R2 2 N2 4.6815
+R3 2 N3 4.0441
+R4 2 N4 2.5118
+R5 2 N5 1.3683
+R6 2 N6 89.7200m
+R7 2 N7 1.4816
+R8 2 1 10g
+.ends 
+*******
+.subckt 1212_7449152022_22n 1 2
+C1 1 N7 1.5618p
+L1 1 N1 22n
+L2 N1 N2 5.4990p
+L3 N2 N3 4.1666p
+L4 N3 N4 3.7401p
+L5 N4 N5 3.9583p
+L6 N5 N6 148.7359p
+R1 2 N1 4.7056
+R2 2 N2 4.2673
+R3 2 N3 3.3714
+R4 2 N4 2.5884
+R5 2 N5 81.4271m
+R6 2 N6 47.3553m
+R7 2 N7 877.7814m
+R8 2 1 10g
+.ends 
+*******
+.subckt 1212_7449152042_42n 1 2
+C1 1 N7 1.7421p
+L1 1 N1 42n
+L2 N1 N2 5.5412p
+L3 N2 N3 4.2397p
+L4 N3 N4 3.8406p
+L5 N4 N5 4.0814p
+L6 N5 N6 399.5081p
+R1 2 N1 4.7119
+R2 2 N2 4.2753
+R3 2 N3 3.3845
+R4 2 N4 2.6108
+R5 2 N5 178.9469m
+R6 2 N6 44.7409m
+R7 2 N7 968.5215m
+R8 2 1 10g
+.ends 
+*******
+.subckt 1212_7449152066_66n 1 2
+C1 1 N7 1.7501p
+L1 1 N1 66n
+L2 N1 N2 5.6146p
+L3 N2 N3 4.3631p
+L4 N3 N4 4.0075p
+L5 N4 N5 4.2823p
+L6 N5 N6 622.0022p
+R1 2 N1 4.7305
+R2 2 N2 4.2984
+R3 2 N3 3.4216
+R4 2 N4 2.6729
+R5 2 N5 264.4983m
+R6 2 N6 50.2087m
+R7 2 N7 1.8293
+R8 2 1 10g
+.ends 
+*******
+.subckt 1212_7449152090_90n 1 2
+C1 1 N7 1.5560p
+L1 1 N1 90n
+L2 N1 N2 5.7967p
+L3 N2 N3 4.6513p
+L4 N3 N4 4.3827p
+L5 N4 N5 4.7188p
+L6 N5 N6 1.0331n
+R1 2 N1 4.8117
+R2 2 N2 4.3975
+R3 2 N3 3.5772
+R4 2 N4 2.9236
+R5 2 N5 452.1122m
+R6 2 N6 80.6810m
+R7 2 N7 2.1291
+R8 2 1 10g
+.ends 
+*******
+.subckt 1212_7449152111_117n 1 2
+C1 1 N7 1.1939p
+L1 1 N1 117n
+L2 N1 N2 5.9482p
+L3 N2 N3 4.9447p
+L4 N3 N4 4.8166p
+L5 N4 N5 5.2815p
+L6 N5 N6 1.3816n
+R1 2 N1 4.9215
+R2 2 N2 4.5306
+R3 2 N3 3.7793
+R4 2 N4 3.2253
+R5 2 N5 574.7038m
+R6 2 N6 72.9541m
+R7 2 N7 3.5280
+R8 2 1 10g
+.ends 
+*******

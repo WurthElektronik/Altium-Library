@@ -1,0 +1,126 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Mono-color Reverse Mount Diffused
+* Matchcode:              WL-SMRD
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-21
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1205_156125BS57000 1 2 
+D1 1 2 SMRD
+.MODEL SMRD D
++ IS=11.416E-15
++ N=3.7886
++ RS=1.4842
++ IKF=213.88E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+***********
+.subckt 1205_156125GS57000 1 2 
+D1 1 2 SMRD
+.MODEL SMRD D
++ IS=6.1877E-9
++ N=5
++ RS=5.3132
++ IKF=888.94E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+***********
+.subckt 1205_156125RS57000 1 2 
+D1 1 2 SMRD
+.MODEL SMRD D
++ IS=153.31E-12
++ N=4.1406
++ RS=1.0267
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+***********
+.subckt 1205_156125VS57000 1 2 
+D1 1 2 SMRD
+.MODEL SMRD D
++ IS=158.93E-15
++ N=3.0933
++ RS=1.2262
++ IKF=244.82E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 1205_156125YS57000 1 2 
+D1 1 2 SMRD
+.MODEL SMRD D
++ IS=336.45E-12
++ N=4.5346
++ RS=1.0927
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

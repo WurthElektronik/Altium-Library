@@ -1,0 +1,64 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\baojun.chen\OneDrive - WGS 365\Sharing\Altium\Database Library\Components\WE - Power Modules.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=2
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Components\WE - Power Modules.mdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Power Modules
+[Table1]
+SchemaName=
+TableName=Power Modules
+Enabled=True
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Power Modules.Description|TableNameOnly=Power Modules|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Power Modules.Library Ref|TableNameOnly=Power Modules|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Power Modules.Library Path|TableNameOnly=Power Modules|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Power Modules.Footprint Ref|TableNameOnly=Power Modules|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Power Modules.Footprint Path|TableNameOnly=Power Modules|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Power Modules.Sim Model Name|TableNameOnly=Power Modules|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Power Modules.Sim File|TableNameOnly=Power Modules|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Power Modules.Sim Kind|TableNameOnly=Power Modules|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Power Modules.Sim SubKind|TableNameOnly=Power Modules|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Power Modules.Sim Netlist|TableNameOnly=Power Modules|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Power Modules.Sim Port Map|TableNameOnly=Power Modules|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Power Modules.Sim Spice Prefix|TableNameOnly=Power Modules|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Power Modules.Manufacturer Part Number|TableNameOnly=Power Modules|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Power Modules.Footprint Ref 2|TableNameOnly=Power Modules|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Power Modules.Footprint Path 2|TableNameOnly=Power Modules|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Power Modules.Last Update|TableNameOnly=Power Modules|FieldNameOnly=Last Update|FieldType=1|ParameterName=|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Power Modules.Footprint Ref 3|TableNameOnly=Power Modules|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Power Modules.Footprint Path 3|TableNameOnly=Power Modules|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

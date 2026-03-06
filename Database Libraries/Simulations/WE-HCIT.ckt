@@ -1,0 +1,34 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 THT High Current Inductor
+* Matchcode:             WE-HCIT
+* Library Type:          LTspice
+* Version:               rev22a
+* Created/modified by:   Ella
+* Date and Time:         6/9/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1008_78432018003_0.3u 1 2
+Rp 1 2 219.039
+Cp 1 2 1.359957p
+Rs 1 N3 0.00044
+L1 N3 2 0.1867043u
+.ends 1008_78432018003_0.3u
+*******
+.subckt 1010_78432010005_0.5u 1 2
+Rp 1 2 359.2803
+Cp 1 2 1.323938p
+Rs 1 N3 0.00088
+L1 N3 2 0.2736381u
+.ends 1010_78432010005_0.5u
+*******
