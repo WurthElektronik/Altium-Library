@@ -1,7 +1,7 @@
-`Altium Database Libraries for Würth Elektronik Products`
+`Altium Libraries for Würth Elektronik Products`
 =========
 ## Introduction
-Welcome to Würth Elektronik Altium Database Library repository. <br>
+Welcome to Würth Elektronik Altium Library repository. <br>
 The libraries are created and maintained by Würth Elektronik EDA Team, for any questions and suggestions please feel free to contact EDA team by email: <libraries@we-online.com>
 
 ## Library Component Coverage
