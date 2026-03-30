@@ -1,0 +1,232 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Bi-color Reverse Mount Waterclear
+* Matchcode:              WL-SBRW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-02-16
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1205_156125RB73000 1 2 3 4 
+D1 3 2 Red
+.MODEL Red D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 Blue
+.MODEL Blue D
++ IS=291.54E-21
++ N=3.0354
++ RS=.38619
++ IKF=611.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125RG73000 1 2 3 4 
+D1 3 2 Red
+.MODEL Red D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 Green
+.MODEL Green D
++ IS=291.54E-21
++ N=3.0354
++ RS=.38619
++ IKF=611.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125RV73000 1 2 3 4 
+D1 3 2 Red
+.MODEL Red D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.8766
++ RS=1.0000E-6
++ IKF=29.994E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125YV73000 1 2 3 4 
+D1 3 2 Yellow
+.MODEL Yellow D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.8766
++ RS=1.0000E-6
++ IKF=29.994E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125RG73000P 1 2 3 4 
+D1 3 2 Red
+.MODEL Red D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 Green
+.MODEL Green D
++ IS=291.54E-21
++ N=3.0354
++ RS=.38619
++ IKF=611.03E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125RV73000P 1 2 3 4 
+D1 3 2 Red
+.MODEL Red D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.8766
++ RS=1.0000E-6
++ IKF=29.994E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+.subckt 1205_156125YV73000P 1 2 3 4 
+D1 3 2 Yellow
+.MODEL Yellow D
++ IS=847.08E-21
++ N=1.8776
++ RS=.24355
++ IKF=626.05E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+D2 4 1 BGreen
+.MODEL BGreen D
++ IS=10.010E-21
++ N=1.8766
++ RS=1.0000E-6
++ IKF=29.994E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+*********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+**************************************************
+* Manufacturer:          Würth Elektronik
+* Kinds:                 Tiny Multilayer Suppression Bead
+* Matchcode:             WE-TMSB
+* Library Type:          LTspice
+* Version:               rev24a
+* Created/modified by:   Ella
+* Date and Time:         01/26/2024
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0201_742692001_10ohm 1 2
+Rp 1 2 14.001647
+Cp 1 2 1.31p
+Rs 1 N3 0.055
+L1 N3 2 0.020856937u
+.ends 0201_742692001_10ohm
+*******
+.subckt 0201_742692002_60ohm 1 2
+Rp 1 2 127.679039
+Cp 1 2 0.138786005p
+Rs 1 N3 0.25
+L1 N3 2 0.098234695u
+.ends 0201_742692002_60ohm
+*******
+.subckt 0201_742692003_120ohm 1 2
+Rp 1 2 157.473156
+Cp 1 2 0.303648583p
+Rs 1 N3 0.29
+L1 N3 2 0.266321573u
+.ends 0201_742692003_120ohm
+*******
+.subckt 0201_742692004_240ohm 1 2
+Rp 1 2 377.648044
+Cp 1 2 0.385147298p
+Rs 1 N3 0.57
+L1 N3 2 0.462853473u
+.ends 0201_742692004_240ohm
+*******
+.subckt 0201_742692005_300ohm 1 2
+Rp 1 2 499.785512
+Cp 1 2 0.341711468p
+Rs 1 N3 0.61
+L1 N3 2 0.556682313u
+.ends 0201_742692005_300ohm
+*******
+.subckt 0201_74269221561_560ohm 1 2
+Rp 1 2 788.750819
+Cp 1 2 0.55p
+Rs 1 N3 0.75
+L1 N3 2 1.747131u
+.ends 0201_74269221561_560ohm
+*******
+.subckt 0201_74269221102_1000ohm 1 2
+Rp 1 2 939.432757
+Cp 1 2 0.239541786
+Rs 1 N3 1.13
+L1 N3 2 2.719606u
+.ends 0201_74269221102_1000ohm
+*******
+.subckt 0402_74269241102_1000ohm 1 2
+Rp 1 2 1205.835
+Cp 1 2 0.673096327p
+Rs 1 N3 0.43
+L1 N3 2 2.445964u
+.ends 0402_74269241102_1000ohm
+*******
+.subckt 0402_74269241152_1500ohm 1 2
+Rp 1 2 1533
+Cp 1 2 0.623995609p
+Rs 1 N3 0.43
+L1 N3 2 3u
+.ends 0402_74269241152_1500ohm
+*******
+.subckt 0402_74269241601_600ohm 1 2
+Rp 1 2 730.563277
+Cp 1 2 0.648453724p
+Rs 1 N3 0.22
+L1 N3 2 1.01986u
+.ends 0402_74269241601_600ohm
+*******
+.subckt 0402_74269242111_110ohm 1 2
+Rp 1 2 201.584103
+Cp 1 2 0.4p
+Rs 1 N3 0.07
+L1 N3 2 0.213456094u
+.ends 0402_74269242111_110ohm
+*******
+.subckt 0402_74269242161_160ohm 1 2
+Rp 1 2 308.89489
+Cp 1 2 0.46003571p
+Rs 1 N3 0.12
+L1 N3 2 0.433467564u
+.ends 0402_74269242161_160ohm
+*******
+.subckt 0402_74269242261_260ohm 1 2
+Rp 1 2 393.732923
+Cp 1 2 0.6121285421p
+Rs 1 N3 0.12
+L1 N3 2 0.617816383u
+.ends 0402_74269242261_260ohm
+*******
+.subckt 0402_74269243461_460ohm 1 2
+Rp 1 2 1260.241
+Cp 1 2 0.687046214p
+Rs 1 N3 0.35
+L1 N3 2 0.728916363u
+.ends 0402_74269243461_460ohm
+*******
+.subckt 0402_74269244182_1800ohm 1 2
+Rp 1 2 2726.742
+Cp 1 2 0.053399989p
+Rs 1 N3 1.91
+L1 N3 2 3.050897u
+.ends 0402_74269244182_1800ohm
+*******
+.subckt 0603_7426926222_22ohm 1 2
+Rp 1 2 40
+Cp 1 2 0.243p
+Rs 1 N3 0.00295
+L1 N3 2 0.035u
+.ends 0603_7426926222_22ohm
+*******
+.subckt 0603_74269262601_600ohm 1 2
+Rp 1 2 635.759722
+Cp 1 2 0.83595329p
+Rs 1 N3 0.09
+L1 N3 2 1.000069u
+.ends 0603_74269262601_600ohm
+*******

@@ -1,0 +1,62 @@
+**************************************************
+* Manufacturer:          Wurth Elektronik 
+* Kinds:                 High Current Flat Wire Inductor
+* Matchcode:             WE-HCFA
+* Library Type:          LTspice
+* Version:               rev21a
+* Created/modified by:   Ella
+* Date and Time:         6/9/2022
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 2818_78436432010_1u 1 2
+Rp 1 2 349.021
+Cp 1 2 6.29302p
+Rs 1 N3 0.0006
+L1 N3 2 1.18501u
+.ends 2818_78436432010_1u
+*******
+.subckt 2818_78436432015_1.5u 1 2
+Rp 1 2 366.953
+Cp 1 2 7.37234p
+Rs 1 N3 0.0006
+L1 N3 2 1.75503u
+.ends 2818_78436432015_1.5u
+*******
+.subckt 2818_78436432033_3.3u 1 2
+Rp 1 2 1515.47
+Cp 1 2 5.9721p
+Rs 1 N3 0.0011
+L1 N3 2 3.46191u
+.ends 2818_78436432033_3.3u
+*******
+.subckt 2818_78436432047_4.7u 1 2
+Rp 1 2 1603.08
+Cp 1 2 5.91661p
+Rs 1 N3 0.0011
+L1 N3 2 5.19112u
+.ends 2818_78436432047_4.7u
+*******
+.subckt 2818_78436432068_6.8u 1 2
+Rp 1 2 1520.67
+Cp 1 2 7.77659p
+Rs 1 N3 0.0011
+L1 N3 2 7.39696u
+.ends 2818_78436432068_6.8u
+*******
+.subckt 2818_78436432100_10u 1 2
+Rp 1 2 1916.25
+Cp 1 2 6.61433p
+Rs 1 N3 0.0011
+L1 N3 2 10.7616u
+.ends 2818_78436432100_10u
+*******

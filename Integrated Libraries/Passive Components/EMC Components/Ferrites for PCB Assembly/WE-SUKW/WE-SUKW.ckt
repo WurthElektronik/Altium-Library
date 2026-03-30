@@ -1,0 +1,34 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT EMI Suppression 5-Hole Ferrite Bead 
+* Matchcode:              WE-SUKW 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-30
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 8050_7427511_416ohm 1 2
+Rp 1 2 450
+Cp 1 2 1.2p
+Rs 1 N3 0.011
+L1 N3 2 2.1u
+.ends 8050_7427511_416ohm
+*******
+.subckt 11046_7427512_580ohm 1 2
+Rp 1 2 690
+Cp 1 2 0.2p
+Rs 1 N3 0.012
+L1 N3 2 3.4u
+.ends 11046_7427512_580ohm
+*******

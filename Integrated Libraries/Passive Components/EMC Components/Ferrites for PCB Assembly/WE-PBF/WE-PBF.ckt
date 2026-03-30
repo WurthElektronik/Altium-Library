@@ -1,0 +1,76 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Flat Wire High Current SMT Ferrite Bead
+* Matchcode:              WE-PBF 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-05-30
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3029_7427933_39ohm 1 2
+Rp 1 2 38
+Cp 1 2 0.0001p
+Rs 1 N3 0.0006
+L1 N3 2 0.222u
+.ends 3029_7427933_39ohm
+*******
+.subckt 4030_7427930_42ohm 1 2
+Rp 1 2 45
+Cp 1 2 0.01p
+Rs 1 N3 0.0006
+L1 N3 2 0.23u
+.ends 4030_7427930_42ohm
+*******
+.subckt 4030_7427934_42ohm 1 2
+Rp 1 2 45
+Cp 1 2 0.0001p
+Rs 1 N3 0.0004
+L1 N3 2 0.25u
+.ends 4030_7427934_42ohm
+*******
+.subckt 4030_74279390_42ohm 1 2
+Rp 1 2 45
+Cp 1 2 0.01p
+Rs 1 N3 0.0006
+L1 N3 2 0.23u
+.ends 4030_74279390_42ohm
+*******
+.subckt 7847_7427932_98ohm 1 2
+Rp 1 2 105
+Cp 1 2 0.28p
+Rs 1 N3 0.0009
+L1 N3 2 0.78u
+.ends 7847_7427932_98ohm
+*******
+.subckt 7847_74279392_98ohm 1 2
+Rp 1 2 105
+Cp 1 2 0.28p
+Rs 1 N3 0.0009
+L1 N3 2 0.78u
+.ends 7847_74279392_98ohm
+*******
+.subckt 8530_7427931_91ohm 1 2
+Rp 1 2 100
+Cp 1 2 0.09p
+Rs 1 N3 0.0009
+L1 N3 2 0.49u
+.ends 8530_7427931_91ohm
+*******
+.subckt 8530_74279391_91ohm 1 2
+Rp 1 2 100
+Cp 1 2 0.09p
+Rs 1 N3 0.0009
+L1 N3 2 0.49u
+.ends 8530_74279391_91ohm
+*******

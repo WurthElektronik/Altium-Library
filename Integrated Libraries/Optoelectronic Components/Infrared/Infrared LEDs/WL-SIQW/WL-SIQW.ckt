@@ -1,0 +1,195 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Infrared QFN LED Waterclear
+* Matchcode:              WL-SIQW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-03-01
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 2720_15427285BA240 1 2
+D1 1 2 led
+.MODEL led D
++ IS=1.4332E-15
++ N=1.7255
++ RS=.58984
++ IKF=51.253E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 2720_15427285BA242 1 2
+D1 1 2 led
+.MODEL led D
++ IS=1.6136E-15
++ N=3.4287
++ RS=.49775
++ IKF=42.063E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 2720_15427294BA240 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=679.98E-12
++ N=1.6878
++ RS=.70317
++ IKF=122.07E-9
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 2720_15427294BA242 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=129.92E-12
++ N=5
++ RS=.60289
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3535_15435385A9040 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=101.01E-21
++ N=1.3002
++ RS=.28396
++ IKF=305.82
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3535_15435385A9042 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=2.4081
++ RS=.20719
++ IKF=.13917
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3535_15435394A9040 1 2
+D1 1 2 led
+.MODEL led D
++ IS=11.715E-18
++ N=1.2735
++ RS=.22262
++ IKF=.12203
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3535_15435394A9042 1 2
+D1 1 2 led
+.MODEL led D
++ IS=26.178E-18
++ N=2.6448
++ RS=.28053
++ IKF=69.074E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3737_15437385AA540 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=1.2507E-18
++ N=1.3296
++ RS=.18806
++ IKF=127.47
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3737_15437385AA542 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=2.3721
++ RS=.19937
++ IKF=.11339
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3737_15437394AA540 1 2
+D1 1 2 led
+.MODEL led D
++ IS=12.754E-18
++ N=1.2812
++ RS=.29137
++ IKF=88.442E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+.subckt 3737_15437394AA542 1 2
+D1 1 2 led
+.MODEL led D
++ IS=1.5480E-12
++ N=3.9753
++ RS=.39471
++ IKF=220.40
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
+.ends
+***********
+
+
+
+
+
+
+
+

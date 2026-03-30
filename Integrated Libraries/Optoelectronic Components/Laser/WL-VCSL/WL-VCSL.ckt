@@ -1,0 +1,80 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  Vertical Cavity Surface Emitting Laser
+* Matchcode:              WE-VCSL
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella       
+* Date and Time:          2022-03-02
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 3535_159353850A6300 1 2
+D1 1 2 VCSL
+.MODEL VCSL D
++ IS=277.94E-18
++ N=1.4670
++ RS=.11529
++ IKF=2.4554E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3535_159353850B1300 1 2
+D1 1 2 VCSL
+.MODEL VCSL D
++ IS=14.388E-12
++ N=2.4227
++ RS=.10255
++ IKF=.91
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3535_159353940A6300 1 2
+D1 1 2 VCSL
+.MODEL VCSL D
++ IS=71.430E-15
++ N=1.5005
++ RS=.11276
++ IKF=757.64E-6
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******
+.subckt 3535_159353940B1300 1 2
+D1 1 2 VCSL
+.MODEL VCSL D
++ IS=1.9176E-9
++ N=2.7798
++ RS=68.754E-3
++ IKF=2.0609
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=100.00E-6
++ TT=5.0000E-9
+.ends
+******

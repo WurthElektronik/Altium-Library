@@ -1,0 +1,181 @@
+**************************************************
+* Manufacturer:           Würth Elektronik
+* Kinds:                  EMI Multilayer Power Suppression Bead
+* Matchcode:              WE-MPSB
+* Library Type:           LTspice
+* Version:                rev24a
+* Created/modified by:    Ella
+* Date and Time:          6/18/2024
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************	
+.subckt 0603_7427922808_8ohm 1 2
+Rp 1 2 18
+Cp 1 2 0.0001p
+Rs 1 N3 0.0025
+L1 N3 2 0.0175u
+.ends 0603_7427922808_8ohm
+*******
+.subckt 0603_74279228111_110ohm 1 2
+Rp 1 2 120
+Cp 1 2 2p
+Rs 1 N3 0.0145
+L1 N3 2 0.32u
+.ends 0603_74279228111_110ohm
+*******
+.subckt 0603_74279228260_26ohm 1 2
+Rp 1 2 38
+Cp 1 2 1.6p
+Rs 1 N3 0.005
+L1 N3 2 0.095u
+.ends 0603_74279228260_26ohm
+*******
+.subckt 0603_74279228600_60ohm 1 2
+Rp 1 2 100
+Cp 1 2 1p
+Rs 1 N3 0.0085
+L1 N3 2 0.165u
+.ends 0603_74279228600_60ohm
+*******
+.subckt 0805_74279220181_180ohm 1 2
+Rp 1 2 190
+Cp 1 2 2.6p
+Rs 1 N3 0.0265
+L1 N3 2 0.47u
+.ends 0805_74279220181_180ohm
+*******
+.subckt 0805_74279220321_320ohm 1 2
+Rp 1 2 355
+Cp 1 2 1.5p
+Rs 1 N3 0.0305
+L1 N3 2 0.96u
+.ends 0805_74279220321_320ohm
+*******
+.subckt 0805_74279220601_600ohm 1 2
+Rp 1 2 545
+Cp 1 2 1.3p
+Rs 1 N3 0.043
+L1 N3 2 1.8u
+.ends 0805_74279220601_600ohm
+*******
+.subckt 0805_74279220800_80ohm 1 2
+Rp 1 2 82
+Cp 1 2 0.49p
+Rs 1 N3 0.013
+L1 N3 2 0.28u
+.ends 0805_74279220800_80ohm
+*******
+.subckt 1206_74279221100_10ohm 1 2
+Rp 1 2 35
+Cp 1 2 0.0001p
+Rs 1 N3 0.001
+L1 N3 2 0.013u
+.ends 1206_74279221100_10ohm
+*******
+.subckt 1206_74279221111_110ohm 1 2
+Rp 1 2 125
+Cp 1 2 3p
+Rs 1 N3 0.0095
+L1 N3 2 0.37u
+.ends 1206_74279221111_110ohm
+*******
+.subckt 1206_74279221281_280ohm 1 2
+Rp 1 2 290
+Cp 1 2 2p
+Rs 1 N3 0.022
+L1 N3 2 0.82u
+.ends 1206_74279221281_280ohm
+*******
+.subckt 1206_74279221601_600ohm 1 2
+Rp 1 2 580
+Cp 1 2 2.4p
+Rs 1 N3 0.038
+L1 N3 2 1.5u
+.ends 1206_74279221601_600ohm
+*******
+.subckt 1612_74279223560_56ohm 1 2
+Rp 1 2 74.35
+Cp 1 2 0.08221p
+Rs 1 N3 0.004
+L1 N3 2 0.17317u
+.ends 1612_74279223560_56ohm
+*******
+.subckt 1812_74279226101_100ohm 1 2
+Rp 1 2 152
+Cp 1 2 0.078p
+Rs 1 N3 0.006
+L1 N3 2 0.2888u
+.ends 1812_74279226101_100ohm
+*******
+.subckt 2220_74279224101_100ohm 1 2
+Rp 1 2 195.6
+Cp 1 2 0.1993p
+Rs 1 N3 0.005
+L1 N3 2 0.4393u
+.ends 2220_74279224101_100ohm
+*******
+.subckt 2220_74279224151_150ohm 1 2
+Rp 1 2 277.6
+Cp 1 2 0.2408p
+Rs 1 N3 0.01
+L1 N3 2 0.5421u
+.ends 2220_74279224151_150ohm
+*******
+.subckt 2220_74279224171_170ohm 1 2
+Rp 1 2 236.2
+Cp 1 2 0.3058p
+Rs 1 N3 0.015
+L1 N3 2 0.5425u
+.ends 2220_74279224171_170ohm
+*******
+.subckt 2220_74279224181_180ohm 1 2
+Rp 1 2 301
+Cp 1 2 1.8491p
+Rs 1 N3 0.01
+L1 N3 2 0.78627u
+.ends 2220_74279224181_180ohm
+*******
+.subckt 2220_74279224251_250ohm 1 2
+Rp 1 2 360.3
+Cp 1 2 0.6067p
+Rs 1 N3 0.012
+L1 N3 2 0.9514u
+.ends 2220_74279224251_250ohm
+*******
+.subckt 2220_74279224271_270ohm 1 2
+Rp 1 2 435
+Cp 1 2 1.895p
+Rs 1 N3 0.02
+L1 N3 2 1.47u
+.ends 2220_74279224271_270ohm
+*******
+.subckt 2220_74279224401_400ohm 1 2
+Rp 1 2 641.7
+Cp 1 2 0.4706p
+Rs 1 N3 0.02
+L1 N3 2 1.595u
+.ends 2220_74279224401_400ohm
+*******
+.subckt 2220_74279224551_550ohm 1 2
+Rp 1 2 152.6
+Cp 1 2 0.078p
+Rs 1 N3 0.035
+L1 N3 2 0.3469u
+.ends 2220_74279224551_550ohm
+*******
+.subckt 3312_74279225101_100ohm 1 2
+Rp 1 2 145.3
+Cp 1 2 0.143p
+Rs 1 N3 0.004
+L1 N3 2 0.2851u
+.ends 3312_74279225101_100ohm
+*******

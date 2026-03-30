@@ -1,0 +1,216 @@
+**************************************************
+* Manufacturer:           Würth Elektronik
+* Kinds:                  SMD Flat Wire High Current Inductor
+* Matchcode:              WE-HCIA
+* Library Type:           LTspice
+* Version:                rev24a
+* Created/modified by:    Ella
+* Date and Time:          11/27/2024
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+ **************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1050_7843250072_0.72u 1 2
+Rp 1 2 463.339
+Cp 1 2 3.29p
+Rs 1 N3 0.00126
+L1 N3 2 0.721u
+.ends 1050_7843250072_0.72u
+*******
+.subckt 1050_784325012_1.2u 1 2
+Rp 1 2 653.501
+Cp 1 2 4.043p
+Rs 1 N3 0.00186
+L1 N3 2 1.076u
+.ends 1050_784325012_1.2u
+*******
+.subckt 1050_784325018_1.8u 1 2
+Rp 1 2 967.647
+Cp 1 2 4.175p
+Rs 1 N3 0.003
+L1 N3 2 1.666u
+.ends 1050_784325018_1.8u
+*******
+.subckt 1050_784325024_2.4u 1 2
+Rp 1 2 1345
+Cp 1 2 3.582p
+Rs 1 N3 0.0049
+L1 N3 2 2.34u
+.ends 1050_784325024_2.4u
+*******
+.subckt 1050_784325033_3.3u 1 2
+Rp 1 2 1628
+Cp 1 2 4.811p
+Rs 1 N3 0.0052
+L1 N3 2 3.052u
+.ends 1050_784325033_3.3u
+*******
+.subckt 1050_784325042_4.2u 1 2
+Rp 1 2 2023
+Cp 1 2 5.103p
+Rs 1 N3 0.0071
+L1 N3 2 3.887u
+.ends 1050_784325042_4.2u
+*******
+.subckt 1050_784325055_5.2u 1 2
+Rp 1 2 2383
+Cp 1 2 5.366p
+Rs 1 N3 0.0086
+L1 N3 2 4.812u
+.ends 1050_784325055_5.2u
+*******
+.subckt 1050_784325065_6.5u 1 2
+Rp 1 2 2843
+Cp 1 2 5.988p
+Rs 1 N3 0.0105
+L1 N3 2 6.051u
+.ends 1050_784325065_6.5u
+*******
+.subckt 1050_784325078_7.8u 1 2
+Rp 1 2 3201
+Cp 1 2 6.36p
+Rs 1 N3 0.0131
+L1 N3 2 7.486u
+.ends 1050_784325078_7.8u
+*******
+.subckt 1050_784325100_10u 1 2
+Rp 1 2 4339
+Cp 1 2 5.969p
+Rs 1 N3 0.021
+L1 N3 2 9.57u
+.ends 1050_784325100_10u
+*******
+.subckt 1050_784325160_16.7u 1 2
+Rp 1 2 6090
+Cp 1 2 5.682p
+Rs 1 N3 0.0345
+L1 N3 2 16.881u
+.ends 1050_784325160_16.7u
+*******
+.subckt 7050_7843140047_0.47u 1 2
+Rp 1 2 335
+Cp 1 2 0.75p
+Rs 1 N3 0.00135
+L1 N3 2 0.392u
+.ends 7050_7843140047_0.47u
+*******
+.subckt 7050_784314011_1.1u 1 2
+Rp 1 2 624
+Cp 1 2 1.172p
+Rs 1 N3 0.00315
+L1 N3 2 0.998u
+.ends 7050_784314011_1.1u
+*******
+.subckt 7050_784314033_3.3u 1 2
+Rp 1 2 1464
+Cp 1 2 1.854p
+Rs 1 N3 0.009
+L1 N3 2 2.899u
+.ends 7050_784314033_3.3u
+*******
+.subckt 7050_784314049_4.9u 1 2
+Rp 1 2 2179
+Cp 1 2 1.495p
+Rs 1 N3 0.0145
+L1 N3 2 4.13u
+.ends 7050_784314049_4.9u
+*******
+.subckt 7050_784314065_6.5u 1 2
+Rp 1 2 3060
+Cp 1 2 1.686p
+Rs 1 N3 0.0215
+L1 N3 2 5.988u
+.ends 7050_784314065_6.5u
+*******
+.subckt 7050_784314100_10u 1 2
+Rp 1 2 3970
+Cp 1 2 1.69p
+Rs 1 N3 0.033
+L1 N3 2 8.728u
+.ends 7050_784314100_10u
+*******
+.subckt 7030_7843100055_0.52u 1 2
+Rp 1 2 388.13
+Cp 1 2 1.529p
+Rs 1 N3 0.0034
+L1 N3 2 0.46184u
+.ends 7030_7843100055_0.52u
+*******
+.subckt 7030_7843100115_1.15u 1 2
+Rp 1 2 1051
+Cp 1 2 2.475p
+Rs 1 N3 0.0083
+L1 N3 2 1.078u
+.ends 7030_7843100115_1.15u
+*******
+.subckt 7030_7843100150_1.5u 1 2
+Rp 1 2 1289
+Cp 1 2 2.139p
+Rs 1 N3 0.0122
+L1 N3 2 1.43u
+.ends 7030_7843100150_1.5u
+*******
+.subckt 7030_7843100200_2u 1 2
+Rp 1 2 1237
+Cp 1 2 1.753p
+Rs 1 N3 0.0145
+L1 N3 2 1.875u
+.ends 7030_7843100200_2u
+*******
+.subckt 7040_7843110022_0.22u 1 2
+Rp 1 2 234.051
+Cp 1 2 0.863212p
+Rs 1 N3 0.0011
+L1 N3 2 0.218484u
+.ends 7040_7843110022_0.22u
+*******
+.subckt 7040_7843110068_0.68u 1 2
+Rp 1 2 506.656
+Cp 1 2 1.404p
+Rs 1 N3 0.003
+L1 N3 2 0.616415u
+.ends 7040_7843110068_0.68u
+*******
+.subckt 7040_7843110100_1u 1 2
+Rp 1 2 592.205
+Cp 1 2 1.532p
+Rs 1 N3 0.0042
+L1 N3 2 0.927627u
+.ends 7040_7843110100_1u
+*******
+.subckt 7040_7843110150_1.5u 1 2
+Rp 1 2 1089
+Cp 1 2 2.064p
+Rs 1 N3 0.0063
+L1 N3 2 1.383u
+.ends 7040_7843110150_1.5u
+*******
+.subckt 7040_7843110220_2.2u 1 2
+Rp 1 2 1479
+Cp 1 2 2.058p
+Rs 1 N3 0.0106
+L1 N3 2 2.146u
+.ends 7040_7843110220_2.2u
+*******
+.subckt 7040_7843110330_3.3u 1 2
+Rp 1 2 2048
+Cp 1 2 2.251p
+Rs 1 N3 0.0158
+L1 N3 2 3.264u
+.ends 7040_7843110330_3.3u
+*******
+.subckt 7040_7843110470_4.7u 1 2
+Rp 1 2 2883
+Cp 1 2 2.373p
+Rs 1 N3 0.0172
+L1 N3 2 4.215u
+.ends 7040_7843110470_4.7u
+*******

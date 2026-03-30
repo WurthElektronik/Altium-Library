@@ -1,0 +1,172 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Infrared Sideview LED Waterclear
+* Matchcode:              WL-SISW
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-03-02
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 0402_15404085BA470 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=5.4129E-12
++ N=2.4754
++ RS=1.2213
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+****************
+.subckt 0402_15404094BA470 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=282.34E-18
++ N=1.4095
++ RS=1.1294
++ IKF=41.519E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
++ TT=5.0000E-9
+.ends
+****************
+.subckt 1002_15410285AA170 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=84.387E-18
++ N=1.7270
++ RS=1.4396
++ IKF=6.5501
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1002_15410294AA570 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=1.0644
++ RS=1.2174
++ IKF=8.9574E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1104_15411485AA370 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=278.34E-15
++ N=2.1529
++ RS=1.3865
++ IKF=18.715E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1104_15411494AA570 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=505.44E-18
++ N=1.4511
++ RS=1.6264
++ IKF=27.533E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1106_15411085A4570 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=553.57E-18
++ N=1.7089
++ RS=1.2139
++ IKF=212.55
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1106_15411094A6070 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=541.60E-18
++ N=1.5662
++ RS=1.2886
++ IKF=23.792E-3
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1206_15412085A2070 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=10.000E-21
++ N=1.2396
++ RS=3.0449
++ IKF=15.217
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+.subckt 1206_15412094A2070 1 2 
+D1 1 2 led
+.MODEL led D
++ IS=1.5912E-15
++ N=1.5362
++ RS=2.0600
++ IKF=13.043
++ CJO=1.0000E-12
++ M=.3333
++ VJ=.75
++ BV=5
++ IBV=10.00E-6
+.ends
+****************
+
+
+
+
+
+
+
+
+
+
+

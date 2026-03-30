@@ -1,0 +1,230 @@
+**************************************************
+* Manufacturer:          Würth Elektronik 
+* Kinds:                 Film Capacitors
+* Matchcode:             WCAP-FTBE
+* Library Type:          LTspice
+* Version:               rev24a
+* Created/modified by:   Ella
+* Date and Time:         7/11/2024
+* Team:                  eiSos EDA Service  
+* Contact:               libraries@we-online.com
+**************************************************
+* Copyright(C) 2024 Würth Elektronik eiSos GmbH & Co. KG	
+* All Rights Reserved.	
+**************************************************	
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy	
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on	
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.	
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.	
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.	
+**************************************************
+.subckt 890273422002CS_220nF 1 2
+Rser 1 3 2.36199999999999E-02
+Lser 2 4 0.00000000516
+C1 3 4 0.00000022
+Rpar 3 4 9000000000
+.ends 890273422002CS_220nF
+*******
+.subckt 890283422005CS_150nF 1 2
+Rser 1 3 0.0342140843585
+Lser 2 4 6.383555335E-09
+C1 3 4 0.00000015
+Rpar 3 4 9000000000
+.ends 890283422005CS_150nF
+*******
+.subckt 890303422005CS_47nF 1 2
+Rser 1 3 4.84399999999999E-02
+Lser 2 4 0.00000000554
+C1 3 4 0.000000047
+Rpar 3 4 9000000000
+.ends 890303422005CS_47nF
+*******
+.subckt 890493422002CS_10nF 1 2
+Rser 1 3 0.0891572174885
+Lser 2 4 7.354879378E-09
+C1 3 4 0.00000001
+Rpar 3 4 9000000000
+.ends 890493422002CS_10nF
+*******
+.subckt 890283422001CS_68nF 1 2
+Rser 1 3 0.0478791582353
+Lser 2 4 8.008926597E-09
+C1 3 4 0.000000068
+Rpar 3 4 9000000000
+.ends 890283422001CS_68nF
+*******
+.subckt 890493428013CS_4.7uF 1 2
+Rser 1 3 0.044
+Lser 2 4 0.000000022
+C1 3 4 0.0000047
+Rpar 3 4 638297872.340425
+.ends 890493428013CS_4.7uF
+*******
+.subckt 890283428007CS_6.8uF 1 2
+Rser 1 3 0.0265870387102
+Lser 2 4 1.01857505093E-07
+C1 3 4 0.0000068
+Rpar 3 4 441176470.588235
+.ends 890283428007CS_6.8uF
+*******
+.subckt 890303428008CS_3.3uF 1 2
+Rser 1 3 0.0268642742695
+Lser 2 4 1.35344594223E-07
+C1 3 4 0.0000033
+Rpar 3 4 909090909.090909
+.ends 890303428008CS_3.3uF
+*******
+.subckt 890283427007CS_3.3uF 1 2
+Rser 1 3 0.0156368697637
+Lser 2 4 1.5882878463E-08
+C1 3 4 0.0000033
+Rpar 3 4 909090909.090909
+.ends 890283427007CS_3.3uF
+*******
+.subckt 890303427009CS_1.5uF 1 2
+Rser 1 3 0.0275799803666
+Lser 2 4 1.6818559318E-08
+C1 3 4 0.0000015
+Rpar 3 4 2000000000
+.ends 890303427009CS_1.5uF
+*******
+.subckt 890273427005CS_4.7uF 1 2
+Rser 1 3 0.0180401002243
+Lser 2 4 1.146063265E-08
+C1 3 4 0.0000047
+Rpar 3 4 638297872.340425
+.ends 890273427005CS_4.7uF
+*******
+.subckt 890493427007CS_470nF 1 2
+Rser 1 3 0.0417798939675
+Lser 2 4 1.3274149994E-08
+C1 3 4 0.00000047
+Rpar 3 4 6382978723.40425
+.ends 890493427007CS_470nF
+*******
+.subckt 890283426008CS_1uF 1 2
+Rser 1 3 0.0265462286737
+Lser 2 4 1.3980922724E-08
+C1 3 4 0.000001
+Rpar 3 4 3000000000
+.ends 890283426008CS_1uF
+*******
+.subckt 890303426008CS_470nF 1 2
+Rser 1 3 4.50399999999999E-02
+Lser 2 4 0.00000001317
+C1 3 4 0.00000047
+Rpar 3 4 6382978723.40425
+.ends 890303426008CS_470nF
+*******
+.subckt 890493426011CS_220nF 1 2
+Rser 1 3 4.79699999999999E-02
+Lser 2 4 0.00000001013
+C1 3 4 0.00000022
+Rpar 3 4 9000000000
+.ends 890493426011CS_220nF
+*******
+.subckt 890263426003CS_3.3uF 1 2
+Rser 1 3 0.0147141044578
+Lser 2 4 1.4850016804E-08
+C1 3 4 0.0000033
+Rpar 3 4 909090909.090909
+.ends 890263426003CS_3.3uF
+*******
+.subckt 890263426001CS_2.2uF 1 2
+Rser 1 3 0.0207936257403
+Lser 2 4 1.3489566979E-08
+C1 3 4 0.0000022
+Rpar 3 4 1363636363.63636
+.ends 890263426001CS_2.2uF
+*******
+.subckt 890283426004CS_470nF 1 2
+Rser 1 3 0.0130306048361
+Lser 2 4 1.8041330457E-08
+C1 3 4 0.00000047
+Rpar 3 4 6382978723.40425
+.ends 890283426004CS_470nF
+*******
+.subckt 890263425004CS_2.2uF 1 2
+Rser 1 3 0.0196538190645
+Lser 2 4 1.1417797143E-08
+C1 3 4 0.0000022
+Rpar 3 4 1363636363.63636
+.ends 890263425004CS_2.2uF
+*******
+.subckt 890283425008CS_680nF 1 2
+Rser 1 3 0.0248767435982
+Lser 2 4 1.0967659971E-08
+C1 3 4 0.00000068
+Rpar 3 4 4411764705.88235
+.ends 890283425008CS_680nF
+*******
+.subckt 890493425009CS_100nF 1 2
+Rser 1 3 4.48199999999999E-02
+Lser 2 4 0.00000000841
+C1 3 4 0.0000001
+Rpar 3 4 9000000000
+.ends 890493425009CS_100nF
+*******
+.subckt 890273425007CS_1uF 1 2
+Rser 1 3 0.0225988219778
+Lser 2 4 9.843239653E-09
+C1 3 4 0.000001
+Rpar 3 4 3000000000
+.ends 890273425007CS_1uF
+*******
+.subckt 890303425004CS_100nF 1 2
+Rser 1 3 0.0573543678207
+Lser 2 4 1.3595885055E-08
+C1 3 4 0.0000001
+Rpar 3 4 9000000000
+.ends 890303425004CS_100nF
+*******
+.subckt 890273425001CS_330nF 1 2
+Rser 1 3 0.03789
+Lser 2 4 0.00000000751
+C1 3 4 0.00000033
+Rpar 3 4 9000000000
+.ends 890273425001CS_330nF
+*******
+.subckt 890283425002CS_220nF 1 2
+Rser 1 3 0.03798
+Lser 2 4 0.00000000649
+C1 3 4 0.00000022
+Rpar 3 4 9000000000
+.ends 890283425002CS_220nF
+*******
+.subckt 890493425001CS_22nF 1 2
+Rser 1 3 0.13969
+Lser 2 4 0.00000000872
+C1 3 4 0.000000022
+Rpar 3 4 9000000000
+.ends 890493425001CS_22nF
+*******
+.subckt 890303423005CS_68nF 1 2
+Rser 1 3 0.04684
+Lser 2 4 0.00000000521
+C1 3 4 0.000000068
+Rpar 3 4 9000000000
+.ends 890303423005CS_68nF
+*******
+.subckt 890273423002CS_220nF 1 2
+Rser 1 3 3.08399999999999E-02
+Lser 2 4 0.00000000567
+C1 3 4 0.00000022
+Rpar 3 4 9000000000
+.ends 890273423002CS_220nF
+*******
+.subckt 890283423001CS_100nF 1 2
+Rser 1 3 0.0451
+Lser 2 4 0.00000000498
+C1 3 4 0.0000001
+Rpar 3 4 9000000000
+.ends 890283423001CS_100nF
+*******
+.subckt 890493423001CS_15nF 1 2
+Rser 1 3 0.08794
+Lser 2 4 0.00000000449
+C1 3 4 0.000000015
+Rpar 3 4 9000000000
+.ends 890493423001CS_15nF
+*******

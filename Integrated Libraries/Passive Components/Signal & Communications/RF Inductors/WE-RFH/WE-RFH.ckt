@@ -1,0 +1,326 @@
+**************************************************
+* Manufacturer:           Wurth Elektronik 
+* Kinds:                  SMT Wirewound Ferrite Bead
+* Matchcode:              WE-RFH 
+* Library Type:           LTspice
+* Version:                rev22a
+* Created/modified by:    Ella      
+* Date and Time:          2022-07-15
+* Team:                   eiSos EDA Service  
+* Contact:                libraries@we-online.com
+**************************************************
+* Copyright(C) 2022 Würth Elektronik eiSos GmbH & Co. KG
+* All Rights Reserved.
+**************************************************
+* Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy
+* of the simulation models provided, Würth Elektronik eiSos does not guarantee the exemption of error on
+* the simulation models, nor does Würth Elektronik eiSos guarantee that the simulation model is current.
+* Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice.
+* Würth Elektronik eiSos expressly disclaims all implied warranties regarding this simulation model.
+**************************************************
+.subckt 1008A_744758247A_0.47u 1 2
+C1 1 N7 168.0548f
+L1 1 N1 460n
+L2 N1 N2 19.2495n
+L3 N2 N3 87.5662n
+L4 N3 N4 591.2661p
+L5 N4 N5 9.6261n
+L6 N5 N6 1.0580
+R1 2 N1 8.9470
+R2 2 N2 1.8336
+R3 2 N3 89.4228
+R4 2 N4 13.3560
+R5 2 N5 8.8347
+R6 2 N6 7.1328
+R7 2 N7 64.7013
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758256A_0.56u 1 2
+C1 1 N7 150.3394f
+L1 1 N1 550n
+L2 N1 N2 25.3272n
+L3 N2 N3 89.1886n
+L4 N3 N4 591.4417p
+L5 N4 N5 9.6275n
+L6 N5 N6 1.0580
+R1 2 N1 9.4966
+R2 2 N2 2.0642
+R3 2 N3 89.4165
+R4 2 N4 13.0677
+R5 2 N5 8.8281
+R6 2 N6 7.1328
+R7 2 N7 66.4245
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758268A_0.68u 1 2
+C1 1 N7 183.9980f
+L1 1 N1 660n
+L2 N1 N2 32.5365n
+L3 N2 N3 102.0185n
+L4 N3 N4 588.3073p
+L5 N4 N5 9.6305n
+L6 N5 N6 1.0556
+R1 2 N1 10.8478
+R2 2 N2 2.7329
+R3 2 N3 89.3876
+R4 2 N4 11.7100
+R5 2 N5 8.8000
+R6 2 N6 7.1324
+R7 2 N7 75.3095
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758282A_0.82u 1 2
+C1 1 N7 262.9457f
+L1 1 N1 790n
+L2 N1 N2 14.9557n
+L3 N2 N3 6.2729n
+L4 N3 N4 35.7050n
+L5 N4 N5 86.9910n
+L6 N5 N6 33.9364n
+R1 2 N1 36.3006
+R2 2 N2 23.0568
+R3 2 N3 24.4305
+R4 2 N4 2.7660
+R5 2 N5 9.5066
+R6 2 N6 8.0493
+R7 2 N7 75.1485
+R8 2 1 10g
+.ends 
+******* 
+.subckt 1008A_744758310A_1u 1 2
+C1 1 N7 231.5325f
+L1 1 N1 0.95u
+L2 N1 N2 25.3400n
+L3 N2 N3 6.3020n
+L4 N3 N4 47.2187n
+L5 N4 N5 92.6349n
+L6 N5 N6 35.3077n
+R1 2 N1 36.2859
+R2 2 N2 22.8601
+R3 2 N3 24.2591
+R4 2 N4 2.8621
+R5 2 N5 9.5082
+R6 2 N6 8.0502
+R7 2 N7 75.1106
+R8 2 1 10g
+.ends 
+******* 
+.subckt 1008A_744758312A_1.2u 1 2
+C1 1 N7 265.2355f
+L1 1 N1 1.07u
+L2 N1 N2 108.7603n
+L3 N2 N3 2.3028n
+L4 N3 N4 64.5675n
+L5 N4 N5 92.8764n
+L6 N5 N6 38.1218n
+R1 2 N1 45.6659
+R2 2 N2 5.5705
+R3 2 N3 14.6605
+R4 2 N4 1.1895
+R5 2 N5 9.3844
+R6 2 N6 7.8720
+R7 2 N7 712.1588
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758315A_1.5u 1 2
+C1 1 N7 252.3150f
+L1 1 N1 1.32u
+L2 N1 N2 170.8327n
+L3 N2 N3 2.3909n
+L4 N3 N4 65.6413n
+L5 N4 N5 195.6645n
+L6 N5 N6 39.0121n
+R1 2 N1 65.9206
+R2 2 N2 4.5692
+R3 2 N3 14.6547
+R4 2 N4 1.9765
+R5 2 N5 9.3880
+R6 2 N6 3.8763
+R7 2 N7 712.8460
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758318A_1.8u 1 2
+C1 1 N7 264.3965f
+L1 1 N1 1.65u
+L2 N1 N2 175.1485n
+L3 N2 N3 2.4508n
+L4 N3 N4 65.1714n
+L5 N4 N5 136.8166n
+L6 N5 N6 139.3688n
+R1 2 N1 65.8935
+R2 2 N2 4.5785
+R3 2 N3 14.7493
+R4 2 N4 3.0244
+R5 2 N5 9.3892
+R6 2 N6 7.8777
+R7 2 N7 712.8861
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758322A_2.2u 1 2
+C1 1 N7 288.2978f
+L1 1 N1 2u
+L2 N1 N2 205.3286n
+L3 N2 N3 2.8158n
+L4 N3 N4 104.0131n
+L5 N4 N5 105.2821n
+L6 N5 N6 41.8956n
+R1 2 N1 65.6805
+R2 2 N2 4.6600
+R3 2 N3 15.5291
+R4 2 N4 4.1681
+R5 2 N5 29.3968
+R6 2 N6 27.8860
+R7 2 N7 712.9040
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758327A_2.7u 1 2
+C1 1 N7 207.3497f
+L1 1 N1 2.4u
+L2 N1 N2 242.2424n
+L3 N2 N3 2.8263n
+L4 N3 N4 119.0770n
+L5 N4 N5 279.0487n
+L6 N5 N6 42.2367n
+R1 2 N1 95.8573
+R2 2 N2 44.6333
+R3 2 N3 15.4792
+R4 2 N4 3.2044
+R5 2 N5 7.4015
+R6 2 N6 6.9325
+R7 2 N7 713.3290
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758333A_3.3u 1 2
+C1 1 N7 212.3983f
+L1 1 N1 3u
+L2 N1 N2 300.4284n
+L3 N2 N3 2.8662n
+L4 N3 N4 133.7225n
+L5 N4 N5 846.3623n
+L6 N5 N6 43.7359n
+R1 2 N1 96.0180
+R2 2 N2 44.6558
+R3 2 N3 15.6153
+R4 2 N4 3.3913
+R5 2 N5 7.4045
+R6 2 N6 7.9337
+R7 2 N7 713.6103
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758339A_3.9u 1 2
+C1 1 N7 383.6795f
+L1 1 N1 3.57u
+L2 N1 N2 315.4599n
+L3 N2 N3 2.9408n
+L4 N3 N4 111.0555n
+L5 N4 N5 1.2489u
+L6 N5 N6 45.1081n
+R1 2 N1 96.1292
+R2 2 N2 44.8352
+R3 2 N3 16.9043
+R4 2 N4 4.5982
+R5 2 N5 1.3972
+R6 2 N6 126.4844m
+R7 2 N7 713.6080
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758347A_4.7u 1 2
+C1 1 N7 492.7077f
+L1 1 N1 4.25u
+L2 N1 N2 414.8331n
+L3 N2 N3 2.9601n
+L4 N3 N4 182.4590n
+L5 N4 N5 870.1867n
+L6 N5 N6 45.1511n
+R1 2 N1 96.0837
+R2 2 N2 44.8415
+R3 2 N3 16.9405
+R4 2 N4 4.5906
+R5 2 N5 1.3972
+R6 2 N6 127.3367m
+R7 2 N7 712.9246
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758356A_5.6u 1 2
+C1 1 N7 246.0949f
+L1 1 N1 5.1u
+L2 N1 N2 506.6736n
+L3 N2 N3 2.9625n
+L4 N3 N4 234.8081n
+L5 N4 N5 2.0746u
+L6 N5 N6 44.8175n
+R1 2 N1 117.1477
+R2 2 N2 50.8263
+R3 2 N3 16.7654
+R4 2 N4 5.4725
+R5 2 N5 1.4004
+R6 2 N6 84.9038m
+R7 2 N7 714.3242
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758368A_6.8u 1 2
+C1 1 N7 517.3151f
+L1 1 N1 6.2u
+L2 N1 N2 517.3573n
+L3 N2 N3 2.9760n
+L4 N3 N4 218.2527n
+L5 N4 N5 1.3292u
+L6 N5 N6 44.7905n
+R1 2 N1 97.1702
+R2 2 N2 90.8338
+R3 2 N3 66.7788
+R4 2 N4 5.4714
+R5 2 N5 1.4003
+R6 2 N6 84.9172m
+R7 2 N7 714.1578
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758382A_8.2u 1 2
+C1 1 N7 406.7916f
+L1 1 N1 7.5u
+L2 N1 N2 576.9690n
+L3 N2 N3 3.0437n
+L4 N3 N4 279.5173n
+L5 N4 N5 1.6064u
+L6 N5 N6 43.8204n
+R1 2 N1 136.0854
+R2 2 N2 204.6066
+R3 2 N3 110.3195
+R4 2 N4 6.7129
+R5 2 N5 11.4008
+R6 2 N6 84.8965m
+R7 2 N7 715.8741
+R8 2 1 10g
+.ends 
+*******
+.subckt 1008A_744758410A_10u 1 2
+C1 1 N7 294.8179f
+L1 1 N1 9.2u
+L2 N1 N2 661.1143n
+L3 N2 N3 3.1020n
+L4 N3 N4 215.6403n
+L5 N4 N5 3.1801u
+L6 N5 N6 43.9623n
+R1 2 N1 139.2283
+R2 2 N2 207.3699
+R3 2 N3 119.3454
+R4 2 N4 8.0881
+R5 2 N5 11.4055
+R6 2 N6 84.9207m
+R7 2 N7 716.8977
+R8 2 1 10g
+.ends 
+*******
