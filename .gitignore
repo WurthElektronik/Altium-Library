@@ -4,10 +4,11 @@
 *.*Preview
 *.lnk
 *.LOG
+*.ini
 *CN3775*.mdb
 WE - Custom Magnetics.DbLib
 00 - New Parts.DbLib
-IntLib.DbLib
+IntLib*.DbLib
 
 # Ignored Folders
 *archive*/
