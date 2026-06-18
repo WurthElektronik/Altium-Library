@@ -10,8 +10,9 @@ WE - Custom Magnetics.DbLib
 00 - New Parts.DbLib
 IntLib*.DbLib
 
-# Ignored Folders
+# Ignored Folders 
 *archive*/
+History/
 *00_IntLibSource*/
 Project Outputs for*/
 
