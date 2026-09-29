@@ -9,6 +9,7 @@
 WE - Custom Magnetics.DbLib
 00 - New Parts.DbLib
 IntLib*.DbLib
+*.$$$
 
 # Ignored Folders 
 *archive*/

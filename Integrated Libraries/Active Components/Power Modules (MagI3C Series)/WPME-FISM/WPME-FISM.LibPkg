@@ -63,7 +63,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DHGTFKSZ
 
 [Document2]
 DocumentPath=WPME-FISM.SchLib
@@ -80,7 +80,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LULNWTNI
 
 [OutputGroup1]
 Name=Netlist Outputs
